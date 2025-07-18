@@ -1,0 +1,6 @@
+indicator-idle-visible
+show-failed-attempts
+clock
+timestr="%H:%M:%S"
+datestr="%F"
+

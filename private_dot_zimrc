@@ -1,0 +1,37 @@
+# Start configuration added by Zim install {{{
+#
+# This is not sourced during shell startup, and it's only used to configure the
+# zimfw plugin manager.
+#
+
+#
+# Modules
+#
+
+# ---- Your Zim modules ----
+zmodule environment
+zmodule completion
+zmodule input
+zmodule utility
+
+zmodule git
+zmodule fzf
+zmodule exa
+zmodule run-help
+zmodule magic-enter
+zmodule archive
+zmodule direnv
+zmodule asdf
+zmodule ssh
+zmodule termtitle
+zmodule prompt-pwd
+zmodule duration-info
+zmodule pacman
+
+# Syntax highlighting & history plugin; order matters
+zmodule zsh-users/zsh-syntax-highlighting
+zmodule zsh-users/zsh-autosuggestions
+zmodule zsh-users/zsh-history-substring-search
+
+# Zoxide integration via community module
+zmodule kiesman99/zim-zoxide

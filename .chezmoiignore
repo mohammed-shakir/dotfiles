@@ -1,0 +1,28 @@
+# caches, logs, sockets
+.cache/
+*.sock
+*.log
+# download & media dirs
+Desktop/
+Documents/
+Downloads/
+Music/
+Pictures/
+Public/
+Templates/
+Videos/
+# build artifacts, package dirs
+.parcel-cache/
+node_modules/
+# editor state, history
+.zcompdump*
+.bash_history
+.histfile
+.tmuxp/
+# AUR helper db
+paru/
+ly-session.log
+# don’t import chezmoi’s own state
+config/chezmoi/
+config/chezmoi
+config/chezmoi/**
