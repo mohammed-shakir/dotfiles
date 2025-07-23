@@ -1,0 +1,9 @@
+/* User custom styles */
+
+* {
+  font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Brands", monospace;
+}
+
+window#waybar {
+  background-color: rgba(34, 34, 34, 0.5)
+}

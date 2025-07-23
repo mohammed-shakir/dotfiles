@@ -1,0 +1,9 @@
+[Unit]
+Description=Rotate Hyprland wallpaper
+
+[Service]
+Type=oneshot
+ExecStart=/home/shakir/.config/hypr/change_wallpapers.sh
+
+[Install]
+WantedBy=default.target

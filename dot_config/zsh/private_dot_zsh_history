@@ -1,0 +1,3860 @@
+: 1752946701:0;nvim //version
+: 1752946713:0;nvim --version
+: 1752946826:0;ls
+: 1752946830:0;nano temp
+: 1752947108:0;ls
+: 1752947163:0;nano ~/.config/hypr/monitors.conf
+: 1752947335:0;nano ~/.config/hypr/userprefs.conf\
+
+: 1752947613:0;nano ~/.config/hyde/config.toml\
+
+: 1752947696:0;ls /usr/share/icons\
+
+: 1752947731:0;ls /usr/share/icons/Adwaita\
+
+: 1752947739:0;ls /usr/share/icons/Adwaita/cursors\
+
+: 1752947781:0;ls /usr/share/icons/Adwaita/\
+
+: 1752947871:0;nano ~/.config/hyde/config.toml\
+
+: 1752947894:0;hyde-shell reload\
+
+: 1752947908:0;nano ~/.config/hyde/config.toml\
+
+: 1752947941:0;hyde-shell reload\
+
+: 1752947972:0;\
+
+: 1752947984:0;nano ~/.config/hyde/config.toml\
+
+: 1752948211:0;nano ~/.config/hypr/userprefs.conf
+: 1752948641:0;nano ~/.config/hypr/keybindings.conf
+: 1752948663:0;nano ~/.config/hypr/userprefs.conf
+: 1752948773:0;nano ~/.config/hypr/keybindings.conf
+: 1752949138:0;git clone https://github.com/mohammed-shakir/arch-maintenance.git\
+
+: 1752949145:0;ls
+: 1752949160:0;cd arch-maintenance
+: 1752949165:0;sudo cp arch_maintenance.sh /usr/local/bin/arch_maintenance.sh\
+
+: 1752949176:0;sudo chmod +x /usr/local/bin/arch_maintenance.sh\
+
+: 1752949182:0;sudo arch_maintenance.sh\
+
+: 1752949223:0;ls
+: 1752949229:0;nano arch_maintenance.sh
+: 1752949348:0;cd ..
+: 1752949349:0;ls
+: 1752949351:0;sudo pacman -S neovim\
+
+: 1752949363:0;sudo pacman -S ripgrep lazygit tree-sitter-cli python nodejs\
+
+: 1752949392:0;mv ~/.config/nvim ~/.config/nvim.bak\
+
+: 1752949399:0;git clone https://github.com/mohammed-shakir/astronvim_config.git ~/.config/nvim\
+
+: 1752949411:0;nvim --headless -c 'quitall'\
+
+: 1752949445:0;cd ~/.config/nvim\
+
+: 1752949450:0;ls
+: 1752949454:0;git remote add upstream https://github.com/AstroNvim/template.git\
+
+: 1752949462:0;git fetch upstream\
+
+: 1752949466:0;git rebase upstream/main\
+
+: 1752949478:0;git add .
+: 1752949486:0;git commit -m "init"
+: 1752949507:0;git config --global user.email "mohammedshakir010528@gmail.com"
+: 1752949520:0;git config --global user.name "Mohammed Shakir"
+: 1752949533:0;git rebase upstream/main\
+
+: 1752949540:0;git add .
+: 1752949542:0;git commit -m "init"
+: 1752949555:0;git rebase upstream/main\
+
+: 1752949569:0;git push --force-with-lease\
+
+: 1752949630:0;cd
+: 1752949631:0;ls
+: 1752949639:0;nvim arch-maintenance/arch_maintenance.sh
+: 1752949666:0;sudo nvim arch-maintenance/arch_maintenance.sh
+: 1752949778:0;sudoedit arch-maintenance/arch_maintenance.sh
+: 1752949805:0;sudoedit /etc/pacman.conf
+: 1752949847:0;sudo -E nvim arch-maintenance/arch_maintenance.sh
+: 1752949966:0;sudo pacman -Qq python
+: 1752949987:0;sudo pacman -Qq discord
+: 1752950000:0;sudo pacman -Qq tmux
+: 1752950003:0;sudo pacman -Qq nvim
+: 1752950019:0;comm -23 <(cat <<'EOF' | sort\
+archlinux-keyring\
+reflector\
+sudo\
+git\
+curl\
+wget\
+rsync\
+zip\
+unzip\
+tar\
+man-db\
+less\
+linux\
+linux-headers\
+intel-ucode\
+amd-ucode\
+linux-firmware\
+nvidia\
+mesa\
+dkms\
+modprobe\
+mkinitcpio\
+fwupd\
+base-devel\
+paru\
+btrfs-progs\
+ntfs-3g\
+snapper\
+grub-btrfs\
+grub\
+os-prober\
+efibootmgr\
+gvfs\
+udisks2\
+udiskie\
+exfat-utils\
+ufw\
+openssh\
+polkit\
+polkit-gnome\
+gnome-keyring\
+networkmanager\
+nm-connection-editor\
+network-manager-applet\
+avahi\
+nss-mdns\
+xorg-xwayland\
+wayland\
+xdg-desktop-portal\
+xdg-desktop-portal-wlr\
+xdg-desktop-portal-hyprland\
+xdg-desktop-portal-gtk\
+xdg-user-dirs\
+qt5-wayland\
+qt6-wayland\
+hyprland\
+greetd\
+regreet\
+noto-fonts\
+noto-fonts-cjk\
+ttf-ubuntu-font-family\
+ttf-jetbrains-mono\
+ttf-fira-code\
+ttf-dejavu\
+noto-fonts-emoji\
+ttf-symbola\
+ttf-jetbrains-mono-nerd\
+ttf-firacode-nerd\
+rofi-wayland\
+swaylock\
+swayidle\
+waybar\
+mako\
+cliphist\
+wl-clipboard\
+hyprpaper\
+materia-gtk-theme\
+dolphin\
+gammastep\
+grim\
+slurp\
+swappy\
+gtk4\
+libadwaita\
+gsettings-desktop-schemas\
+gnome-control-center\
+qalculate-gtk\
+mpv\
+celluloid\
+wlogout\
+pipewire\
+wireplumber\
+pavucontrol\
+bluez\
+bluez-utils\
+blueman\
+power-profiles-daemon\
+btop\
+lm_sensors\
+ncdu\
+uwsm\
+cups\
+system-config-printer\
+imv\
+flatpak\
+xdg-utils\
+cronie\
+playerctl\
+trash-cli\
+samba\
+cifs-utils\
+brightnessctl\
+hyprland-plugins\
+hyprutils\
+baloo\
+ark\
+openvpn\
+kio-extras\
+ffmpegthumbs\
+kimageformats\
+gwenview\
+zsh\
+zimfw\
+powerlevel10k\
+zsh-syntax-highlighting\
+zsh-autosuggestions\
+zsh-history-substring-search\
+kitty\
+tmux\
+chezmoi\
+neovim\
+brave\
+tor\
+spotify-launcher\
+visual-studio-code-bin\
+discord\
+virtualbox\
+steam\
+python\
+jdk-openjdk\
+deluge\
+parsec-bin\
+docker\
+protonvpn-cli\
+zoom\
+nodejs\
+bitwarden\
+clamav\
+bleachbit\
+qdirstat\
+piper\
+libratbag\
+solaar\
+greenwithenvy\
+EOF\
+) <(pacman -Qq | sort)\
+
+: 1752950144:0;sudo pacman -Syu
+: 1752950477:0;comm -23 <(cat <<'EOF' | sort\
+bitwarden\
+bleachbit\
+btop\
+btrfs-progs\
+celluloid\
+chezmoi\
+clamav\
+cronie\
+cups\
+deluge\
+discord\
+docker\
+exfat-utils\
+fwupd\
+gammastep\
+gnome-control-center\
+gnome-keyring\
+greenwithenvy\
+grub-btrfs\
+gvfs\
+gwenview\
+hyprland-plugins\
+hyprpaper\
+imv\
+jdk-openjdk\
+kimageformats\
+less\
+libratbag\
+mako\
+man-db\
+materia-gtk-theme\
+modprobe\
+mpv\
+ncdu\
+noto-fonts\
+noto-fonts-cjk\
+nss-mdns\
+ntfs-3g\
+openvpn\
+os-prober\
+parsec-bin\
+piper\
+power-profiles-daemon\
+protonvpn-cli\
+qalculate-gtk\
+qdirstat\
+reflector\
+rsync\
+samba\
+snapper\
+solaar\
+swappy\
+system-config-printer\
+tmux\
+tor\
+trash-cli\
+ttf-dejavu\
+ttf-fira-code\
+ttf-firacode-nerd\
+ttf-jetbrains-mono\
+ttf-jetbrains-mono-nerd\
+ttf-symbola\
+ttf-ubuntu-font-family\
+ufw\
+virtualbox\
+zip\
+zoom\
+EOF\
+) <(pacman -Qq | sort)\
+
+: 1752950612:0;paru -S --needed bitwarden bleachbit btop btrfs-progs celluloid chezmoi clamav cronie cups deluge discord docker exfat-utils fwupd gammastep gnome-control-center gnome-keyring greenwithenvy grub-btrfs gvfs gwenview hyprland-plugins hyprpaper imv jdk-openjdk kimageformats less libratbag mako man-db materia-gtk-theme mpv ncdu noto-fonts noto-fonts-cjk nss-mdns ntfs-3g openvpn os-prober parsec-bin piper power-profiles-daemon protonvpn-cli qalculate-gtk qdirstat reflector rsync samba snapper solaar swappy system-config-printer tmux tor trash-cli ttf-dejavu ttf-fira-code ttf-firacode-nerd ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-symbola ttf-ubuntu-font-family ufw virtualbox zip zoom\
+
+: 1752950997:0;systemd-analyze time\
+
+: 1752951002:0;systemd-analyze blame | head -n 20\
+
+: 1752951011:0;systemd-analyze critical-chain\
+
+: 1752951111:0;ls
+: 1752951381:0;sudo systemctl mask dev-tpmrm0.device\
+
+: 1752961864:0;sudo pacman -S --needed bitwarden bleachbit btop btrfs-progs celluloid chezmoi clamav cronie cups deluge discord docker exfat-utils fwupd gammastep gnome-control-center gnome-keyring greenwithenvy grub-btrfs gvfs gwenview hyprland-plugins hyprpaper imv jdk-openjdk kimageformats less libratbag mako man-db materia-gtk-theme mpv ncdu noto-fonts noto-fonts-cjk nss-mdns ntfs-3g openvpn os-prober parsec-bin piper power-profiles-daemon protonvpn-cli qalculate-gtk qdirstat reflector rsync samba snapper solaar swappy system-config-printer tmux tor trash-cli ttf-dejavu ttf-fira-code ttf-firacode-nerd ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-symbola ttf-ubuntu-font-family ufw virtualbox zip zoom
+: 1752961960:0;sudo pacman -S --needed bitwarden bleachbit btop btrfs-progs celluloid chezmoi clamav cronie cups deluge discord docker exfat-utils fwupd gammastep gnome-control-center gnome-keyring grub-btrfs gvfs gwenview hyprpaper imv kimageformats less libratbag mako man-db materia-gtk-theme mpv noto-fonts nss-mdns ntfs-3g openvpn os-prober parsec-bin piper power-profiles-daemon qalculate-gtk qdirstat reflector rsync samba snapper solaar swappy system-config-printer tmux tor trash-cli ttf-dejavu ttf-fira-code ttf-firacode-nerd ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-symbola ttf-ubuntu-font-family ufw virtualbox zip zoom
+: 1752962108:0;comm -23 <(cat <<'EOF' | sort\
+bitwarden\
+bleachbit\
+btop\
+btrfs-progs\
+celluloid\
+chezmoi\
+clamav\
+cronie\
+cups\
+deluge\
+discord\
+docker\
+exfat-utils\
+fwupd\
+gammastep\
+gnome-control-center\
+gnome-keyring\
+greenwithenvy\
+grub-btrfs\
+gvfs\
+gwenview\
+hyprland-plugins\
+hyprpaper\
+imv\
+jdk-openjdk\
+kimageformats\
+less\
+libratbag\
+mako\
+man-db\
+materia-gtk-theme\
+modprobe\
+mpv\
+ncdu\
+noto-fonts\
+noto-fonts-cjk\
+nss-mdns\
+ntfs-3g\
+openvpn\
+os-prober\
+parsec-bin\
+piper\
+power-profiles-daemon\
+protonvpn-cli\
+qalculate-gtk\
+qdirstat\
+reflector\
+rsync\
+samba\
+snapper\
+solaar\
+swappy\
+system-config-printer\
+tmux\
+tor\
+trash-cli\
+ttf-dejavu\
+ttf-fira-code\
+ttf-firacode-nerd\
+ttf-jetbrains-mono\
+ttf-jetbrains-mono-nerd\
+ttf-symbola\
+ttf-ubuntu-font-family\
+ufw\
+virtualbox\
+zip\
+zoom\
+EOF\
+) <(pacman -Qq | sort)\
+
+: 1752962120:0;comm -23 <(cat <<'EOF' | sort\
+archlinux-keyring\
+reflector\
+sudo\
+git\
+curl\
+wget\
+rsync\
+zip\
+unzip\
+tar\
+man-db\
+less\
+linux\
+linux-headers\
+intel-ucode\
+amd-ucode\
+linux-firmware\
+nvidia\
+mesa\
+dkms\
+modprobe\
+mkinitcpio\
+fwupd\
+base-devel\
+paru\
+btrfs-progs\
+ntfs-3g\
+snapper\
+grub-btrfs\
+grub\
+os-prober\
+efibootmgr\
+gvfs\
+udisks2\
+udiskie\
+exfat-utils\
+ufw\
+openssh\
+polkit\
+polkit-gnome\
+gnome-keyring\
+networkmanager\
+nm-connection-editor\
+network-manager-applet\
+avahi\
+nss-mdns\
+xorg-xwayland\
+wayland\
+xdg-desktop-portal\
+xdg-desktop-portal-wlr\
+xdg-desktop-portal-hyprland\
+xdg-desktop-portal-gtk\
+xdg-user-dirs\
+qt5-wayland\
+qt6-wayland\
+hyprland\
+greetd\
+regreet\
+noto-fonts\
+noto-fonts-cjk\
+ttf-ubuntu-font-family\
+ttf-jetbrains-mono\
+ttf-fira-code\
+ttf-dejavu\
+noto-fonts-emoji\
+ttf-symbola\
+ttf-jetbrains-mono-nerd\
+ttf-firacode-nerd\
+rofi-wayland\
+swaylock\
+swayidle\
+waybar\
+mako\
+cliphist\
+wl-clipboard\
+hyprpaper\
+materia-gtk-theme\
+dolphin\
+gammastep\
+grim\
+slurp\
+swappy\
+gtk4\
+libadwaita\
+gsettings-desktop-schemas\
+gnome-control-center\
+qalculate-gtk\
+mpv\
+celluloid\
+wlogout\
+pipewire\
+wireplumber\
+pavucontrol\
+bluez\
+bluez-utils\
+blueman\
+power-profiles-daemon\
+btop\
+lm_sensors\
+ncdu\
+uwsm\
+cups\
+system-config-printer\
+imv\
+flatpak\
+xdg-utils\
+cronie\
+playerctl\
+trash-cli\
+samba\
+cifs-utils\
+brightnessctl\
+hyprland-plugins\
+hyprutils\
+baloo\
+ark\
+openvpn\
+kio-extras\
+ffmpegthumbs\
+kimageformats\
+gwenview\
+zsh\
+zimfw\
+powerlevel10k\
+zsh-syntax-highlighting\
+zsh-autosuggestions\
+zsh-history-substring-search\
+kitty\
+tmux\
+chezmoi\
+neovim\
+brave\
+tor\
+spotify-launcher\
+visual-studio-code-bin\
+discord\
+virtualbox\
+steam\
+python\
+jdk-openjdk\
+deluge\
+parsec-bin\
+docker\
+protonvpn-cli\
+zoom\
+nodejs\
+bitwarden\
+clamav\
+bleachbit\
+qdirstat\
+piper\
+libratbag\
+solaar\
+greenwithenvy\
+EOF\
+) <(pacman -Qq | sort)\
+
+: 1752962131:0;comm -23 <(cat <<'EOF' | sort\
+bitwarden\
+bleachbit\
+btop\
+btrfs-progs\
+celluloid\
+chezmoi\
+clamav\
+cronie\
+cups\
+deluge\
+discord\
+docker\
+exfat-utils\
+fwupd\
+gammastep\
+gnome-control-center\
+gnome-keyring\
+greenwithenvy\
+grub-btrfs\
+gvfs\
+gwenview\
+hyprland-plugins\
+hyprpaper\
+imv\
+jdk-openjdk\
+kimageformats\
+less\
+libratbag\
+mako\
+man-db\
+materia-gtk-theme\
+modprobe\
+mpv\
+ncdu\
+noto-fonts\
+noto-fonts-cjk\
+nss-mdns\
+ntfs-3g\
+openvpn\
+os-prober\
+parsec-bin\
+piper\
+power-profiles-daemon\
+protonvpn-cli\
+qalculate-gtk\
+qdirstat\
+reflector\
+rsync\
+samba\
+snapper\
+solaar\
+swappy\
+system-config-printer\
+tmux\
+tor\
+trash-cli\
+ttf-dejavu\
+ttf-fira-code\
+ttf-firacode-nerd\
+ttf-jetbrains-mono\
+ttf-jetbrains-mono-nerd\
+ttf-symbola\
+ttf-ubuntu-font-family\
+ufw\
+virtualbox\
+zip\
+zoom\
+EOF\
+) <(pacman -Qq | sort)\
+
+: 1752962190:0;sudo pacman -Syu --needed \\
+  greenwithenvy \\
+  jdk-openjdk \\
+  ncdu \\
+  noto-fonts-cjk \\
+  protonvpn-cli\
+
+: 1752962224:0;paru -S hyprland-plugins\
+
+: 1752962255:0;paru -S gwe\
+
+: 1752962263:0;paru -S protonvpn-cli-ng\
+
+: 1752962316:0;sudo pacman -Syu --needed \\
+  jdk-openjdk \\
+  ncdu \\
+  noto-fonts-cjk
+: 1752962374:0;comm -23 <(cat <<'EOF' | sort\
+archlinux-keyring\
+reflector\
+sudo\
+git\
+curl\
+wget\
+rsync\
+zip\
+unzip\
+tar\
+man-db\
+less\
+linux\
+linux-headers\
+intel-ucode\
+amd-ucode\
+linux-firmware\
+nvidia\
+mesa\
+dkms\
+modprobe\
+mkinitcpio\
+fwupd\
+base-devel\
+paru\
+btrfs-progs\
+ntfs-3g\
+snapper\
+grub-btrfs\
+grub\
+os-prober\
+efibootmgr\
+gvfs\
+udisks2\
+udiskie\
+exfat-utils\
+ufw\
+openssh\
+polkit\
+polkit-gnome\
+gnome-keyring\
+networkmanager\
+nm-connection-editor\
+network-manager-applet\
+avahi\
+nss-mdns\
+xorg-xwayland\
+wayland\
+xdg-desktop-portal\
+xdg-desktop-portal-wlr\
+xdg-desktop-portal-hyprland\
+xdg-desktop-portal-gtk\
+xdg-user-dirs\
+qt5-wayland\
+qt6-wayland\
+hyprland\
+greetd\
+regreet\
+noto-fonts\
+noto-fonts-cjk\
+ttf-ubuntu-font-family\
+ttf-jetbrains-mono\
+ttf-fira-code\
+ttf-dejavu\
+noto-fonts-emoji\
+ttf-symbola\
+ttf-jetbrains-mono-nerd\
+ttf-firacode-nerd\
+rofi-wayland\
+swaylock\
+swayidle\
+waybar\
+mako\
+cliphist\
+wl-clipboard\
+hyprpaper\
+materia-gtk-theme\
+dolphin\
+gammastep\
+grim\
+slurp\
+swappy\
+gtk4\
+libadwaita\
+gsettings-desktop-schemas\
+gnome-control-center\
+qalculate-gtk\
+mpv\
+celluloid\
+wlogout\
+pipewire\
+wireplumber\
+pavucontrol\
+bluez\
+bluez-utils\
+blueman\
+power-profiles-daemon\
+btop\
+lm_sensors\
+ncdu\
+uwsm\
+cups\
+system-config-printer\
+imv\
+flatpak\
+xdg-utils\
+cronie\
+playerctl\
+trash-cli\
+samba\
+cifs-utils\
+brightnessctl\
+hyprland-plugins\
+hyprutils\
+baloo\
+ark\
+openvpn\
+kio-extras\
+ffmpegthumbs\
+kimageformats\
+gwenview\
+zsh\
+zimfw\
+powerlevel10k\
+zsh-syntax-highlighting\
+zsh-autosuggestions\
+zsh-history-substring-search\
+kitty\
+tmux\
+chezmoi\
+neovim\
+brave\
+tor\
+spotify-launcher\
+visual-studio-code-bin\
+discord\
+virtualbox\
+steam\
+python\
+jdk-openjdk\
+deluge\
+parsec-bin\
+docker\
+protonvpn-cli\
+zoom\
+nodejs\
+bitwarden\
+clamav\
+bleachbit\
+qdirstat\
+piper\
+libratbag\
+solaar\
+greenwithenvy\
+EOF\
+) <(pacman -Qq | sort)\
+
+: 1752962496:0;3
+: 1752962497:0;ls
+: 1752962557:0;2
+: 1752962559:0;ls
+: 1752962612:0;cd
+: 1752962613:0;ls
+: 1752963718:0;git clone --depth 1 https://github.com/dharmx/walls ~/.local/share/hyde-wallpapers\
+
+: 1752963743:0;nvim ~/.config/hyde/config.toml
+: 1752963759:0;nano ~/.config/hyde/config.toml
+: 1752963767:0;nvim ~/.config/hyde/config.toml
+: 1752963922:0;hyprpaper --version
+: 1752964030:0;sudo -E nvim ~/.config/hyde/config.toml
+: 1752964094:0;nvim /.config/nvim/lua/user/lsp.lua
+: 1752964124:0;nvim
+: 1752964279:0;~/.config/nvim/lua/community.lua
+: 1752964283:0;nvim ~/.config/nvim/lua/community.lua
+: 1752964350:0;hyde-shell reload\
+
+: 1752964422:0;nvim ~/.config/nvim/lua/plugins/disable_borders.lua
+: 1752964471:0;rm ~/.config/nvim/lua/plugins/disable_borders.lua
+: 1752964477:0;nvim ~/.config/nvim/lua/community.lua
+: 1752964554:0;ls -ld /home/shakir/.local/share/hyde-wallpapers\
+
+: 1752964573:0;ls /home/shakir/.local/share/hyde-wallpapers\
+
+: 1752964610:0;hydectl wallpaper list\
+
+: 1752964616:0;ls /home/shakir/.local/share/hyde-wallpapers\
+
+: 1752964635:0;sudo pacman -S hyprpaper
+: 1752964669:0;nvim ~/.config/hyde/config.toml
+: 1752964693:0;hyde-shell reload
+: 1752964823:0;nvim ~/.config/hyde/config.toml
+: 1752964842:0;cd /home/shakir/.local/share/hyde-wallpapers
+: 1752964844:0;ls
+: 1752965076:0;cd chillop
+: 1752965077:0;ls
+: 1752965078:0;cd ..
+: 1752965139:0;ls
+: 1752965140:0;find . -mindepth 1 -maxdepth 1 ! -type d -exec rm -rf {} + \\
+  ! -name chillop \\
+  ! -name apocalypse \\
+  ! -name outrun \\
+  ! -name anime \\
+  ! -name fauna \\
+  ! -name evangelion \\
+  ! -name spam\
+
+: 1752965142:0;ls
+: 1752965184:0;find . -mindepth 1 -maxdepth 1 -type d \\
+  ! -name chillop \\
+  ! -name apocalypse \\
+  ! -name outrun \\
+  ! -name anime \\
+  ! -name fauna \\
+  ! -name evangelion \\
+  ! -name spam \\
+  -exec rm -rf {} +\
+
+: 1752965185:0;ls
+: 1752965191:0;nvim ~/.config/hyde/config.toml
+: 1752965209:0;hyde-shell reload
+: 1752965275:0;cd anime
+: 1752965276:0;ls
+: 1752965295:0;imv cartoon_a_cartoon_of_a_woman_flying_in_the_sky.png
+: 1752965383:0;cd
+: 1752965384:0;ls
+: 1752965386:0;cd arch-maintenance
+: 1752965387:0;ls
+: 1752965390:0;nvim arch_maintenance.sh
+: 1752965462:0;mkdir -p ~/.local/state/nvim/undo\
+chmod 700 ~/.local/state/nvim/undo\
+
+: 1752965468:0;sudo mkdir -p ~/.local/state/nvim/undo\
+chmod 700 ~/.local/state/nvim/undo\
+
+: 1752965483:0;sudo mkdir -p ~/.local/state/nvim/undo\
+
+: 1752965491:0;sudo chmod 700 ~/.local/state/nvim/undo\
+
+: 1752965506:0;ls ~/.local/state/nvim/undo\
+
+: 1752965509:0;sudo ls ~/.local/state/nvim/undo\
+
+: 1752965530:0;cd
+: 1752965531:0;sudo ls ~/.local/state/nvim/undo\
+
+: 1752965555:0;rm ~/.local/state/nvim/undo\
+
+: 1752965561:0;rm -rf ~/.local/state/nvim/undo\
+
+: 1752965565:0;sudo rm -rf ~/.local/state/nvim/undo\
+
+: 1752965575:0;mkdir -p ~/.local/state/nvim/undo
+: 1752965582:0;chmod 700 ~/.local/state/nvim/undo\
+
+: 1752965590:0;mkdir -p ~/.config/nvim/lua/user\
+
+: 1752965600:0;nvim /.config/nvim/lua/user/options.lua
+: 1752965881:0;nvim ~/.config/hyde/config.toml
+: 1752965906:0;cat ~/.config/hyde/config.toml
+: 1752965915:0;cd /home/shakir/.local/share/hyde-wallpapers
+: 1752965916:0;ls
+: 1752965938:0;systemctl --user restart hyde-config.service
+: 1752965958:0;cd spam
+: 1752965960:0;ls
+: 1752965966:0;hyprpaper img a_city_with_neon_lights.png
+: 1752966042:0;cd ..
+: 1752966046:0;rm -rf chillop
+: 1752966083:0;rm -rf evangelion
+: 1752966110:0;rm -rf anime
+: 1752966112:0;ls
+: 1752966121:0;sudo pacman -S swww\
+
+: 1752966129:0;cd
+: 1752966140:0;nvim ~/.config/hyde/config.toml
+: 1752966179:0;hyde-shell reload
+: 1752966190:0;systemctl --user restart hyde-config.service
+: 1752966263:0;sudo pacman -S cpupower
+: 1752966485:0;cd /home/shakir/.local/share/hyde-wallpapers
+: 1752966486:0;ls
+: 1752966490:0;rm -rf apocalypse
+: 1752966491:0;ls
+: 1752966559:0;nvim ~/.config/hypr/userprefs.conf
+: 1752966646:0;nano ~/.usr.zsh\
+
+: 1752985190:0;BANNER_DIR="$HOME/.local/share/hyde/banners"\
+
+: 1752985193:0;ls BANNER_DIR="$HOME/.local/share/hyde/banners"\
+
+: 1752985197:0;cat BANNER_DIR="$HOME/.local/share/hyde/banners"\
+
+: 1752985765:0;ls ~/.config/hyde/themes/
+: 1752985775:0;ls ~/.config/hyde/themes/Edge\ Runner
+: 1752985813:0;mkdir -p ~/.config/hyde/themes/Edge\ Runner/logo
+: 1752985887:0;ls
+: 1752985893:0;cd ~/.config/hyde/themes/Edge\ Runner/logo
+: 1752985893:0;ls
+: 1752985895:0;cd ..
+: 1752985896:0;ls
+: 1752985899:0;rm -rf logo
+: 1752985901:0;cd
+: 1752985942:0;fastfetch --gen-config\
+
+: 1752985966:0;fastfetch --help\
+
+: 1752985998:0;ls ~/.config/hyde/themes/Edge\ Runner/
+: 1752986002:0;fastfetch --gen-config\
+
+: 1752986021:0;nano ~/.config/fastfetch/config.jsonc\
+
+: 1752986080:0;cat ~/.config/fastfetch/config.jsonc\
+
+: 1752986170:0;ls ~/.config/hyde/themes/
+: 1752986177:0;ls ~/.config/hyde/
+: 1752986187:0;nvim ~/.config/hyde/config.toml
+: 1752986217:0;ls ~/.config/hyde/themes/Edge\ Runner/logo/\
+
+: 1752986225:0;cd
+: 1752986226:0;ls
+: 1752986229:0;cd HyDE
+: 1752986229:0;ls
+: 1752986247:0;cd Source
+: 1752986248:0;ls
+: 1752986251:0;cd assets
+: 1752986251:0;ls
+: 1752986263:0;imv showcase_2.png
+: 1752986279:0;imv theme_cedge_1.png
+: 1752986301:0;imv arch.png
+: 1752986310:0;imv archlinux.png
+: 1752986323:0;imv rofi_style_10.png
+: 1752986343:0;imv hyprdots_arch.png
+: 1752986354:0;imv garuda.png
+: 1752986586:0;ls ~/.local/share/hyde/cd
+: 1752986587:0;cd
+: 1752986606:0;mkdir -p ~/.config/hyde/themes/Edge\ Runner/logo
+: 1752986609:0;cd logo
+: 1752986616:0;cd ~/.config/hyde/themes/Edge\ Runner/logo
+: 1752986618:0;ls
+: 1752986669:0;echo $HYDE_THEME\
+
+: 1752986688:0;cd HyDE
+: 1752986688:0;ls
+: 1752986693:0;cd Source
+: 1752986693:0;ls
+: 1752986699:0;cd arcs
+: 1752986699:0;ls
+: 1752986702:0;cd ..
+: 1752986704:0;cd assets
+: 1752986705:0;ls
+: 1752986718:0;imv archlinux.png
+: 1752986724:0;imv arch.png
+: 1752986749:0;cd HyDE/Source/assets
+: 1752986757:0;imv archlinux.png
+: 1752986780:0;pwd
+: 1752986797:0;cp arch.png ~/.config/hyde/themes/Edge Runner/logo
+: 1752986813:0;cp arch.png ~/.config/hyde/themes/Edge\ Runner/logo
+: 1752986815:0;ls
+: 1752986830:0;cat ~/.config/hyde/hypr.theme\
+
+: 1752986863:0;find ~/HyDE -type f \( -iname "*.png" -o -iname "*.jpg" \)\
+
+: 1752986865:0;cd
+: 1752986866:0;find ~/HyDE -type f \( -iname "*.png" -o -iname "*.jpg" \)\
+
+: 1752986875:0;find ~/HyDE -type f \( -iname "*.png" -o -iname "*.jpg" \) | grep arch\
+
+: 1752986895:0;fastfetch\
+
+: 1752986945:0;hyde-shell reload\
+
+: 1752986960:0;fastfetch\
+
+: 1752986968:0;ls ~/.config/hyde/themes/"Edge Runner"/logo/\
+
+: 1752987006:0;fastfetch\
+
+: 1752987055:0;ls ~/.local/share/hyde
+: 1752987150:0;fastfetch --help\
+
+: 1752987168:0;fastfetch -c\
+
+: 1752987172:0;fastfetch -c --help\
+
+: 1752987179:0;fastfetch --config\
+
+: 1752987186:0;fastfetch --config --help\
+
+: 1752987191:0;fastfetch --help'\
+
+: 1752987193:0;fastfetch --help\
+
+: 1752987229:0;fastfetch --gen-config\
+
+: 1752987241:0;nvim ~/.config/fastfetch/config.jsonc
+: 1752987278:0;fastfetch --help | grep logo\
+
+: 1752987335:0;fastfetch --list-data-paths\
+
+: 1752987351:0;fastfetch --list\
+
+: 1752987356:0;fastfetch --list-logos\
+
+: 1752987367:0;fastfetch --help | grep logo\
+
+: 1752987488:0;fastfetch --kitty "$HOME/.config/hyde/themes/Edge Runner/logo/arch.png"
+: 1752987544:0;fastfetch --list-logos\
+
+: 1752987566:0;for logo in $(fastfetch --list-logos); do\
+    clear\
+    echo "Logo: $logo"\
+    fastfetch --logo "$logo"\
+    read -n 1 -s -r -p "Press any key to continue..."\
+done\
+
+: 1752987634:0;for logo in $(fastfetch --list-logos); do\
+    clear\
+    echo "Logo: $logo"\
+    fastfetch --logo "$logo"\
+    read -n 1 -r -p "Press any key to continue..."\
+done\
+
+: 1752987644:0;for logo in $(fastfetch --list-logos); do\
+    clear\
+    echo "Logo: $logo"\
+    fastfetch --logo "$logo"\
+    read -n 1 -p "Press any key to continue..."\
+done\
+
+: 1752987653:0;for logo in $(fastfetch --list-logos); do\
+    clear\
+    echo "Logo: $logo"\
+    fastfetch --logo "$logo"\
+    read -n 1 "Press any key to continue..."\
+done\
+
+: 1752987668:0;for logo in $(fastfetch --list-logos); do\
+    clear\
+    echo "Logo: $logo"\
+    fastfetch --logo "$logo"\
+    read -n\
+done\
+
+: 1752987705:0;for logo in $(fastfetch --list-logos); do\
+    clear\
+    echo "Logo: $logo"\
+    fastfetch --logo "$logo"\
+    read -n 1 -s -r -p "Press any key to continue..."\
+done\
+
+: 1752987737:0;for f in ~/.config/hyde/themes/"Edge Runner"/logo/*; do\
+    clear\
+    echo "Image: $f"\
+    fastfetch --kitty "$f"\
+    read -k 1 "?Press any key to continue..."\
+done\
+
+: 1752987743:0;for logo in $(fastfetch --list-logos); do\
+    clear\
+    echo "Logo: $logo"\
+    fastfetch --logo "$logo"\
+    read -k 1 "?Press any key to continue..."\
+done\
+
+: 1752987807:0;for logo in $(fastfetch --list-logos); do\
+    clear\
+    echo "Logo: $logo"\
+    fastfetch --logo "$logo" --logo-recache\
+    read -k 1 "?Press any key to continue..."\
+done\
+
+: 1752987828:0;for logo in $(fastfetch --list-logos); do\
+    clear\
+    echo "Logo: $logo"\
+    fastfetch --logo "$logo" --logo-type ascii\
+    read -k 1 "?Press any key to continue..."\
+done\
+
+: 1752987845:0;fastfetch --kitty "$HOME/.config/hyde/themes/Edge Runner/logo/arch.png"
+: 1752987864:0;nano ~/.zshrc\
+
+: 1752987929:0;nano ~/.config/fastfetch/config.jsonc
+: 1752987953:0;hyde-shell reload\
+
+: 1752987963:0;source ~/.zshrc
+: 1752987971:0;fastfetch
+: 1752988156:0;nvim ~/.config/kitty/kitty.conf
+: 1752988222:0;kitty @ set-colors\
+
+: 1752988234:0;nvim ~/.config/kitty/kitty.conf
+: 1752988437:0;# Diskâ€ƒ±usage analyzer\
+sudo pacman -S gdu           # or: gdu_windows_amd64.exe on WSL if needed\
+# System monitor\
+sudo pacman -S btm\
+# pip (for mason.nvim & Python provider)\
+sudo pacman -S python-pip\
+# luarocks (for lazy.nvim hererocks support)\
+sudo pacman -S luarocks\
+# Go, Ruby, PHP, Composer, npm, julia (for mason language support)\
+sudo pacman -S go ruby php composer npm julia\
+# fd (for telescope, snacks.picker)\
+sudo pacman -S fd\
+# gs (Ghostscript: PDF rendering in snacks.image)\
+sudo pacman -S ghostscript\
+# tectonic or texlive for LaTeX\
+sudo pacman -S tectonic texlive-core\
+# mmdc (Mermaid CLI)\
+# no official Arch packageâ€ƒ´install via npm:\
+npm install -g @mermaid-js/mermaid-cli\
+
+: 1752988476:0;pip install --upgrade pynvim\
+
+: 1752988488:0;node --version\
+npm --version\
+
+: 1752988535:0;nvim
+: 1752988654:0;nvim ~/.config/kitty/kitty.conf
+: 1752988762:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752988767:0;nvim ~/.config/kitty/kitty.conf
+: 1752988800:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752988804:0;nvim ~/.config/kitty/kitty.conf
+: 1752988810:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752988812:0;nvim ~/.config/kitty/kitty.conf
+: 1752988821:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752988824:0;nvim ~/.config/kitty/kitty.conf
+: 1752988829:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752988833:0;nvim ~/.config/kitty/kitty.conf
+: 1752988839:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752988849:0;nvim ~/.config/kitty/kitty.conf
+: 1752988853:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752988856:0;nvim ~/.config/kitty/kitty.conf
+: 1752988861:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752988863:0;nvim ~/.config/kitty/kitty.conf
+: 1752988875:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752988893:0;nano ~/.config/kitty/kitty.conf
+: 1752988959:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752988961:0;nano ~/.config/kitty/kitty.conf
+: 1752988970:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752988971:0;nano ~/.config/kitty/kitty.conf
+: 1752989037:0;ls
+: 1752989098:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752989102:0;ls
+: 1752989105:0;nano ~/.config/kitty/kitty.conf
+: 1752989121:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752989130:0;nvim ~/.config/kitty/kitty.conf
+: 1752989179:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752989191:0;nvim ~/.config/kitty/kitty.conf
+: 1752989204:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752989207:0;nvim ~/.config/kitty/kitty.conf
+: 1752989214:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752989216:0;nvim ~/.config/kitty/kitty.conf
+: 1752989219:0;kill -SIGUSR1 $(pidof kitty)\
+
+: 1752989230:0;ls
+: 1752989246:0;cd arch-maintenance
+: 1752989247:0;ls
+: 1752989250:0;nvim arch_maintenance.sh
+: 1752989448:0;hyprctl reload
+: 1752989456:0;hyde-shell reload
+: 1752989490:0;nvim ~/.config/hyde/config.toml
+: 1752989834:0;nvim ~/.config/hypr/userprefs.conf
+: 1752989842:0;nvim ~/.config/hypr/keybindings.conf
+: 1752990707:0;ls
+: 1752990919:0;nvim .config/hypr/userprefs.conf
+: 1752991000:0;nvim ~/.config/mako/config
+: 1752991008:0;ls ~/.config/mako/
+: 1752991014:0;ls ~/.config/
+: 1752991042:0;nvim .config/hyde/config.toml
+: 1752991280:0;makoctl list\
+
+: 1752991379:0;ls .config/hyde/
+: 1752991384:0;ls .config/
+: 1752991400:0;ls .config/hyde
+: 1752991408:0;ls .config/hypr
+: 1752991455:0;ls .config/hypr/hyprlock
+: 1752991467:0;ls .config/hypr/
+: 1752991489:0;nvim .config/hypr/hyprlock.conf
+: 1752991560:0;nvim .config/hypr/hypridle.conf
+: 1752991841:0;swaync-client --count
+: 1752991939:0;nvim .config/hypr/hypridle.conf
+: 1752992144:0;pkill hypridle && hypridle &\
+
+: 1752992184:0;swaync-client --count
+: 1752992188:0;ls
+: 1752992202:0;ls .config/hypr/
+: 1752992224:0;ls .config/
+: 1752992230:0;ls .config/hyde
+: 1752992235:0;ls .config/hypr/
+: 1752992248:0;nvim .config/hypr/hyde.conf
+: 1752992326:0;cd .config/hypr/
+: 1752992326:0;ls
+: 1752992343:0;nvim hyprlock.conf
+: 1752992383:0;ls
+: 1752992384:0;cd ..
+: 1752992386:0;ls
+: 1752992399:0;ls wlogout
+: 1752992431:0;cd /etc/sddm.conf.d/
+: 1752992432:0;ls
+: 1752992445:0;nvim the_hyde_project.conf
+: 1752992565:0;ls -1 /usr/share/sddm/themes\
+
+: 1752992628:0;nvim .config/hypr/keybindings.conf
+: 1752992840:0;ls -1 /usr/share/sddm/themes\
+
+: 1752993010:0;cd
+: 1752993011:0;ls
+: 1752993021:0;cd .local
+: 1752993022:0;ls
+: 1752993027:0;cd share
+: 1752993028:0;l
+: 1752993028:0;sls
+: 1752993031:0;ls
+: 1752993037:0;cd themes
+: 1752993038:0;ls
+: 1752993041:0;cd ..
+: 1752993041:0;ls
+: 1752993055:0;cd ..
+: 1752993056:0;ls
+: 1752993060:0;cd lib
+: 1752993061:0;ls
+: 1752993063:0;cd hyde
+: 1752993063:0;ls
+: 1752993065:0;cd ..
+: 1752993072:0;cd
+: 1752993074:0;cd .config
+: 1752993076:0;cd hypr
+: 1752993077:0;ls
+: 1752993090:0;nvim hyde.conf
+: 1752993095:0;cd ..
+: 1752993096:0;ls
+: 1752993101:0;cd hyde
+: 1752993102:0;ls
+: 1752993109:0;nvim config.toml
+: 1752993133:0;cd /maya
+: 1752993136:0;cd
+: 1752993147:0;cd .local/share/hyde-wallpapers
+: 1752993148:0;ls
+: 1752993155:0;cd fauna
+: 1752993156:0;imv
+: 1752993162:0;imv .
+: 1752993180:0;cd ..
+: 1752993183:0;imv .
+: 1752993186:0;ls
+: 1752993188:0;cd outrun
+: 1752993190:0;imv .
+: 1752993384:0;ls
+: 1752993395:0;imv .
+: 1752993464:0;rm a_group_of_flowers_on_a_black_background.jpg a_group_of_palm_trees.jpg a_person\'s_feet_in_a_car.png a_person_wearing_headphones.png a_skeleton_with_a_skull_and_arms.jpg a_sports_car_with_neon_lights.png
+: 1752993465:0;ls
+: 1752993468:0;imv .
+: 1752993547:0;sudo pacman -S viewnior\
+
+: 1752993574:0;ls
+: 1752993577:0;viewnior a_astronaut_walking_through_a_doorway.jpg
+: 1752993588:0;cd ..
+: 1752993589:0;ls
+: 1752993594:0;cd fauna
+: 1752993601:0;viewnior .
+: 1752993699:0;cd ..
+: 1752993700:0;ls
+: 1752993702:0;cd spam
+: 1752993703:0;ls
+: 1752993706:0;viewnior .
+: 1752994117:0;ls
+: 1752994154:0;nvim .config/hypr/userprefs.conf
+: 1752994179:0;ls
+: 1752995551:0;cd Downloads
+: 1752995551:0;ls
+: 1752995557:0;cd Wallpapers
+: 1752995558:0;ls
+: 1752995571:0;mv red-moon.png spaceman.png ../
+: 1752995572:0;ls
+: 1752995573:0;cd ..
+: 1752995574:0;ls
+: 1752995578:0;rm -rf Wallpapers
+: 1752995578:0;ls
+: 1752995586:0;cd ..
+: 1752995587:0;ls
+: 1752995611:0;pwd
+: 1752995626:0;mv a_black_and_white_drawing_of_a_man_holding_a_sword.jpeg a_black_and_white_image_of_a_zombie.jpeg red-moon.png spaceman.png ~/.local/share/hyde-wallpapers
+: 1752995627:0;ls
+: 1752995640:0;mv fauna/* .
+: 1752995641:0;ls
+: 1752995644:0;cd fauna
+: 1752995644:0;ls
+: 1752995646:0;cd ..
+: 1752995652:0;mv spam/* .
+: 1752995661:0;mv outrun/* .
+: 1752995676:0;rm -rf outrun fauna spam
+: 1752995677:0;ls
+: 1752995684:0;rm README.md
+: 1752995696:0;viewnior .
+: 1752995700:0;ls
+: 1752995703:0;viewnior .
+: 1752995842:0;ls
+: 1752995863:0;cd
+: 1752995864:0;ls
+: 1752995867:0;nvim ~/.config/hyde/config.toml
+: 1752996053:0;ls
+: 1752996069:0;pwd
+: 1752996382:0;nvim ~/.config/hyde/config.toml
+: 1752996673:0;hyde-shell reload\
+
+: 1752996870:0;ls
+: 1752996875:0;rm red-moon.png
+: 1752996897:0;rm a_cartoon_of_a_deer_with_a_bunch_of_worms.png
+: 1752996901:0;hyde-shell reload\
+
+: 1752996939:0;cd ~/.config/systemd/user
+: 1752996940:0;ls
+: 1752996951:0;nvim hyde-wallpaper.service
+: 1752996978:0;nvim hyde-wallpaper.timer
+: 1752997001:0;systemctl --user daemon-reload\
+
+: 1752997006:0;systemctl --user enable --now hyde-wallpaper.timer\
+
+: 1752997035:0;ls
+: 1752997037:0;cd ..
+: 1752997038:0;ls
+: 1752997040:0;cd themes
+: 1752997041:0;ls
+: 1752997044:0;cd Edge-Runner
+: 1752997045:0;ls
+: 1752997196:0;hyde-shell reload\
+
+: 1752997285:0;cd
+: 1752997286:0;paru -Syu wlroots-git hyprland-git
+: 1752997319:0;sudo pacman -Syu wlroots hyprland\
+
+: 1752997386:0;$ sudo pacman -S wlroots   
+: 1752997422:0;paru -S wlroots-git
+: 1752997465:0;OA
+: 1752997473:0;paru -S wlroots-git
+: 1752997493:0;clear
+: 1752997654:0;nvim ~/.config/hyde/config.toml\
+
+: 1752997754:0;hyde-shell reload\
+
+: 1752998103:0;ls
+: 1752998103:0;cd
+: 1752998221:0;cd ~/.config/waybar/
+: 1752998222:0;ls
+: 1752998228:0;mkdir -p ~/.config/waybar/layouts\
+
+: 1752998230:0;cd layouts
+: 1752998230:0;ls
+: 1752998250:0;cd ..
+: 1752998253:0;cd layouts
+: 1752998253:0;ls
+: 1752998258:0;cd backup
+: 1752998259:0;ls
+: 1752998261:0;cd ..
+: 1752998264:0;ls
+: 1752998272:0;cd includes
+: 1752998273:0;ls
+: 1752998275:0;cd ..
+: 1752998278:0;cat config.jsonc
+: 1752998283:0;cd ..
+: 1752998283:0;ls
+: 1752998290:0;cd hyde
+: 1752998291:0;ls
+: 1752998293:0;cd ..
+: 1752998296:0;cd hypr
+: 1752998297:0;ls
+: 1752998316:0;cd ..
+: 1752998317:0;ls
+: 1752998341:0;cd waybar
+: 1752998342:0;ls
+: 1752998365:0;cp ~/.local/share/waybar/layouts/default.jsonc \\
+   ~/.config/waybar/layouts/mycustom.jsonc
+: 1752998369:0;ls
+: 1752998373:0;ls layouts
+: 1752998400:0;ls
+: 1752998404:0;cd includes
+: 1752998405:0;ls
+: 1752998409:0;cd ..
+: 1752998409:0;ls
+: 1752998501:0;ls ~/.local/share/waybar
+: 1752998507:0;ls ~/.local/share/waybar/layouts
+: 1752998507:0;ls
+: 1752998517:0;cd layouts
+: 1752998517:0;ls
+: 1752998520:0;cd backup
+: 1752998520:0;ls
+: 1752998521:0;cd ..
+: 1752998522:0;cd .
+: 1752998524:0;cd ..
+: 1752998524:0;ls
+: 1752998533:0;ls ~/.local/share/waybar
+: 1752998536:0;cd ~/.local/share/waybar
+: 1752998537:0;ls
+: 1752998541:0;cd layouts
+: 1752998542:0;ls
+: 1752998545:0;cd hyprdots
+: 1752998546:0;ls
+: 1752998571:0;pwd
+: 1752998608:0;cp ~/.local/share/waybar/layouts/hyprdots/08.jsonc ~/.config/waybar/layouts/custom.jsonc
+: 1752998612:0;cd
+: 1752998617:0;cd .config/waybar/layouts
+: 1752998617:0;ls
+: 1752998620:0;nvim custom.jsonc
+: 1752998799:0;pwd
+: 1752998810:0;ls
+: 1752998835:0;cd ..
+: 1752998835:0;ls
+: 1752998846:0;cat config.jsonc
+: 1752998848:0;ls
+: 1752998852:0;cd
+: 1752998861:0;cd .local/share/waybar
+: 1752998861:0;ls
+: 1752998868:0;cd includes
+: 1752998869:0;ls
+: 1752998872:0;cd ..
+: 1752998873:0;ls
+: 1752998875:0;cd menus
+: 1752998875:0;ls
+: 1752998877:0;cd ..
+: 1752998888:0;ls
+: 1752998889:0;cd styles
+: 1752998890:0;ls
+: 1752998894:0;cd includes
+: 1752998895:0;ls
+: 1752998897:0;cd ..
+: 1752998900:0;ls
+: 1752998905:0;cd includes
+: 1752998906:0;ls
+: 1752998907:0;cd..
+: 1752998910:0;ls
+: 1752998912:0;cd ..
+: 1752998913:0;ls
+: 1752998918:0;cd layouts
+: 1752998919:0;ls
+: 1752998929:0;cat dock\#sample.jsonc
+: 1752998930:0;ls
+: 1752998934:0;cd hyprdots
+: 1752998934:0;ls
+: 1752998935:0;cd ..
+: 1752998936:0;ls
+: 1752998943:0;cd ..
+: 1752998944:0;ls
+: 1752998947:0;cd menus
+: 1752998947:0;ls
+: 1752998949:0;cd ..
+: 1752998953:0;cd modules
+: 1752998954:0;ls
+: 1752998977:0;cd ..
+: 1752998978:0;ls
+: 1752998982:0;cd menus
+: 1752998983:0;ls
+: 1752998992:0;cat pulseaudio.xml
+: 1752998992:0;ls
+: 1752999003:0;pwd
+: 1752999004:0;ls
+: 1752999006:0;cd ..
+: 1752999011:0;ls
+: 1752999014:0;cd modules
+: 1752999015:0;ls
+: 1752999049:0;cd .config/waybar/layouts
+: 1752999050:0;ls
+: 1752999052:0;nvim custom.jsonc
+: 1752999356:0;ls
+: 1752999357:0;cd ..
+: 1752999358:0;ls
+: 1752999370:0;cd layouts
+: 1752999370:0;ls
+: 1752999377:0;nvim clock.jsonc
+: 1752999456:0;nvim custom-wbar.jsonc
+: 1752999523:0;hyde-shell waybar --select\
+
+: 1752999537:0;hyde-shell reload\
+
+: 1752999548:0;hyprctl reload
+: 1752999554:0;hyde-shell waybar --select\
+
+: 1752999612:0;nvim custom-wbar.jsonc
+: 1752999628:0;hyde-shell waybar --select\
+
+: 1752999644:0;nvim clock.jsonc
+: 1752999661:0;hyde-shell waybar --select\
+
+: 1752999666:0;nvim clock.jsonc
+: 1752999676:0;hyde-shell waybar --select\
+
+: 1752999691:0;ls
+: 1752999693:0;nvim custom.jsonc
+: 1752999784:0;hyde-shell waybar --set custom\
+
+: 1752999791:0;nvim clock.jsonc
+: 1752999796:0;hyde-shell waybar --set custom\
+
+: 1752999808:0;hyde-shell reload\
+
+: 1752999824:0;hyde-shell waybar --select
+: 1752999829:0;nvim clock.jsonc
+: 1752999839:0;hyde-shell reload\
+
+: 1752999902:0;ls
+: 1752999915:0;nvim custom-wbar.jsonc
+: 1752999925:0;hyde-shell reload\
+
+: 1752999933:0;nvim custom-wbar.jsonc
+: 1752999951:0;hyde-shell reload\
+
+: 1752999978:0;cd ..
+: 1752999979:0;ls
+: 1752999981:0;cd layouts
+: 1752999981:0;ls
+: 1752999984:0;cd hyprdots
+: 1752999984:0;ls
+: 1752999990:0;pwd
+: 1753000005:0;cp custom.jsonc /home/shakir/.local/share/waybar/layouts/hyprdots
+: 1753000007:0;ls
+: 1753000013:0;rm custom.jsonc
+: 1753000014:0;ls
+: 1753000019:0;cd hyprdots
+: 1753000024:0;hyde-shell reload\
+
+: 1753000042:0;hyde-shell waybar --select
+: 1753000062:0;ls
+: 1753000064:0;pwd
+: 1753000075:0;cp custom.jsonc /home/shakir/.config/waybar/layouts
+: 1753000075:0;ls
+: 1753000080:0;rm custom.jsonc
+: 1753000094:0;ls
+: 1753000107:0;cp custom.jsonc temp.jsonc
+: 1753000107:0;ls
+: 1753000110:0;cat temp.jsonc
+: 1753000113:0;pwd
+: 1753000134:0;cp 08.jsonc /home/shakir/.config/waybar/layouts
+: 1753000136:0;ls
+: 1753000146:0;hyde-shell waybar --select
+: 1753000159:0;nvim 08.jsonc
+: 1753000172:0;cd .config/waybar
+: 1753000172:0;ls
+: 1753000174:0;cd layouts
+: 1753000174:0;ls
+: 1753000179:0;nvim custom.jsonc
+: 1753000186:0;nvim temp.jsonc
+: 1753000233:0;hyde-shell reload
+: 1753000252:0;nvim 08.jsonc
+: 1753000286:0;hyde-shell reload\
+
+: 1753000345:0;hyde-shell waybar --select
+: 1753000352:0;nvim 08.jsonc
+: 1753000367:0;hyde-shell reload\
+
+: 1753000388:0;nvim 08.jsonc
+: 1753000412:0;hyde-shell reload\
+
+: 1753000445:0;ls
+: 1753000449:0;nvim 08.jsonc
+: 1753000572:0;hyde-shell reload\
+
+: 1753000608:0;nvim 08.jsonc
+: 1753000661:0;ls
+: 1753000663:0;nvim .
+: 1753000865:0;hyde-shell reload\
+
+: 1753000919:0;nvim 08.jsonc
+: 1753001024:0;ls
+: 1753001028:0;rm temp.jsonc
+: 1753001029:0;ls
+: 1753001046:0;rm custom.jsonc
+: 1753001071:0;mv 08.jsonc custom-waybar.jsonc
+: 1753001072:0;ls
+: 1753001091:0;hyde-shell waybar --select
+: 1753001110:0;nvim custom-waybar.jsonc
+: 1753001123:0;pwd
+: 1753001128:0;cd /home/shakir/.local/share/waybar/layouts/hyprdots
+: 1753001129:0;ls
+: 1753001136:0;cd ..
+: 1753001139:0;cat hyprdots/*
+: 1753001396:0;hyde-shell reload\
+
+: 1753001413:0;ls
+: 1753001416:0;nvim custom-waybar.jsonc
+: 1753001457:0;hyde-shell reload\
+
+: 1753001477:0;nvim .
+: 1753001498:0;nvim custom-waybar.jsonc
+: 1753001608:0;hyde-shell reload\
+
+: 1753001620:0;nvim custom-waybar.jsonc
+: 1753001684:0;hyde-shell reload\
+
+: 1753001709:0;nvim ~/.config/hypr/userprefs.conf
+: 1753001717:0;nvim custom-waybar.jsonc
+: 1753002019:0;hyde-shell reload\
+
+: 1753002034:0;nvim custom-waybar.jsonc
+: 1753002039:0;hyde-shell reload\
+
+: 1753002049:0;nvim custom-waybar.jsonc
+: 1753002074:0;hyde-shell reload\
+
+: 1753002120:0;nvim custom-waybar.jsonc
+: 1753002235:0;hyde-shell reload\
+
+: 1753002269:0;nvim custom-waybar.jsonc
+: 1753002313:0;hyde-shell reload\
+
+: 1753002328:0;cat custom-waybar.jsonc
+: 1753002331:0;nvim 
+: 1753002335:0;nvim custom-waybar.jsonc
+: 1753002495:0;hyde-shell reload\
+
+: 1753002553:0;clear
+: 1753002554:0;ls ~/.config/waybar/modules/{custom-hyde-menu.jsonc,custom-wbar.jsonc,custom-cava.jsonc}\
+
+: 1753002571:0;ls
+: 1753002579:0;cd hyprdots
+: 1753002579:0;ls
+: 1753002581:0;cd ..
+: 1753002582:0;ls
+: 1753002586:0;cd ..
+: 1753002587:0;ls
+: 1753002589:0;cd modules
+: 1753002589:0;ls
+: 1753002654:0;cd ..
+: 1753002654:0;ls
+: 1753002660:0;nvim config.jsonc
+: 1753002678:0;cd ..
+: 1753002678:0;ls
+: 1753002680:0;cd layouts
+: 1753002681:0;ls
+: 1753002682:0;cd hyprdots
+: 1753002684:0;ls
+: 1753002686:0;nvim .
+: 1753002725:0;hyde-shell waybar --select
+: 1753002820:0;ls
+: 1753002821:0;cd layouts
+: 1753002822:0;ls
+: 1753002824:0;nvim custom-waybar.jsonc
+: 1753002908:0;hyde-shell waybar --select
+: 1753003054:0;cd ..
+: 1753003057:0;mkdir modules
+: 1753003058:0;cd modules
+: 1753003059:0;ls
+: 1753003078:0;cd ..
+: 1753003080:0;ls
+: 1753003083:0;cd modules
+: 1753003084:0;ls
+: 1753003094:0;nvim custom-hyde-menu.jsonc
+: 1753003143:0;nvim custom-rofi.jsonc
+: 1753003327:0;nvim custom-power.jsonc
+: 1753003438:0;nvim ../layouts/custom-waybar.jsonc
+: 1753003470:0;hyde-shell reload
+: 1753003488:0;nvim ../layouts/custom-waybar.jsonc
+: 1753003496:0;nvim custom-rofi.jsonc
+: 1753003517:0;hyde-shell rofi.launch
+: 1753003528:0;hyde-shell rofi
+: 1753003533:0;hyde-shell --help
+: 1753003569:0;hyde-shell rofilaunch
+: 1753003575:0;nvim custom-rofi.jsonc
+: 1753003589:0;hyde-shell reload
+: 1753003612:0;ls
+: 1753003621:0;nvim custom-quicklaunch.jsonc
+: 1753003633:0;nvim custom-rofi.jsonc
+: 1753003642:0;nvim custom-quicklaunch.jsonc
+: 1753003832:0;nvim ../layouts/custom-waybar.jsonc
+: 1753003847:0;hyde-shell reload
+: 1753003892:0;nvim custom-quicklaunch.jsonc
+: 1753003909:0;nvim ../layouts/custom-waybar.jsonc
+: 1753003926:0;hyde-shell reload
+: 1753003986:0;nvim custom-launcher.jsonc
+: 1753004025:0;nvim custom-quicklaunch.jsonc
+: 1753004073:0;nvim ../layouts/custom-waybar.jsonc
+: 1753004091:0;hyde-shell reload
+: 1753004124:0;"$XDG_CONFIG_HOME/waybar/modules/*json*"\
+
+: 1753004177:0;ls
+: 1753004188:0;cat custom-launcher.jsonc
+: 1753004197:0;cat custom-quicklaunch.jsonc
+: 1753004202:0;cat custom-rofi.jsonc
+: 1753004207:0;cd ..
+: 1753004210:0;cd layouts
+: 1753004210:0;ls
+: 1753004214:0;cat custom-waybar.jsonc
+: 1753004290:0;sudo pacman -S ttf-font-awesome\
+
+: 1753004311:0;sudo pacman -S nerd-fonts-jetbrains-mono\
+
+: 1753004340:0;fc-list | grep -E 'Font Awesome|Nerd Font'\
+\
+
+: 1753004352:0;cd ..
+: 1753004354:0;cd modules
+: 1753004355:0;ls
+: 1753004358:0;nvim custom-quicklaunch.jsonc
+: 1753004414:0;hyde-shell reload
+: 1753004634:0;nvim brave.jsonc
+: 1753004650:0;nvim spotify.jsonc
+: 1753004667:0;nvim discord.jsonc
+: 1753004678:0;cd ..
+: 1753004680:0;cd layouts
+: 1753004680:0;ls
+: 1753004682:0;nvim custom-waybar.jsonc
+: 1753004744:0;cd ..
+: 1753004747:0;cd modules
+: 1753004749:0;nvim brave.jsonc
+: 1753004770:0;hyde-shell reload
+: 1753004822:0;nvim custom-launcher.jsonc
+: 1753004917:0;hyde-shell reload
+: 1753004932:0;ls
+: 1753004959:0;nvim spotify.jsonc
+: 1753004977:0;spotify
+: 1753005047:0;hyde-shell reload
+: 1753005058:0;nvim spotify.jsonc
+: 1753005073:0;nvim ../layouts/custom-waybar.jsonc
+: 1753005183:0;ls
+: 1753005196:0;cat custom-launcher.jsonc
+: 1753005202:0;cat custom-quicklaunch.jsonc
+: 1753005211:0;cat brave.jsonc
+: 1753005214:0;cat spotify.jsonc
+: 1753005216:0;cat discord.jsonc
+: 1753005219:0;cd ..
+: 1753005220:0;cd layouts
+: 1753005221:0;ls
+: 1753005224:0;cat custom-waybar.jsonc
+: 1753005269:0;sudo pacman -S otf-font-awesome\
+
+: 1753005283:0;sudo pacman -S nerd-fonts-jetbrains-mono
+: 1753005328:0;cd ..
+: 1753005331:0;cd modules
+: 1753005335:0;nvim spotify.jsonc
+: 1753005385:0;nvim brave.jsonc
+: 1753005414:0;nvim discord.jsonc
+: 1753005437:0;hyde-shell reload
+: 1753005453:0;ls
+: 1753005478:0;nvim brave.jsonc
+: 1753005497:0;hyde-shell reload
+: 1753005570:0;cd .config/waybar/modules
+: 1753005582:0;nvim brave.jsonc
+: 1753005587:0;nvim spotify.jsonc
+: 1753005591:0;nvim discord.jsonc
+: 1753005603:0;sudo pacman -S ttf-jetbrains-mono-nerd\
+
+: 1753005615:0;fc-cache -fv\
+
+: 1753005622:0;fc-list | grep "JetBrainsMono Nerd Font"\
+
+: 1753005649:0;cd .config/waybar
+: 1753005650:0;ls
+: 1753005654:0;nvim style.css
+: 1753005679:0;ls
+: 1753005688:0;nvim style.css
+: 1753005738:0;nvim user-style.css
+: 1753005760:0;hyde-shell reload
+: 1753005785:0;l
+: 1753005786:0;ls
+: 1753005788:0;cd modules
+: 1753005788:0;ls
+: 1753005851:0;hyde-shell reload
+: 1753005948:0;cd ..
+: 1753005949:0;ls
+: 1753005951:0;cd layouts
+: 1753005952:0;ls
+: 1753005954:0;cd hyprdots
+: 1753005954:0;ls
+: 1753005957:0;nvim 06.jsonc
+: 1753005968:0;nvim .
+: 1753006000:0;nvim ../layouts/custom-waybar.jsonc
+: 1753006033:0;mv spotify.jsonc spotifyIcon.jsonc
+: 1753006036:0;nvim spotifyIcon.jsonc
+: 1753006048:0;hyde-shell reload
+: 1753006536:0;cd ..
+: 1753006539:0;mkdir icons
+: 1753006555:0;cd Downloads
+: 1753006588:0;cp 0898dbd6eff7262cbe3c774a92b0fd67.png ~/.config/waybar/icons
+: 1753006596:0;cp e5d0b9e74328b8ce389bd8dd7f4e56b0.png ~/.config/waybar/icons
+: 1753006607:0;cp Spotify_Primary_Logo_RGB_Green.png ~/.config/waybar/icons
+: 1753006613:0;cd icons
+: 1753006613:0;ls
+: 1753006653:0;mv 0898dbd6eff7262cbe3c774a92b0fd67.png brave.png
+: 1753006667:0;mv e5d0b9e74328b8ce389bd8dd7f4e56b0.png discord.png
+: 1753006684:0;mv Spotify_Primary_Logo_RGB_Green.png spotify.png
+: 1753006697:0;rm 0898dbd6eff7262cbe3c774a92b0fd67.png Spotify_Primary_Logo_RGB_Green.png e5d0b9e74328b8ce389bd8dd7f4e56b0.png
+: 1753006698:0;ls
+: 1753006724:0;cp brave.png discord.png spotify.png ~/.config/waybar/icons
+: 1753006725:0;ls
+: 1753006746:0;cd ..
+: 1753006749:0;cd modules
+: 1753006749:0;ls
+: 1753006754:0;nvim brave.jsonc
+: 1753006797:0;hyde-shell reload
+: 1753006824:0;nvim brave.jsonc
+: 1753006936:0;hyde-shell reload
+: 1753006947:0;nvim brave.jsonc
+: 1753006959:0;ls
+: 1753006964:0;ls ../icons
+: 1753006971:0;hyde-shell reload
+: 1753006981:0;nvim brave.jsonc
+: 1753012463:0;lsblk\
+
+: 1753012511:0;sudo mkfs.vfat -F 32 /dev/sdb
+: 1753012533:0;sudo pacman -S dosfstools\
+
+: 1753012553:0;sudo mkfs.vfat -F 32 /dev/sdb
+: 1753012589:0;sudo fdisk /dev/sdb\
+
+: 1753012651:0;pwd
+: 1753012686:0;lsblk
+: 1753012723:0;sudo umount /dev/sdb1 /dev/sdb2 2>/dev/null || echo "Nothing to unmount"\
+
+: 1753012741:0;# Start parted on the USB device\
+sudo parted /dev/sdb --script \\
+   mklabel msdos \                     # create an MBR partition table\
+   mkpart primary fat32 1MiB 100% \    # one primary partition, FAT32, spanning entire device\
+   set 1 boot on                       # (optional) mark it bootable\
+
+: 1753012755:0;sudo mkfs.vfat -F32 /dev/sdb1\
+
+: 1753012765:0;lsblk
+: 1753012772:0;sudo mkfs.vfat -F32 /dev/sdb\
+
+: 1753012782:0;mkdir -p ~/mnt/usb
+: 1753012792:0;sudo mount /dev/sdb1 ~/mnt/usb\
+
+: 1753012799:0;sudo mount /dev/sdb ~/mnt/usb\
+
+: 1753012805:0;cp -a /home/shakir/Downloads/usb/. ~/mnt/usb/\
+
+: 1753012811:0;sudo cp -a /home/shakir/Downloads/usb/. ~/mnt/usb/\
+
+: 1753012906:0;sudo umount /dev/sdb
+: 1753012922:0;lsblk
+: 1753012988:0;mount | grep /dev/sdb\
+
+: 1753012994:0;mount | grep -- 'mnt/usb'\
+
+: 1753013002:0;sudo umount ~/mnt/usb\
+
+: 1753013273:0;sudo pacman -S exfatprogs
+: 1753013290:0;sudo umount /dev/sdb
+: 1753013342:0;sudo umount ~/mnt/usb 2>/dev/null || true\
+
+: 1753013353:0;lsblk
+: 1753013355:0;sudo wipefs -a /dev/sdb
+: 1753013371:0;sudo parted -s /dev/sdb \\
+  mklabel msdos \\
+  mkpart primary 1MiB 100%\
+
+: 1753013374:0;lsblk
+: 1753013393:0;sudo mkfs.exfat /dev/sdb1\
+
+: 1753013400:0;mkdir -p ~/mnt/usb\
+
+: 1753013408:0;sudo mount -t exfat /dev/sdb1 ~/mnt/usb \\
+  -o uid=$(id -u),gid=$(id -g),umask=0022\
+
+: 1753013417:0;cp -r /home/shakir/Downloads/usb/. ~/mnt/usb/\
+
+: 1753013515:0;cd
+: 1753013520:0;cd Downloads
+: 1753013521:0;ls
+: 1753013524:0;cd usb
+: 1753013527:0;ls
+: 1753013538:0;viewnior 2025-6-1
+: 1753014996:0;cd
+: 1753014997:0;ls
+: 1753015001:0;cd Downloads
+: 1753015002:0;ls
+: 1753015004:0;cd usb
+: 1753015010:0;ls
+: 1753015016:0;viewnior 22-001.mp4
+: 1753015060:0;mps --version
+: 1753015067:0;mpv --version
+: 1753015069:0;ls
+: 1753015076:0;mpv 22-001.mp4
+: 1753015444:0;cd
+: 1753015459:0;ls /mnt
+: 1753015460:0;ls
+: 1753015486:0;cd ~/mnt/usb\
+
+: 1753015487:0;ls
+: 1753015495:0;mpv 22-001.mp4
+: 1753015506:0;mpv 1.avi
+: 1753015530:0;cd ~/mnt/usb\
+
+: 1753015531:0;ls
+: 1753015546:0;imv 2025-6-1/DSC_0922.JPG
+: 1753015551:0;cd
+: 1753015552:0;ls
+: 1753015566:0;sync
+: 1753015574:0;sudo umount ~/mnt/usb\
+
+: 1753023773:0;cd .config/waybar
+: 1753023774:0;ls
+: 1753023785:0;cd rm -rf icons
+: 1753023793:0;rm -rf icons
+: 1753023796:0;cd includes
+: 1753023797:0;ls
+: 1753023800:0;cd .
+: 1753023811:0;ls
+: 1753023813:0;cd ..
+: 1753023814:0;ls
+: 1753023820:0;cd includes
+: 1753023821:0;ls
+: 1753023822:0;cd ..
+: 1753023825:0;cd layouts
+: 1753023826:0;ls
+: 1753023828:0;cd ..
+: 1753023830:0;cd modules
+: 1753023830:0;ls
+: 1753023857:0;rm brave.jsonc discord.jsonc spotifyIcon.jsonc custom-quicklaunch.jsonc custom-launcher.jsonc
+: 1753023858:0;ls
+: 1753023860:0;cd ..
+: 1753023862:0;ls
+: 1753023864:0;cd layouts
+: 1753023865:0;ls
+: 1753023867:0;nvim custom-waybar.jsonc
+: 1753023993:0;nvim .config/hypr/keybindings.conf
+: 1753024254:0;ls
+: 1753024256:0;nvim .config/hypr/keybindings.conf
+: 1753024259:0;ls
+: 1753024272:0;nvim custom-waybar.jsonc
+: 1753024298:0;ls
+: 1753024299:0;pwd
+: 1753024318:0;cd ..
+: 1753024318:0;ls
+: 1753024575:0;sudo pacman -S playerctl\
+
+: 1753024597:0;playerctl metadata --format '{{mpris:artUrl}}'\
+
+: 1753024613:0;ls
+: 1753024618:0;mkdir scripts
+: 1753024637:0;cd scripts
+: 1753024639:0;cd ..
+: 1753024642:0;cd scripts
+: 1753024643:0;ls
+: 1753024646:0;nvim spotify_art.sh
+: 1753024725:0;cd ..
+: 1753024725:0;ls
+: 1753024729:0;cd modules
+: 1753024729:0;ls
+: 1753024763:0;nvim spotify_cover.jsonc
+: 1753024769:0;ls
+: 1753024775:0;nvim custom-rofi.jsonc
+: 1753024805:0;nvim spotify_cover.jsonc
+: 1753024827:0;cd ..
+: 1753024830:0;cd layouts
+: 1753024832:0;nvim custom-waybar.jsonc
+: 1753024969:0;hyde-shell reload
+: 1753025034:0;ls
+: 1753025036:0;nvim custom-waybar.jsonc
+: 1753025044:0;cd ..
+: 1753025044:0;ls
+: 1753025048:0;cd includes
+: 1753025048:0;ls
+: 1753025050:0;cd ..
+: 1753025052:0;cd modules
+: 1753025052:0;ls
+: 1753025055:0;rm spotify_cover.jsonc
+: 1753025056:0;ls
+: 1753025057:0;cd ..
+: 1753025057:0;ls
+: 1753025061:0;rm -rf scripts
+: 1753025061:0;ls
+: 1753025068:0;hyde-shell reload
+: 1753025075:0;cd ..
+: 1753025076:0;ls
+: 1753025080:0;cd hyde
+: 1753025080:0;ls
+: 1753025084:0;cd ..
+: 1753025086:0;cd hypr
+: 1753025086:0;ls
+: 1753025092:0;cd hyprlock
+: 1753025093:0;ls
+: 1753025100:0;nvim theme.conf
+: 1753025110:0;ls
+: 1753025113:0;cd ..
+: 1753025113:0;ls
+: 1753025126:0;nvim hypridle.conf
+: 1753025133:0;pwd
+: 1753025218:0;nvim hypridle.conf
+: 1753025363:0;systemctl restart hypridle.service
+: 1753025420:0;nvim hypridle.conf
+: 1753025507:0;systemctl --user status hypridle.service\
+
+: 1753025514:0;systemctl --user enable --now hypridle.service\
+
+: 1753025534:0;nvim hypridle.conf
+: 1753025559:0;systemctl --user restart --now hypridle.service\
+
+: 1753025565:0;systemctl --user restart hypridle.service\
+
+: 1753025631:0;nvim hypridle.conf
+: 1753025642:0;systemctl --user restart hypridle.service\
+
+: 1753025645:0;systemctl --user restart --now hypridle.service\
+
+: 1753025672:0;nvim hyprlock
+: 1753025680:0;cd hyprlock
+: 1753025681:0;ls
+: 1753025688:0;cd ..
+: 1753025727:0;cd ~/.local/share/hyde
+: 1753025728:0;ls
+: 1753025746:0;dls
+: 1753025749:0;ls
+: 1753025773:0;cd ..
+: 1753025774:0;ls
+: 1753025780:0;cd hypr
+: 1753025780:0;ls
+: 1753025789:0;nvim hyde.conf
+: 1753025798:0;cd ..
+: 1753025802:0;cd hyde
+: 1753025802:0;ls
+: 1753025805:0;nvim config.toml
+: 1753025815:0;pwd
+: 1753025866:0;nvim config.toml
+: 1753025910:0;cd /home/shakir/.local/share/hyde-wallpapers"
+: 1753025914:0;cd /home/shakir/.local/share/hyde-wallpapers
+: 1753025915:0;ls
+: 1753025917:0;pwd
+: 1753025936:0;ls
+: 1753026017:0;cd ..
+: 1753026018:0;ls
+: 1753026021:0;cd hyde
+: 1753026022:0;ls
+: 1753026292:0;cd ..
+: 1753026299:0;ls
+: 1753026310:0;cd
+: 1753026314:0;cd .config/hypr
+: 1753026315:0;ls
+: 1753026327:0;mkdir scripts
+: 1753026330:0;cd scripts
+: 1753026331:0;ls
+: 1753026338:0;nvim wallpaper-shuffle.sh
+: 1753026371:0;cd ..
+: 1753026377:0;rm -r scripts
+: 1753026377:0;ls
+: 1753026434:0;cd ..
+: 1753026437:0;cd hyde
+: 1753026438:0;ls
+: 1753026440:0;nvim config.toml
+: 1753026487:0;cd ..
+: 1753026492:0;ls
+: 1753026499:0;cd hypr
+: 1753026505:0;ls
+: 1753026523:0;sudo pacman -S hyprpaper\
+
+: 1753026538:0;ls
+: 1753026562:0;nvim hyprpaper
+: 1753026570:0;nvim hyprpaper.conf
+: 1753026590:0;mkdir scripts
+: 1753026591:0;cd scripts
+: 1753026598:0;nvim wallpaper-shuffle.sh
+: 1753026660:0;cd ..
+: 1753026663:0;cd systemd
+: 1753026664:0;ls
+: 1753026666:0;cd user
+: 1753026666:0;ls
+: 1753026669:0;nvim wallpaper-shuffle.service
+: 1753026687:0;ls
+: 1753026690:0;nvim wallpaper-shuffle.timer
+: 1753026699:0;systemctl --user enable --now wallpaper-shuffle.timer\
+
+: 1753026706:0;hyprctl hyprpaper listloaded\
+
+: 1753026714:0;hyprctl hyprpaper listactive\
+
+: 1753026724:0;hyprctl hyprpaper --help\
+
+: 1753026744:0;hyprctl hyprpaper listactive\
+
+: 1753026750:0;hyprctl hyprpaper listloaded\
+
+: 1753026878:0;sudo pacman -S hyprpaper\
+
+: 1753026888:0;pacman -Qi hyprpaper\
+
+: 1753026897:0;hyprctl hyprpaper listloaded\
+hyprctl hyprpaper listactive\
+
+: 1753026921:0;systemctl --user enable --now hyprpaper.service\
+
+: 1753026925:0;hyprctl hyprpaper listloaded\
+hyprctl hyprpaper listactive\
+
+: 1753026943:0;systemctl --user enable --now wallpaper-shuffle.timer\
+
+: 1753026955:0;hyprctl hyprpaper listloaded\
+hyprctl hyprpaper listactive\
+
+: 1753027058:0;hyprpaper &
+: 1753027075:0;cd
+: 1753027076:0;ls
+: 1753027081:0;cd .config/hypr
+: 1753027081:0;ls
+: 1753027113:0;nvim userprefs.conf
+: 1753027121:0;nvim .
+: 1753027139:0;nvim userprefs.conf
+: 1753027159:0;hyprctl reload
+: 1753027165:0;hyde-shell reload
+: 1753027176:0;hyprctl hyprpaper listloaded\
+hyprctl hyprpaper listactive\
+
+: 1753027291:0;sudo pacman -Syu util-linux\
+
+: 1753027576:0;sudo systemctl enable --now fstrim.timer
+: 1753027581:0;systemctl list-timers fstrim.timer\
+
+: 1753027590:0;pacman -Qs intel-ucode\
+
+: 1753027661:0;sudo pacman -S ufw\
+
+: 1753027668:0;sudo systemctl enable --now ufw.service\
+
+: 1753027717:0;sudo pacman -S xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-user-dirs qt5-wayland qt6-wayland\
+
+: 1753027916:0;cd
+: 1753027917:0;git clone https://github.com/adnksharp/CyberGRUB-2077\
+
+: 1753027922:0;cd CyberGRUB-2077\
+
+: 1753027923:0;ls
+: 1753027928:0;sudo $SHELL ./install.sh\
+
+: 1753027967:0;cd ..
+: 1753027967:0;ls
+: 1753028061:0;cd .local/share/hyde-wallpapers
+: 1753028061:0;ls
+: 1753028062:0;pwd
+: 1753028093:0;cd
+: 1753028098:0;cd .config/hyde
+: 1753028100:0;ls
+: 1753028102:0;nvim config.toml
+: 1753028117:0;pwd
+: 1753028312:0;cd ..
+: 1753028314:0;cd hypr
+: 1753028317:0;cd scripts
+: 1753028317:0;ls
+: 1753028329:0;cd ..
+: 1753028334:0;rm -rf scripts
+: 1753028335:0;ls
+: 1753028346:0;nvim change_wallpapers.sh
+: 1753028375:0;nvim userprefs.conf
+: 1753028389:0;cd..
+: 1753028394:0;cd ..
+: 1753028396:0;cd systemd
+: 1753028397:0;cd user
+: 1753028398:0;ls
+: 1753028414:0;rm wallpaper-shuffle.service
+: 1753028420:0;rm wallpaper-shuffle.timer
+: 1753028421:0;ls
+: 1753028429:0;nvim wallpaper-rotate.service
+: 1753028444:0;nvim wallpaper-rotate.timer
+: 1753028457:0;systemctl --user daemon-reload\
+
+: 1753028461:0;systemctl --user enable --now wallpaper-rotate.timer\
+
+: 1753029049:0;cd
+: 1753029054:0;cat /.config/hypr/change_wallpapers.sh
+: 1753029058:0;cat ~/.config/hypr/change_wallpapers.sh
+: 1753029069:0;cat ~/.config/systemd/user/wallpaper-rotate.service
+: 1753029079:0;cat ~/.config/systemd/user/wallpaper-rotate.timer
+: 1753029128:0;cat .config/hypr/hyprpaper.conf
+: 1753029142:0;cat .config/hyde/config.toml
+: 1753029221:0;systemctl --user status wallpaper-rotate.timer\
+
+: 1753029231:0;journalctl --user -u wallpaper-rotate.service\
+
+: 1753029238:0;~/.config/hypr/change_wallpapers.sh\
+
+: 1753029263:0;sudo ~/.config/hypr/change_wallpapers.sh\
+
+: 1753029283:0;sudo ./.config/hypr/change_wallpapers.sh\
+
+: 1753029317:0;chmod +x ~/.config/hypr/change_wallpapers.sh\
+
+: 1753029320:0;~/.config/hypr/change_wallpapers.sh\
+
+: 1753029382:0;systemctl --user list-timers\
+
+: 1753029399:0;systemctl --user status wallpaper-rotate.timer\
+
+: 1753029405:0;journalctl --user -u wallpaper-rotate.service\
+
+: 1753029408:0;~/.config/hypr/change_wallpapers.sh\
+
+: 1753029424:0;systemctl --user list-timers\
+
+: 1753029557:0;nvim ~/.config/hypr/change_wallpapers.sh\
+
+: 1753029631:0;nvim ~/.config/hypr/userprefs.conf\
+
+: 1753029664:0;nvim ~/.config/hypr/hyprpaper.conf\
+
+: 1753029671:0;pgrep -a hyprpaper
+: 1753029678:0;hyprctl hyprpaper listactive
+: 1753029696:0;systemctl --user daemon-reload\
+
+: 1753029745:0;systemctl --user restart wallpaper-rotate.timer\
+
+: 1753029756:0;hyprctl hyprpaper listloaded\
+
+: 1753029765:0;~/.config/hypr/change_wallpapers.sh\
+
+: 1753029804:0;systemctl --user list-timers --all\
+
+: 1753029916:0;journalctl --user -u wallpaper-rotate.service --since "19:41"\
+
+: 1753030022:0;systemctl --user list-timers --all\
+
+: 1753030524:0;journalctl --user -u wallpaper-rotate.service --since "19:50"\
+
+: 1753030729:0;ls
+: 1753030865:0;echo "Selected: $WP"\
+
+: 1753030875:0;hyprctl hyprpaper listactive\
+
+: 1753031061:0;journalctl --user -u wallpaper-rotate.service --since "19:50"\
+
+: 1753031100:0;cd .config/hypr
+: 1753031100:0;ls
+: 1753031106:0;nvim change_wallpapers.sh
+: 1753031201:0;hyprctl hyprpaper listactive\
+
+: 1753031263:0;nvim change_wallpapers.sh
+: 1753031317:0;change_wallpapers.sh
+: 1753031372:0;pgrep hyprpaper\
+
+: 1753031399:0;nvim .config/hypr/monitors.conf
+: 1753031409:0;nvim hyprpaper.conf
+: 1753031442:0;hyprctl monitors\
+
+: 1753031460:0;hyprctl reload
+: 1753031478:0;cd .config/hypr
+: 1753031479:0;ls
+: 1753031527:0;./change_wallpapers.sh
+: 1753031561:0;hyprctl hyprpaper listactive\
+
+: 1753031569:0;cd
+: 1753031577:0;~/.config/hypr/change_wallpapers.sh
+: 1753031907:0;hyprctl hyprpaper listactive\
+
+: 1753031946:0;nvim ~/.config/systemd/user/wallpaper-rotate.timer
+: 1753031980:0;systemctl --user daemon-reexec\
+systemctl --user daemon-reload\
+systemctl --user restart wallpaper-rotate.timer\
+
+: 1753032017:0;cd
+: 1753032027:0;ls
+: 1753032028:0;cd ..
+: 1753032029:0;ls
+: 1753032030:0;cd ..
+: 1753032031:0;ls
+: 1753032115:0;mkdir -p ~/hyde-settings/data/org.hyde.settings\
+
+: 1753032140:0;cd ~/hyde-settings/data/org.hyde.settings\
+
+: 1753032144:0;nvim org.hyde.settings.gschema.xml
+: 1753032196:0;ls
+: 1753032197:0;sudo cp org.hyde.settings.gschema.xml /usr/share/glib-2.0/schemas/\
+
+: 1753032221:0;glib-compile-schemas /usr/share/glib-2.0/schemas\
+
+: 1753032243:0;sudo glib-compile-schemas /usr/share/glib-2.0/schemas\
+
+: 1753032330:0;mkdir -p ~/hyde-settings/gui\
+
+: 1753032334:0;cd ..
+: 1753032335:0;ls
+: 1753032336:0;cd ..
+: 1753032337:0;ls
+: 1753032339:0;cd gui
+: 1753032340:0;ls
+: 1753032352:0;nvim hyde-settings.py\
+
+: 1753032382:0;pacman -S gtk4 libadwaita glib2 gsettings-desktop-schemas python-gobject\
+
+: 1753032389:0;sudo pacman -S gtk4 libadwaita glib2 gsettings-desktop-schemas python-gobject\
+
+: 1753032407:0;ls ~/.local/share/applications
+: 1753032417:0;mkdir ~/.local/share/applications
+: 1753032419:0;ls ~/.local/share/applications
+: 1753032429:0;nvim ~/.local/share/applications/hyde-settings.desktop
+: 1753032468:0;cd ..
+: 1753032469:0;ls
+: 1753032471:0;cd data
+: 1753032471:0;ls
+: 1753032475:0;cd org.hyde.settings
+: 1753032476:0;ls
+: 1753032478:0;pwd
+: 1753032493:0;ls
+: 1753032507:0;cat org.hyde.settings.gschema.xml
+: 1753032565:0;ls
+: 1753032584:0;glib-compile-schemas ~/hyde-settings/data/\
+
+: 1753032909:0;chmod +x ~/hyde-settings/gui/hyde-settings.py\
+
+: 1753032945:0;install -Dm755 ~/hyde-settings/gui/hyde-settings.py ~/.local/bin/hyde-settings\
+
+: 1753032950:0;hyde-settings\
+
+: 1753032964:0;gsettings get org.hyde.settings theme\
+gsettings get org.hyde.settings wallpaper-interval\
+
+: 1753032974:0;gsettings set org.hyde.settings theme 'Gruvbox-Retro'\
+gsettings set org.hyde.settings wallpaper-interval 600\
+
+: 1753033179:0;ls
+: 1753033181:0;cd ..
+: 1753033182:0;ls
+: 1753033185:0;cd gui/
+: 1753033186:0;ls
+: 1753033191:0;nvim hyde-settings.py
+: 1753033312:0;hyde-settings\
+
+: 1753033334:0;cd .config/hypr
+: 1753033335:0;ls
+: 1753033340:0;nvim change_wallpapers.sh
+: 1753033373:0;ls
+: 1753033940:0;ls ~/.local/share/hyde-wallpapers
+: 1753033961:0;rm ~/.local/share/hyde-wallpapers/wallpaper-history.log
+: 1753034020:0;sudo pacman -S wpaperd\
+
+: 1753034045:0;git clone https://github.com/danyspin97/wpaperd ~/wpaperd\
+
+: 1753034050:0;cd ~/wpaperd\
+
+: 1753034058:0;cd ..
+: 1753034059:0;ls
+: 1753034066:0;rm -rf wpaperd
+: 1753034067:0;ls
+: 1753034078:0;nvim ~/.config/wpaperd/config.toml\
+
+: 1753034088:0;cd ~/.config/wpaperd/\
+
+: 1753034092:0;mkdir ~/.config/wpaperd/\
+
+: 1753034099:0;nvim ~/.config/wpaperd/config.toml\
+
+: 1753034166:0;nvim .config/hypr/userprefs.conf
+: 1753034220:0;cat ~/.config/hyde/config.toml
+: 1753034254:0;wpaperd --daemon\
+
+: 1753034277:0;ls
+: 1753034314:0;cat ~/.config/wpaperd/config.toml\
+
+: 1753034336:0;wpaperctl next
+: 1753034372:0;hyprctl reload
+: 1753034379:0;hyde-shell reload
+: 1753034394:0;pkill wpaperd\
+
+: 1753034398:0;wpaperd --daemon --log-level debug\
+
+: 1753034422:0;nvim ~/.config/wpaperd/config.toml\
+
+: 1753034445:0;wpaperd --daemon\
+
+: 1753034456:0;pgrep -a wpaperd
+: 1753034460:0;wpaperctl next
+: 1753034480:0;ls
+: 1753034525:0;pkill wpaperd\
+
+: 1753034529:0;wpaperd --no-daemon --verbose --config ~/.config/wpaperd/config.toml\
+
+: 1753034549:0;wpaperd --verbose --config ~/.config/wpaperd/config.toml\
+
+: 1753034615:0;nvim ~/.config/wpaperd/config.toml
+: 1753034652:0;pkill wpaperd\
+
+: 1753034655:0;wpaperd --daemon\
+
+: 1753034666:0;wpaperctl next\
+
+: 1753034727:0;clear
+: 1753034729:0;cd
+: 1753034749:0;nvim /etc/sddm.conf.d/
+: 1753034758:0;sudo mkdir -p /etc/sddm.conf.d\
+
+: 1753034778:0;sudo tee /etc/sddm.conf.d/10-wallpaper.conf << 'EOF'\
+[Theme]\
+Background=/home/shakir/.local/share/hyde-wallpapers/your-image.png\
+EOF
+: 1753034803:0;nvim /etc/sddm.conf.d/10-wallpaper.conf
+: 1753034825:0;cd .local/share/hyde-wallpapers
+: 1753034826:0;ls
+: 1753034833:0;viewnior .
+: 1753034857:0;viewnior a_black_and_white_image_of_a_zombie.jpeg
+: 1753034874:0;ls
+: 1753034898:0;nvim -E /etc/sddm.conf.d/10-wallpaper.conf
+: 1753034909:0;sudo nano /etc/sddm.conf.d/10-wallpaper.conf
+: 1753034933:0;sudo systemctl restart sddm\
+
+: 1753034967:0;cd .local/share/hyde
+: 1753034968:0;ls
+: 1753034972:0;cd ..
+: 1753034976:0;cd hyde-wallpapers
+: 1753034977:0;ls
+: 1753034998:0;imv a_city_at_night_with_a_fence_and_buildings.jpg
+: 1753035007:0;imv a_street_with_
+: 1753035014:0;imv a_street_with_buildings_and_signs.png
+: 1753035021:0;rm a_city_at_night_with_a_fence_and_buildings.jpg
+: 1753035022:0;ls
+: 1753035031:0;wpaperctl next\
+
+: 1753035045:0;sudo journalctl -u sddm --no-pager | grep -E "Loading configuration|ThemeDir"\
+
+: 1753035068:0;wpaperctl --help\
+
+: 1753035077:0;wpaperctl all-wallpapers\
+
+: 1753035086:0;wpaperctl get-wallpapers\
+
+: 1753035100:0;wpaperctl get\
+
+: 1753035109:0;wpaperctl get-all\
+
+: 1753035113:0;wpaperctl next\
+
+: 1753035122:0;grep -R "^Current=" /etc/sddm.conf.d/*.conf\
+
+: 1753035150:0;ls
+: 1753035168:0;sudo mkdir -p /usr/share/sddm/themes/Candy/Backgrounds\
+
+: 1753035179:0;sudo cp ~/.local/share/hyde-wallpapers/my-wallpaper.png \\
+        /usr/share/sddm/themes/Candy/Backgrounds/\
+
+: 1753035196:0;sudo cp ~/.local/share/hyde-wallpapers/a_black_and_white_image_of_a_zombie.jpeg \\
+        /usr/share/sddm/themes/Candy/Backgrounds/\
+
+: 1753035202:0;sudo tee /usr/share/sddm/themes/Candy/theme.conf.user << 'EOF'\
+[General]\
+# Tell Candy to use an image (not a solid color)\
+type       = image\
+# Relative to the theme folderâ€ƒ¹s root\
+background = Backgrounds/my-wallpaper.png\
+EOF\
+
+: 1753035218:0;sudo chown root:root /usr/share/sddm/themes/Candy/theme.conf.user\
+
+: 1753035221:0;sudo chmod 644   /usr/share/sddm/themes/Candy/theme.conf.user\
+
+: 1753035225:0;sudo systemctl restart sddm\
+
+: 1753035266:0;sudo nano /usr/share/sddm/themes/Candy/theme.conf.user\
+
+: 1753035311:0;ls .local/share/hyde-wallpapers
+: 1753035322:0;sudo systemctl restart sddm\
+
+: 1753035362:0;cat /usr/share/sddm/themes/Candy/theme.conf.user\
+
+: 1753035403:0;sudo mkdir -p /etc/sddm/themes/Candy/Backgrounds\
+
+: 1753035413:0;sudo cp -a /usr/share/sddm/themes/Candy/* /etc/sddm/themes/Candy/\
+
+: 1753035426:0;sudo cp ~/.local/share/hyde-wallpapers/a_black_and_white_image_of_a_zombie.jpeg \\
+        /etc/sddm/themes/Candy/Backgrounds/\
+
+: 1753035431:0;sudo chmod 644 /etc/sddm/themes/Candy/Backgrounds/a_black_and_white_image_of_a_zombie.jpeg\
+
+: 1753035436:0;sudo nano /etc/sddm/themes/Candy/theme.conf\
+
+: 1753035507:0;cat /etc/sddm/themes/Candy/theme.conf\
+
+: 1753035539:0;sudo nano /etc/sddm/themes/Candy/theme.conf\
+
+: 1753035559:0;sudo systemctl restart sddm\
+
+: 1753035576:0;sudo nano /etc/sddm/themes/Candy/theme.conf\
+
+: 1753035632:0;sudo mkdir -p /etc/sddm/themes/Candy/backgrounds\
+
+: 1753035637:0;sudo mv /etc/sddm/themes/Candy/Backgrounds/a_black_and_white_image_of_a_zombie.jpeg \\
+        /etc/sddm/themes/Candy/backgrounds/\
+
+: 1753035642:0;sudo rmdir /etc/sddm/themes/Candy/Backgrounds\
+
+: 1753035656:0;sudo nano /etc/sddm/themes/Candy/theme.conf
+: 1753035689:0;cat /etc/sddm/themes/Candy/theme.conf
+: 1753035705:0;sudo nano /etc/sddm/themes/Candy/theme.conf
+: 1753035748:0;sudo chown root:root /etc/sddm/themes/Candy/theme.conf\
+
+: 1753035751:0;sudo chmod 644   /etc/sddm/themes/Candy/theme.conf\
+
+: 1753035767:0;cat /etc/sddm/themes/Candy/theme.conf
+: 1753035791:0;sudo nano /etc/sddm/themes/Candy/theme.conf
+: 1753035905:0;cat /etc/sddm/themes/Candy/theme.conf
+: 1753035947:0;sudo -E nvim  /etc/sddm/themes/Candy/theme.conf
+: 1753035977:0;sudo systemctl restart sddm\
+
+: 1753094050:0;ls
+: 1753094056:0;cd arch-maintenance
+: 1753094060:0;pwd
+: 1753094713:0;nvim .config/hypr/userprefs.conf
+: 1753094988:0;nvim .config/hypr/keybindings.conf
+: 1753095007:0;webcord
+: 1753095030:0;WebCord
+: 1753095056:0;webcord\
+
+: 1753095060:0;which webcord\
+
+: 1753095118:0;pacman -Q | grep webcord\
+
+: 1753095127:0;pacman -Q | grep web\
+
+: 1753095132:0;pacman -Q | grep cord\
+
+: 1753095148:0;pacman -Q | grep Web\
+
+: 1753095161:0;paru -Q | grep Web\
+!
+: 1753095165:0;paru -Q | grep Web
+: 1753095168:0;paru -Q | grep cord
+: 1753095257:0;webcord\
+
+: 1753095269:0;flatpak run io.github.spacingbat3.webcord\
+
+: 1753095284:0;snap run webcord
+: 1753095292:0;flatpak list | grep -i webcord
+: 1753095309:0;io.github.spacingbat3.webcord
+: 1753095557:0;cd .config
+: 1753095560:0;cd hypr
+: 1753095561:0;ls
+: 1753095568:0;nvim hypridle.conf
+: 1753096011:0;wpctl settings --save bluetooth.autoswitch-to-headset-profile false\
+
+: 1753096023:0;mkdir -p ~/.config/wireplumber/wireplumber.conf.d
+: 1753096032:0;cat > ~/.config/wireplumber/wireplumber.conf.d/50-disable-autoswitch.conf <<EOF\
+bluetooth.autoswitch-to-headset-profile = false\
+EOF\
+
+: 1753096037:0;systemctl --user restart pipewire pipewire-pulse wireplumber\
+
+: 1753096191:0;rm ~/.config/wireplumber/wireplumber.conf.d/50-disable-autoswitch.conf\
+
+: 1753096196:0;systemctl --user restart pipewire pipewire-pulse wireplumber\
+
+: 1753096206:0;load-module module-bluetooth-policy auto_switch=false\
+
+: 1753096218:0;pulseaudio -k\
+
+: 1753096632:0;wpctl settings | grep bluetooth.autoswitch-to-headset-profile\
+
+: 1753096643:0;wpctl list-cards\
+pactl list cards\
+pactl list sources\
+
+: 1753096686:0;rm -f ~/.config/wireplumber/wireplumber.conf.d/*.conf\
+
+: 1753096693:0;wpctl settings --save bluetooth.autoswitch-to-headset-profile false\
+
+: 1753096743:0;systemctl --user restart pipewire pipewire-pulse wireplumber\
+
+: 1753096751:0;systemctl --user restart pipewire pipewire-pulse pipewire-media-session\
+
+: 1753096758:0;wpctl settings | grep bluetooth.autoswitch-to-headset-profile
+: 1753096831:0;wpctl list-cards
+: 1753096853:0;mkdir -p ~/.config/wireplumber/wireplumber.conf.d\
+
+: 1753096859:0;cat > ~/.config/wireplumber/wireplumber.conf.d/51-stop-swapping-profiles.conf <<EOF\
+## Disable automatic switching and support for the headset (HFP) profile\
+wireplumber.settings = {\
+  bluetooth.autoswitch-to-headset-profile = false\
+}\
+monitor.bluez.properties = {\
+  ## Only allow A2DP roles (no HFP)\
+  bluez5.roles = [ a2dp_sink a2dp_source ]\
+}\
+EOF
+: 1753096863:0;systemctl --user restart pipewire pipewire-pulse wireplumber\
+
+: 1753096971:0;rm -f ~/.config/wireplumber/wireplumber.conf.d/51-stop-swapping-profiles.conf\
+
+: 1753096974:0;systemctl --user restart pipewire pipewire-pulse wireplumber\
+
+: 1753096987:0;sudo systemctl restart bluetooth\
+
+: 1753097399:0;cd
+: 1753097401:0;pactl list short sources\
+
+: 1753097434:0;wpctl status\
+
+: 1753097479:0;pactl set-default-source alsa_input.usb-0c76_USB_PnP_Audio_Device-00.mono-fallback\
+
+: 1753097484:0;sudo pacman -S pavucontrol\
+pavucontrol\
+
+: 1753097509:0;pavucontrol\
+
+: 1753097577:0;alsamixer -c 0\
+
+: 1753097641:0;sudo pacman -S alsamixer
+: 1753097650:0;paru -S alsamixer
+: 1753097664:0;arecord -f cd test.wav -d 5 && aplay test.wav\
+
+: 1753097699:0;alsamixer -c 0\
+
+: 1753097716:0;sudo pacman -S alsa-utils\
+
+: 1753097728:0;alsamixer -c 0\
+
+: 1753097802:0;arecord -f cd -d 5 test.wav && aplay test.wav\
+
+: 1753097859:0;ls
+: 1753097866:0;rm test.wav
+: 1753097867:0;ls
+: 1753102452:0;cd .local/share/hyde-wallpapers
+: 1753102455:0;viewnior .
+: 1753102463:0;cd
+: 1753104766:0;swapon --show
+: 1753104771:0;free -h\
+
+: 1753104780:0;grep -E "disk" /sys/power/state\
+
+: 1753104790:0;sudo systemctl hibernate\
+
+: 1753104842:0;cd
+: 1753104843:0;sudo fallocate -l 8G /swapfile
+: 1753104851:0;sudo chmod 600 /swapfile\
+
+: 1753104855:0;sudo mkswap /swapfile\
+
+: 1753104861:0;sudo swapon /swapfile\
+
+: 1753104866:0;/swapfile none swap sw 0 0\
+
+: 1753104875:0;sudo /swapfile none swap sw 0 0\
+
+: 1753104907:0;echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab\
+
+: 1753104911:0;grep swap /etc/fstab\
+
+: 1753104945:0;findmnt -no SOURCE -T /swapfile\
+
+: 1753104951:0;lsblk
+: 1753104983:0;swapon --show
+: 1753105008:0;grep '/swapfile' /etc/fstab\
+
+: 1753105015:0;DEV=$(findmnt -no SOURCE -T /swapfile)\
+
+: 1753105026:0;UUID=$(blkid -s UUID -o value "$DEV")\
+
+: 1753105030:0;echo "Swap UUID: $UUID"\
+
+: 1753105036:0;OFFSET=$(sudo filefrag -v /swapfile | awk '/ 0:/ {print $4}' | sed 's/\.\.//')\
+
+: 1753105039:0;echo "Resume offset: $OFFSET"\
+
+: 1753105082:0;DEV=$(df --output=source /swapfile | tail -n1)\
+
+: 1753105086:0;echo "Swapfile lives on: $DEV"\
+
+: 1753105091:0;UUID=$(blkid -s UUID -o value "$DEV")\
+
+: 1753105094:0;echo "Partition UUID: $UUID"\
+
+: 1753105129:0;DEV=$(findmnt -n -o SOURCE --target /swapfile)\
+
+: 1753105132:0;echo "Swapfile lives on: $DEV"\
+
+: 1753105140:0;UUID=$(sudo blkid -s UUID -o value "$DEV")\
+
+: 1753105143:0;echo "Partition UUID: $UUID"\
+
+: 1753105169:0;nvim /etc/default/grub
+: 1753105294:0;sudo -E nvim /etc/default/grub
+: 1753105312:0;sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1753105323:0;nvim /etc/mkinitcpio.conf
+: 1753105485:0;nvim .config/hypr/userprefs.conf
+: 1753105544:0;sudo -E nvim /etc/mkinitcpio.conf
+: 1753105566:0;sudo mkinitcpio -P\
+
+: 1753105661:0;sudo -E nvim /etc/mkinitcpio.conf
+: 1753105677:0;nvim .config/hypr/userprefs.conf
+: 1753105701:0;swapon --show\
+
+: 1753105727:0;grep -o 'resume=[^ ]*' /proc/cmdline\
+grep -o 'resume_offset=[^ ]*' /proc/cmdline\
+
+: 1753105775:0;clear
+: 1753105776:0;cd
+: 1753105793:0;reboot
+: 1753106269:0;nvim .config/hypr/keybindings.conf
+: 1753113952:0;sudo swapoff /dev/zram0\
+
+: 1753113969:0;systemctl hibernate\
+
+: 1753114189:0;sudo tee /etc/systemd/system-sleep/zram-hibernate.sh > /dev/null <<'EOF'\
+#!/usr/bin/env bash\
+# $1 = pre|post, $2 = suspend|hibernate|hybrid-sleep\
+if [ "$2" = "hibernate" ]; then\
+  [ "$1" = "pre" ] && swapoff /dev/zram0\
+  [ "$1" = "post" ] && swapon /dev/zram0\
+fi\
+EOF
+: 1753114197:0;sudo chmod +x /etc/systemd/system-sleep/zram-hibernate.sh\
+
+: 1753114201:0;sudo systemctl enable nvidia-suspend.service \\
+                          nvidia-hibernate.service \\
+                          nvidia-resume.service\
+
+: 1753114208:0;options nvidia NVreg_PreserveVideoMemoryAllocations=1 \\
+                NVreg_TemporaryFilePath=/var/tmp\
+
+: 1753114212:0;sudo mkinitcpio -P\
+
+: 1753114289:0;nvim /etc/modprobe.d/nvidia.conf
+: 1753114306:0;mkdir /etc/modprobe.d/
+: 1753114307:0;nvim /etc/modprobe.d/nvidia.conf
+: 1753114352:0;ls /etc/modprobe.d/
+: 1753114415:0;sudo -E nvim /etc/modprobe.d/nvidia.conf
+: 1753114425:0;sudo tee /etc/modprobe.d/nvidia.conf > /dev/null <<EOF\
+options nvidia NVreg_PreserveVideoMemoryAllocations=1 \\
+                NVreg_TemporaryFilePath=/var/tmp\
+EOF\
+
+: 1753114430:0;sudo mkinitcpio -P\
+
+: 1753114481:0;reboot
+: 1753114536:0;env | grep ZRAM
+: 1753114545:0;modinfo nvidia | grep -E 'PreserveVideoMemoryAllocations|TemporaryFilePath'\
+
+: 1753114605:0;ls -l /etc/systemd/system-sleep/zram-hibernate.sh\
+
+: 1753114653:0;sudo mkdir -p /etc/systemd/system-sleep\
+
+: 1753114663:0;sudo tee /etc/systemd/system-sleep/zram-hibernate.sh > /dev/null <<'EOF'\
+#!/usr/bin/env bash\
+# $1 = pre|post, $2 = suspend|hibernate|hybrid-sleep\
+if [ "\$2" = "hibernate" ]; then\
+  if [ "\$1" = "pre" ]; then\
+    swapoff /dev/zram0\
+  else\
+    swapon /dev/zram0\
+  fi\
+fi\
+EOF
+: 1753114667:0;sudo chmod +x /etc/systemd/system-sleep/zram-hibernate.sh\
+
+: 1753114670:0;ls -l /etc/systemd/system-sleep/zram-hibernate.sh\
+
+: 1753114674:0;systemctl hibernate\
+
+: 1753114853:0;nvim /etc/mkinitcpio.conf
+: 1753114905:0;sudo -E nvim /etc/mkinitcpio.conf
+: 1753114931:0;sudo mkinitcpio -P\
+
+: 1753114948:0;systemctl list-unit-files \\
+  | grep -E 'nvidia-suspend|nvidia-hibernate|nvidia-resume'\
+
+: 1753114956:0;sudo systemctl enable \\
+  nvidia-suspend.service \\
+  nvidia-hibernate.service \\
+  nvidia-resume.service\
+
+: 1753114958:0;systemctl list-unit-files \\
+  | grep -E 'nvidia-suspend|nvidia-hibernate|nvidia-resume'\
+
+: 1753115127:0;systemctl hibernate\
+
+: 1753115278:0;journalctl -b -1 -p err..alert --no-pager | tail -n20\
+
+: 1753115623:0;nvim .config/hyde/config.toml
+: 1753115650:0;swapon --show\
+cat /proc/swaps\
+
+: 1753115654:0;lsblk --fs\
+
+: 1753115657:0;grep -R --color=never RESUME /etc/mkinitcpio.conf /etc/default/grub\
+
+: 1753115660:0;cat /etc/systemd/sleep.conf\
+
+: 1753115663:0;cat /sys/power/state\
+
+: 1753115667:0;cat /proc/cmdline\
+
+: 1753115671:0;journalctl -b -1 -e\
+
+: 1753115678:0;journalctl --unit=systemd-hibernate --since today\
+
+: 1753115685:0;dmesg -T | grep -i hibernate\
+
+: 1753115794:0;grep -E '^HOOKS=' /etc/mkinitcpio.conf\
+
+: 1753115810:0;grep -E '^GRUB_CMDLINE_LINUX' /etc/default/grub\
+
+: 1753115814:0;sudo filefrag -v /swapfile | head -n 5\
+
+: 1753115829:0;lsinitcpio /boot/initramfs-linux.img | grep -i resume\
+
+: 1753115835:0;systemctl status nvidia-suspend.service \\
+               nvidia-hibernate.service \\
+               nvidia-resume.service\
+
+: 1753115840:0;journalctl -k -b -1 | grep -i hiber\
+
+: 1753115847:0;sudo dmesg | grep -i hibernate\
+
+: 1753115851:0;grep -R "resume=" /boot/grub/grub.cfg\
+
+: 1753115957:0;sudo mkdir -p /etc/systemd/system/systemd-hibernate.service.d/\
+
+: 1753115961:0;cat <<EOF | sudo tee /etc/systemd/system/systemd-hibernate.service.d/50-enable-freeze.conf\
+[Service]\
+Environment="SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=true"\
+EOF
+: 1753115991:0;sudo mkdir -p /etc/systemd/system/nvidia-hibernate.service.d/\
+
+: 1753115995:0;cat <<EOF | sudo tee /etc/systemd/system/nvidia-hibernate.service.d/50-enable-freeze.conf\
+[Service]\
+Environment="SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=true"\
+EOF
+: 1753115999:0;sudo systemctl daemon-reload\
+
+: 1753116016:0;sudo systemctl hibernate
+: 1753116255:0;cat /sys/module/nvidia/parameters/NVreg_PreserveVideoMemoryAllocations\
+
+: 1753116259:0;grep -R -i PreserveVideoMemoryAllocations /etc/modprobe.d\
+
+: 1753116262:0;lsmod | grep nvidia\
+
+: 1753116265:0;journalctl -u nvidia-hibernate.service -b -1 -e\
+
+: 1753116382:0;sudo tee /etc/modprobe.d/disable-nvidia-preserve.conf <<EOF\
+options nvidia NVreg_PreserveVideoMemoryAllocations=0\
+EOF\
+
+: 1753116396:0;sudo mkinitcpio -P\
+
+: 1753116414:0;sudo reboot\
+
+: 1753116481:0;sudo systemctl hibernate\
+
+: 1753116583:0;ls /sys/module/nvidia/parameters\
+
+: 1753116587:0;cat /sys/module/nvidia/parameters/NVreg_PreserveVideoMemoryAllocations\
+
+: 1753116589:0;modinfo nvidia | grep -i PreserveVideoMemoryAllocations\
+
+: 1753116593:0;grep -R "^options nvidia" /etc/modprobe.d\
+
+: 1753116595:0;dmesg | grep -i preserve\
+
+: 1753116598:0;journalctl -u nvidia-hibernate.service -b -1 -e\
+
+: 1753116725:0;sudo sed -i 's/^\(options nvidia .*NVreg_PreserveVideoMemoryAllocations\)=1/\1=0/' /etc/modprobe.d/nvidia.conf\
+sudo sed -i 's/.*NVreg_PreserveVideoMemoryAllocations=1.*//' /etc/modprobe.d/nvidia.conf\
+
+: 1753116739:0;sudo tee /etc/modprobe.d/z-disable-nvidia-preserve.conf <<EOF\
+options nvidia NVreg_PreserveVideoMemoryAllocations=0\
+EOF\
+
+: 1753116743:0;sudo mkinitcpio -P\
+
+: 1753116771:0;sudo reboot\
+
+: 1753116846:0;ls /sys/module/nvidia/parameters\
+cat /sys/module/nvidia/parameters/NVreg_PreserveVideoMemoryAllocations\
+
+: 1753116917:0;ls /sys/module | grep -i nvidia\
+
+: 1753116940:0;for m in $(ls /sys/module | grep -i nvidia); do\
+  echo "--- $m ---"\
+  ls /sys/module/$m/parameters || echo "  (no parameters directory)"\
+done\
+
+: 1753116946:0;modprobe -c | grep -i PreserveVideoMemoryAllocations -C2\
+
+: 1753116995:0;sudo sed -i '/NVreg_PreserveVideoMemoryAllocations=1/d' /etc/modprobe.d/nvidia.conf\
+
+: 1753117005:0;sudo tee /etc/modprobe.d/zz-nvidia-disable-preserve.conf <<EOF\
+options nvidia NVreg_PreserveVideoMemoryAllocations=0\
+EOF\
+
+: 1753117008:0;sudo mkinitcpio -P\
+
+: 1753117029:0;sudo -E nvim /etc/default/grub
+: 1753117081:0;sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1753117093:0;sudo reboot\
+
+: 1753117146:0;modprobe -c | grep -i PreserveVideoMemoryAllocations\
+
+: 1753117187:0;grep -R NVreg_PreserveVideoMemoryAllocations /etc/modprobe.d\
+
+: 1753117231:0;sudo sed -i 's/\(GRUB_CMDLINE_LINUX_DEFAULT=".*\)"/\1 nvidia.NVreg_PreserveVideoMemoryAllocations=0"/' /etc/default/grub\
+
+: 1753117239:0;sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1753117243:0;sudo reboot\
+
+: 1753117381:0;modprobe -c | grep -i PreserveVideoMemoryAllocations\
+
+: 1753117437:0;grep -o 'nvidia\.NVreg_PreserveVideoMemoryAllocations=[01]' /proc/cmdline\
+
+: 1753117443:0;dmesg | grep -i PreserveVideoMemoryAllocations\
+
+: 1753117470:0;sudo systemctl hibernate\
+
+: 1753117791:0;nvim /etc/default/grub
+: 1753117798:0;sudo -E nvim /etc/default/grub
+: 1753117878:0;sudo tee /usr/lib/systemd/system-sleep/nvidia-reload.sh <<'EOF'\
+#!/usr/bin/env bash\
+case "$1/$2" in\
+  pre/*)\
+    # unload before freezing\
+    modprobe -r nvidia_drm nvidia_modeset nvidia_uvm nvidia\
+    ;;\
+  post/*)\
+    # reload immediately after resume\
+    modprobe nvidia\
+    modprobe nvidia_modeset\
+    modprobe nvidia_uvm\
+    modprobe nvidia_drm\
+    ;;\
+esac\
+EOF
+: 1753117893:0;sudo chmod +x /usr/lib/systemd/system-sleep/nvidia-reload.sh\
+
+: 1753117933:0;sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1753117940:0;sudo systemctl hibernate\
+
+: 1753118139:0;uname -r\
+cat /sys/power/resume_compression\
+
+: 1753118144:0;# switch to LZO right now\
+echo lzo | sudo tee /sys/power/resume_compression\
+\
+# confirm\
+cat /sys/power/resume_compression\
+
+: 1753118187:0;sudo tee /usr/lib/systemd/system-sleep/hibernate-fix.sh <<'EOF'\
+#!/usr/bin/env bash\
+# $1 = pre/post, $2 = suspend|hibernate|hybrid-sleep\
+if [[ "$1" == post && "$2" == hibernate ]]; then\
+  # reload nvidia driver\
+  modprobe nvidia\
+  modprobe nvidia_modeset\
+  modprobe nvidia_uvm\
+  modprobe nvidia_drm\
+  # respawn Hyprland via HyDE\
+  su - shakir -c '\
+    export XDG_RUNTIME_DIR=/run/user/$(id -u shakir)\
+    hyde-shell hyprland &\
+  '\
+fi\
+EOF
+: 1753118190:0;sudo chmod +x /usr/lib/systemd/system-sleep/hibernate-fix.sh\
+
+: 1753118196:0;grep -E 'CONFIG_PM_SLEEP_IMAGE|CONFIG_PM_SLEEP_IMAGE_COMPRESSION' /boot/config-$(uname -r)\
+
+: 1753118200:0;# Look for our scriptâ€ƒ¹s modprobe calls in the last resume\
+sudo journalctl -b -1 | grep -E 'modprobe.*nvidia'\
+
+: 1753118208:0;# Was hyprland running after resume?\
+pgrep -fl hyprland\
+\
+# Any greeter/DM activity?\
+systemctl status greetd.service\
+sudo journalctl -u greetd.service -b -1 | tail -n 20\
+
+: 1753118217:0;lsmod | grep -E 'nvidia|nvidia_drm'\
+
+: 1753118291:0;sudo pacman -S uswsusp\
+
+: 1753118310:0;paru -S uswsusp\
+
+: 1753118403:0;sudo -E nvim /etc/uswsusp.conf
+: 1753118445:0;sudo s2disk
+: 1753118459:0;paru -S uswsusp\
+
+: 1753118496:0;sudo pacman -S uswsusp\
+
+: 1753118499:0;sudo s2disk
+: 1753118654:0;sudo -E nvim /etc/uswsusp.conf
+: 1753118677:0;sudo s2disk\
+
+: 1753118696:0;sudo s2disk --swap /swapfile --offset 12382208 --compress lzo\
+
+: 1753118731:0;cat /etc/uswsusp.conf
+: 1753118764:0;sudo tee /etc/uswsusp.conf <<'EOF'\
+# /etc/uswsusp.conf for s2disk\
+\
+# Path to swap area\
+resume_device = /swapfile\
+\
+# Offset (from filefrag)\
+resume_offset = 12382208\
+\
+# Use LZO for speed\
+compressor = lzo\
+\
+# Donâ€ƒ¹t prompt\
+prompt = n\
+EOF\
+
+: 1753118773:0;sudo s2disk\
+
+: 1753118779:0;sudo s2disk \\
+  --resume_device /swapfile \\
+  --resume_offset 12382208 \\
+  --parameter compressor=lzo\
+
+: 1753118785:0;sudo s2disk -r /swapfile -o 12382208 -P compressor=lzo\
+
+: 1753118788:0;ls -l /swapfile\
+
+: 1753118825:0;lsblk -no NAME,TYPE,FSTYPE,MOUNTPOINT\
+
+: 1753118840:0;sudo tee /etc/uswsusp.conf <<'EOF'\
+# /etc/uswsusp.conf for s2disk\
+\
+# Underlying device containing swapfile\
+resume_device = /dev/sda2\
+\
+# Offset (from filefrag)\
+resume_offset = 12382208\
+\
+# Use LZO for speed\
+compressor = lzo\
+\
+# Donâ€ƒ¹t prompt\
+prompt = n\
+EOF\
+
+: 1753118849:0;sudo s2disk\
+
+: 1753118854:0;sudo s2disk \\
+  --resume_device /dev/sda2 \\
+  --resume_offset 12382208 \\
+  --parameter compressor=lzo\
+
+: 1753119058:0;rm -f /etc/modprobe.d/disable-nvidia-preserve.conf \\
+      /etc/modprobe.d/z-disable-nvidia-preserve.conf \\
+      /etc/modprobe.d/zz-nvidia-disable-preserve.conf
+: 1753119062:0;sudo rm -f /etc/modprobe.d/disable-nvidia-preserve.conf \\
+      /etc/modprobe.d/z-disable-nvidia-preserve.conf \\
+      /etc/modprobe.d/zz-nvidia-disable-preserve.conf
+: 1753119076:0;sudo pacman -Qo /etc/modprobe.d/nvidia.conf 2>/dev/null \\
+  | awk '{print $5}' \\
+  | xargs pacman -S --noconfirm --overwrite /etc/modprobe.d/nvidia.conf
+: 1753119084:0;sudo rm -f /etc/uswsusp.conf\
+paru -Rns --noconfirm uswsusp-git
+: 1753119104:0;sudo rm -f /usr/lib/systemd/system-sleep/nvidia-reload.sh \\
+      /usr/lib/systemd/system-sleep/hibernate-fix.sh
+: 1753119111:0;sudo rm -rf /etc/systemd/system/systemd-hibernate.service.d \\
+       /etc/systemd/system/systemd-suspend-then-hibernate.service.d \\
+       /etc/systemd/system/nvidia-hibernate.service.d
+: 1753119117:0;sed -i -E 's/(nvidia\.NVreg_PreserveVideoMemoryAllocations=[01]|resume=[^ ]+|resume_offset=[^ ]+|resume_compression=[^ ]+)//g' \\
+       /etc/default/grub\
+
+: 1753119137:0;sudo -E nvim /etc/default/grub
+: 1753119224:0;grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1753119233:0;sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1753119238:0;sudo mkinitcpio -P\
+
+: 1753119259:0;systemctl daemon-reload\
+
+: 1753119270:0;sudo systemctl daemon-reload\
+
+: 1753119274:0;reboot\
+
+: 1753119321:0;sudo systemctl hibernate
+: 1753119871:0;blkid | grep swap\
+swapon --show\
+
+: 1753119913:0;filefrag -v /swapfile | awk 'NR==2 {print $4}'
+: 1753119916:0;sudo filefrag -v /swapfile | awk 'NR==2 {print $4}'
+: 1753119988:0;blkid | grep swap
+: 1753119993:0;swapon --show\
+
+: 1753120015:0;sudo -E nvim /etc/mkinitcpio.conf
+: 1753120055:0;grep -o 'resume=[^ ]*' /proc/cmdline
+: 1753120061:0;grep -o 'resume_offset=[^ ]*' /proc/cmdline
+: 1753120068:0;findmnt / -no SOURCE
+: 1753120088:0;blkid $(findmnt / -no SOURCE) | sed -n 's/.*UUID="\([^"]*\)".*/\1/p'
+: 1753120104:0;sudo filefrag -v /swapfile | awk 'NR==2 {print $4}'
+: 1753120143:0;sudo blkid -s UUID -o value /dev/sda2\
+
+: 1753120153:0;sudo filefrag -v /swapfile | awk 'NR==4 {print $4}'\
+
+: 1753120184:0;# 1. Clean up the resume_offset\
+offset=$(sudo filefrag -v /swapfile \\
+  | awk 'NR==4 {print $4}' \\
+  | tr -d '.')\
+echo "Using resume_offset=$offset"\
+
+: 1753120253:0;sudo -E nvim /etc/default/grub
+: 1753120268:0;grep -Eo 'resume=[^ ]*|resume_offset=[^ ]*' /proc/cmdline\
+
+: 1753120296:0;sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1753120315:0;sudo mkinitcpio -P\
+
+: 1753120336:0;sudo -E nvim /etc/mkinitcpio.conf
+: 1753120369:0;cat /etc/mkinitcpio.conf
+: 1753120391:0;cat /etc/default/grub
+: 1753120511:0;sudo reboot\
+
+: 1753120607:0;grep -Eo 'resume=[^ ]*|resume_offset=[^ ]*' /proc/cmdline\
+
+: 1753120620:0;systemctl suspend
+: 1753120844:0;journalctl -b -1 | grep -iE 'resume|suspend|hibernate'\
+
+: 1753121000:0;sudo systemctl mask nvidia-suspend.service \\
+                  nvidia-hibernate.service \\
+                  nvidia-resume.service
+: 1753121013:0;sudo systemctl disable nvidia-suspend.service \\
+                       nvidia-hibernate.service \\
+                       nvidia-resume.service
+: 1753121024:0;options nvidia \\
+  nvidia.NVreg_PreserveVideoMemoryAllocations=1 \\
+  nvidia.NVreg_TemporaryFilePath=/var/tmp\
+
+: 1753121175:0;sudo -E nvim /etc/mkinitcpio.conf
+: 1753121313:0;sudo sed -i 's|\sresume=[^ ]*||g; s|\sresume_offset=[^ ]*||g' /etc/default/grub\
+
+: 1753121321:0;sudo rm -f /usr/lib/systemd/system-sleep/hyprland-resume.sh\
+
+: 1753121325:0;sudo systemctl unmask nvidia-suspend.service \\
+                   nvidia-hibernate.service \\
+                   nvidia-resume.service\
+
+: 1753121337:0;sudo systemctl status nvidia-suspend.service \\
+                   nvidia-hibernate.service \\
+                   nvidia-resume.service\
+
+: 1753121351:0;sudo mkinitcpio -P\
+sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1753121368:0;sudo systemctl enable nvidia-suspend.service \\
+                      nvidia-hibernate.service \\
+                      nvidia-resume.service
+: 1753121376:0;sudo mkinitcpio -P
+: 1753121393:0;sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1753121412:0;sudo -E nvim /etc/default/grub
+: 1753121423:0;sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1753121427:0;sudo mkinitcpio -P
+: 1753121451:0;sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1753121456:0;lsblk
+: 1753121556:0;sudo systemctl mask systemd-zram-setup@zram0.service\
+
+: 1753121558:0;lsblk
+: 1753121565:0;sudo mv /etc/systemd/zram-generator.conf /etc/systemd/zram-generator.conf.disabled\
+
+: 1753121585:0;sudo cfdisk /dev/sda
+: 1753122101:0;sudo chmod 600 /swapfile\
+
+: 1753122126:0;sudo mkswap /swapfile\
+
+: 1753122141:0;sudo swapon /swapfile\
+
+: 1753122144:0;swapon --show\
+
+: 1753122160:0;sudo pacman -S uswsusp\
+
+: 1753122194:0;sudo swapoff /swapfile\
+
+: 1753122200:0;sudo swapoff /dev/zram0\
+
+: 1753122204:0;sudo systemctl mask systemd-zram-setup@zram0.service\
+
+: 1753122208:0;paru -S uswsusp\
+
+: 1753122298:0;sudo systemctl mask systemd-zram-setup@zram0.service\
+sudo systemctl stop systemd-zram-setup@zram0.service\
+sudo swapoff /dev/zram0\
+
+: 1753122311:0;sudo swapoff /dev/zram0\
+
+: 1753122320:0;sudo swapoff /swapfile
+: 1753122328:0;sudo chmod 600 /swapfile
+: 1753122333:0;sudo mkswap /swapfile
+: 1753122339:0;sudo swapon /swapfile
+: 1753122343:0;grep -qF '/swapfile' /etc/fstab || echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab\
+
+: 1753122368:0;sudo -E nvim /etc/uswsusp.conf
+: 1753122378:0;sudo systemctl edit systemd-hibernate.service\
+
+: 1753123273:0;grep -qF '/swapfile' /etc/fstab || echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab\
+
+: 1753123308:0;grep '/swapfile' /etc/fstab\
+
+: 1753123322:0;systemctl hibernate\
+
+: 1753125629:0;sudo sed -i 's|\sresume=[^ ]*||g; s|\sresume_offset=[^ ]*||g' \\
+    /etc/default/grub
+: 1753125638:0;sudo rm -f /etc/systemd/system/systemd-hibernate.service.d/*\
+
+: 1753125653:0;sudo rm -f /usr/lib/systemd/system-sleep/*hyde* \\
+             /usr/lib/systemd/system-sleep/*greeter*\
+
+: 1753125662:0;sudo sed -i 's|^HOOKS=.*|HOOKS=(base udev autodetect modconf block filesystems fsck)|' \\
+    /etc/mkinitcpio.conf
+: 1753125666:0;sudo mkinitcpio -P\
+
+: 1753125706:0;sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1753125716:0;cat /sys/power/mem_sleep\
+
+: 1753125725:0;sudo mkdir -p /etc/systemd/sleep.conf.d\
+
+: 1753125765:0;sudo tee /etc/systemd/sleep.conf.d/mem-deep.conf <<<'[Sleep]\
+SuspendState=deep\
+MemorySleepMode=deep\
+'
+: 1753125800:0;sudo tee /usr/lib/systemd/system-sleep/resume-hypr.sh <<'EOF'\
+#!/bin/bash\
+if [ "$2" = suspend ] || [ "$2" = thaw ]; then\
+  # restart greetd to respawn your Hyprland session\
+  systemctl restart greetd.service\
+fi\
+EOF
+: 1753125809:0;sudo chmod +x /usr/lib/systemd/system-sleep/resume-hypr.sh\
+
+: 1753129505:0;reboot
+: 1753129593:0;systemctl suspend\
+
+: 1753129599:0;systemctl hibernate\
+
+: 1753129680:0;systemctl suspend\
+
+: 1753129779:0;sudo mkdir -p /etc/systemd/sleep.conf.d\
+
+: 1753129790:0;sudo tee /etc/systemd/sleep.conf.d/10-deep.conf << 'EOF'\
+[Sleep]\
+# write â€ƒ¼memâ€ƒ½ to /sys/power/state (the valid kernel suspend verb)\
+SuspendState=mem\
+# then write â€ƒ¼deepâ€ƒ½ to /sys/power/mem_sleep (S3)\
+MemorySleepMode=deep\
+EOF
+: 1753129806:0;sudo rm -f /usr/lib/systemd/system-sleep/*hypr* \\
+            /etc/systemd/sleep.conf.d/mem-deep.conf\
+
+: 1753129812:0;systemctl daemon-reload
+: 1753129819:0;sudo systemctl daemon-reload
+: 1753129824:0;systemctl suspend\
+
+: 1753171973:0;nvim .config/hypr/keybindings.conf
+: 1753172940:0;sudo pacman -S konsole\
+
+: 1753172977:0;cd Documents
+: 1753172979:0;cd ..
+: 1753172980:0;ls
+: 1753172983:0;cd arch-maintenance
+: 1753172983:0;ls
+: 1753172985:0;cd ..
+: 1753172998:0;cd ~/.config/waybar
+: 1753172999:0;ls
+: 1753173004:0;nvim user-style.css
+: 1753173016:0;nvim style.css
+: 1753173028:0;nvim user-style.css
+: 1753173055:0;hyde-shell reload
+: 1753173106:0;wpaperd --help
+: 1753173123:0;wpaperctl next\
+
+: 1753173138:0;nvim user-style.css
+: 1753173175:0;hyde-shell reload
+: 1753173186:0;nvim user-style.css
+: 1753173228:0;nvim ~/.config/hypr/userprefs.conf
+: 1753173431:0;nvim user-style.css
+: 1753173480:0;hyde-shell reload
+: 1753173539:0;nvim user-style.css
+: 1753173549:0;hyde-shell reload
+: 1753173591:0;nvim user-style.css
+: 1753173716:0;nvim ~/.config/hypr/userprefs.conf
+: 1753173720:0;nvim user-style.css
+: 1753173918:0;cd
+: 1753173919:0;cat /sys/power/mem_sleep\
+
+: 1753173923:0;clear
+: 1753173924:0;cat /sys/power/mem_sleep\
+
+: 1753173931:0;sudo mkdir -p /etc/systemd/sleep.conf.d\
+
+: 1753173940:0;sudo tee /etc/systemd/sleep.conf.d/10-deep.conf << 'EOF'\
+[Sleep]\
+# Write â€ƒ¼memâ€ƒ½ to /sys/power/state (valid kernel suspend verb)\
+SuspendState=mem\
+# Then ensure â€ƒ¼deepâ€ƒ½ S3 mode is used for mem_sleep\
+MemorySleepMode=deep\
+EOF
+: 1753173965:0;cat /etc/systemd/sleep.conf.d/10-deep.conf
+: 1753173975:0;sudo tee /usr/lib/systemd/system-sleep/resume-hypr.sh << 'EOF'\
+#!/bin/bash\
+if [ "$1" = post ] && [ "$2" = suspend ]; then\
+  # Switch to the VT where your session runs (often tty2)\
+  /usr/bin/chvt 2\
+fi\
+EOF
+: 1753173980:0;sudo chmod +x /usr/lib/systemd/system-sleep/resume-hypr.sh\
+
+: 1753173998:0;sudo -E nvim /etc/modprobe.d/nvidia.conf
+: 1753174031:0;sudo mkinitcpio -P\
+
+: 1753174047:0;systemctl daemon-reload\
+
+: 1753174051:0;sudo systemctl daemon-reload\
+
+: 1753174066:0;systemctl suspend\
+
+: 1753174258:0;journalctl -b -1 | grep -iE 'suspend|resume'\
+
+: 1753174324:0;sudo systemctl mask nvidia-suspend.service \\
+                  nvidia-hibernate.service \\
+                  nvidia-resume.service
+: 1753174337:0;sudo systemctl disable nvidia-suspend.service \\
+                     nvidia-hibernate.service \\
+                     nvidia-resume.service
+: 1753174372:0;sudo mkinitcpio -P\
+
+: 1753174391:0;sudo tee /usr/lib/systemd/system-sleep/restart-greetd.sh << 'EOF'\
+#!/bin/bash\
+case "$1/$2" in\
+  post/suspend|post/hibernate)\
+    systemctl restart greetd.service\
+    ;;\
+esac\
+EOF
+: 1753174394:0;sudo chmod +x /usr/lib/systemd/system-sleep/restart-greetd.sh\
+
+: 1753174398:0;systemctl daemon-reload\
+
+: 1753174403:0;sudo systemctl daemon-reload\
+
+: 1753174418:0;sudo systemctl suspend
+: 1753174589:0;journalctl -b -1 | grep -iE 'suspend|resume'\
+
+: 1753174656:0;sudo sed -i '/NVreg_PreserveVideoMemoryAllocations/d' /etc/modprobe.d/nvidia.conf\
+
+: 1753174671:0;nvim /etc/modprobe.d/nvidia.conf
+: 1753174691:0;sudo mkinitcpio -P\
+
+: 1753174711:0;sudo tee /usr/lib/systemd/system-sleep/nvidia-unload.sh > /dev/null << 'EOF'\
+#!/bin/bash\
+case "$1/$2" in\
+  pre/*)\
+    # Stop any services holding the GPU (e.g. your greeter)\
+    systemctl stop greetd.service\
+    # Unload NVIDIA modules\
+    /usr/bin/modprobe -r nvidia_drm nvidia_uvm nvidia_modeset nvidia\
+    ;;\
+  post/*)\
+    # Reload NVIDIA modules\
+    /usr/bin/modprobe nvidia\
+    /usr/bin/modprobe nvidia_uvm\
+    /usr/bin/modprobe nvidia_modeset\
+    /usr/bin/modprobe nvidia_drm\
+    # Restart your greeter to bring back the login screen\
+    systemctl start greetd.service\
+    ;;\
+esac\
+EOF
+: 1753174716:0;sudo chmod +x /usr/lib/systemd/system-sleep/nvidia-unload.sh\
+
+: 1753174720:0;sudo systemctl mask nvidia-suspend.service \\
+                  nvidia-hibernate.service \\
+                  nvidia-resume.service\
+
+: 1753174726:0;sudo systemctl daemon-reload\
+
+: 1753174731:0;sudo systemctl suspend\
+
+: 1753174835:0;journalctl -b -1 | grep -iE 'suspend|resume'\
+
+: 1753174988:0;sudo grep -R "NVreg_PreserveVideoMemoryAllocations" /etc/modprobe.d\
+sudo sed -i '/NVreg_PreserveVideoMemoryAllocations/d' /etc/modprobe.d/nvidia.conf\
+
+: 1753175005:0;sudo mkinitcpio -P\
+
+: 1753175240:0;sudo grep -R "NVreg_PreserveVideoMemoryAllocations" /etc/modprobe.d\
+
+: 1753175591:0;sudo reboot\
+
+: 1753175668:0;systemctl suspend
+: 1753175864:0;journalctl -b -1 -u systemd-suspend.service --no-pager\
+
+: 1753175869:0;journalctl -b -1 --no-pager | grep -iE 'error|fail|nvidia|pm:'\
+
+: 1753175873:0;dmesg -T | grep -iE 'PM:|nvidia|error|fail'\
+
+: 1753175876:0;cat /sys/power/mem_sleep\
+
+: 1753175880:0;cat /proc/cmdline\
+
+: 1753175885:0;lsmod | grep nvidia\
+
+: 1753175953:0;clear
+: 1753175954:0;sudo tee /etc/modprobe.d/nvidia-sleep.conf << 'EOF'\
+options nvidia \\
+  NVreg_PreserveVideoMemoryAllocations=1 \\
+  NVreg_TemporaryFilePath=/var/tmp\
+EOF\
+
+: 1753175965:0;sudo systemctl unmask nvidia-suspend.service \\
+                      nvidia-hibernate.service \\
+                      nvidia-resume.service
+: 1753175971:0;sudo systemctl enable  nvidia-suspend.service \\
+                       nvidia-hibernate.service \\
+                       nvidia-resume.service
+: 1753175985:0;sudo -E nvim /etc/mkinitcpio.conf
+: 1753176073:0;sudo -E nvim /etc/default/grub
+: 1753176102:0;sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1753176114:0;sudo mkinitcpio -P\
+
+: 1753176134:0;sudo reboot\
+
+: 1753176189:0;systemctl suspend\
+
+: 1753176292:0;journalctl -b -1 -u systemd-suspend.service --no-pager\
+
+: 1753176298:0;journalctl -b -1 --no-pager | grep -iE 'error|fail|nvidia|pm:'\
+
+: 1753176307:0;dmesg -T | grep -iE 'PM:|nvidia|error|fail'\
+
+: 1753176402:0;sudo sed -i '/NVreg_PreserveVideoMemoryAllocations/d' /etc/modprobe.d/*.conf\
+
+: 1753176426:0;sudo mkinitcpio -P\
+
+: 1753176452:0;grep -R "NVreg_PreserveVideoMemoryAllocations" /proc/driver/nvidia/params\
+
+: 1753176473:0;sudo mkdir -p /etc/systemd/system/systemd-suspend.service.d\
+
+: 1753176480:0;sudo tee /etc/systemd/system/systemd-suspend.service.d/10-no-freeze.conf << 'EOF'\
+[Service]\
+Environment=SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=false\
+EOF\
+\
+# Repeat for related targets if you plan to use them:\
+for svc in systemd-hibernate.service systemd-hybrid-sleep.service systemd-suspend-then-hibernate.service; do\
+  sudo mkdir -p /etc/systemd/system/$svc.d\
+  sudo tee /etc/systemd/system/$svc.d/10-no-freeze.conf << EOF\
+[Service]\
+Environment=SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=false\
+EOF\
+done
+: 1753176486:0;sudo systemctl daemon-reload\
+
+: 1753176489:0;sudo rm -f /usr/lib/systemd/system-sleep/nvidia-unload.sh\
+sudo rm -f /usr/lib/systemd/system-sleep/resume-hypr.sh\
+
+: 1753176506:0;sudo systemctl mask nvidia-suspend.service \\
+                  nvidia-hibernate.service \\
+                  nvidia-resume.service\
+sudo systemctl disable nvidia-suspend.service \\
+                       nvidia-hibernate.service \\
+                       nvidia-resume.service\
+
+: 1753176522:0;reboot
+: 1753176600:0;systemctl suspend\
+
+: 1753177072:0;grep spotify
+: 1753177083:0;pkill spotify
+: 1753177091:0;pkill -9 spotify
+: 1753177163:0;hyprctl clients\
+
+: 1753177236:0;spotify --disable-gpu-sandbox\
+
+: 1753177261:0;spotify\
+
+: 1753177284:0;which spotify\
+
+: 1753177288:0;file $(which spotify)\
+
+: 1753177294:0;which spotify\
+
+: 1753177295:0;file $(which spotify)\
+
+: 1753177296:0;flatpak list | grep -i spotify\
+snap list | grep -i spotify\
+
+: 1753203239:0;$ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh\
+
+: 1753203256:0;sudo pacman -S curl
+: 1753203265:0;$ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh\
+
+: 1753203479:0;curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | bash
+: 1753204194:0;sudo pacman -Rns rust\
+
+: 1753204233:0;curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | bash
+: 1753204335:0;pacman -Qi rust | grep "Required By"\
+
+: 1753204341:0;paru -Qi rust
+: 1753204345:0;paru -Qi rustup
+: 1753204351:0;pacman -Qi rustup | grep "Required By"\
+
+: 1753204364:0;echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.zshrc\
+
+: 1753204367:0;source ~/.zshrc\
+
+: 1753204376:0;pactree -r rust
+: 1753204389:0;pactree -r rustup
+: 1753204396:0;rust
+: 1753204401:0;rustup
+: 1753204418:0;$ rustc --version\
+
+: 1753204432:0;rustc --version\
+
+: 1753204437:0;curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh\
+
+: 1753204502:0;. "$HOME/.cargo/env" 
+: 1753204518:0;rustc --version\
+
+: 1753204533:0;$ echo $PATH\
+
+: 1753204548:0;rustup update
+: 1753204780:0;clear
+: 1753204781:0;l
+: 1753204788:0;nvim
+: 1753204819:0;rustup component add rustfmt
+: 1753204837:0;rustup component add clippy
+: 1753204844:0;cargo install cargo-edit
+: 1753204995:0;ls
+: 1753205000:0;cd mnt
+: 1753205000:0;ls
+: 1753205004:0;cd ..
+: 1753205007:0;rm -rf mnt
+: 1753205007:0;ls
+: 1753205013:0;cd hyde-settings
+: 1753205013:0;ls
+: 1753205017:0;cd ..
+: 1753205022:0;rm -rf hyde-settings
+: 1753205022:0;ls
+: 1753205030:0;cargo install cargo-watch
+: 1753205046:0;cd lua/user/plugins/
+: 1753205051:0;cd /lua/user/plugins/
+: 1753205065:0;cd .config/nvim/lua/plugins
+: 1753205066:0;ls
+: 1753205075:0;nvim mason.lua
+: 1753261289:0;nvim
+: 1753261471:0;cd cod
+: 1753261475:0;mkdir code
+: 1753261476:0;ls
+: 1753261483:0;mv arch-maintenance code
+: 1753261485:0;cd code
+: 1753261486:0;ls
+: 1753261497:0;mkdir hello_world
+: 1753261501:0;cd hello_world
+: 1753261502:0;ls
+: 1753261529:0;nvim
+: 1753261591:0;nvim ~/.config/nvim/lua/plugins/mason.lua
+: 1753261759:0;nvim main.rs
+: 1753261783:0;ls
+: 1753261784:0;nvim main.rs
+: 1753261846:0;la
+: 1753261849:0;ls
+: 1753261874:0;rustc main.rs
+: 1753261896:0;nvim main.rs
+: 1753261909:0;rustc main.rs
+: 1753261911:0;ls
+: 1753261914:0;./main
+: 1753261926:0;rustc main.rs
+: 1753261930:0;nvim main.rs
+: 1753263346:0;rustup component add rustfmt\
+
+: 1753263357:0;nvim main.rs
+: 1753263476:0;nvim ~/.config/nvim\
+
+: 1753263648:0;nvim .
+: 1753263667:0;nvim main
+: 1753263673:0;nvim main.rs
+: 1753263940:0;rustup show\
+\
+
+: 1753263963:0;rustup component list --installed --toolchain stable\
+
+: 1753263966:0;rustup component list\
+
+: 1753263974:0;rustup component list --installed\
+
+: 1753264013:0;nvim main.rs
+: 1753264236:0;cargo init --bin .\
+
+: 1753264238:0;ls
+: 1753264243:0;nvim main.rs
+: 1753264296:0;nvim ~/.local/share/nvim/lazy/project.nvim/lua/project_nvim/project.lua
+: 1753264382:0;nvim main.rs
+: 1753264428:0;nvim ~/.config/nvim
+: 1753264892:0;cargo --version
+: 1753264903:0;cd ..
+: 1753264903:0;ls
+: 1753264914:0;mkdir rust
+: 1753264921:0;mv hello_world rust
+: 1753264922:0;cd rust
+: 1753264924:0;cd hello_world
+: 1753264925:0;ls
+: 1753264935:0;rm Cargo.lock Cargo.toml
+: 1753264935:0;ls
+: 1753264941:0;rm -rf target
+: 1753264941:0;ls
+: 1753264949:0;rustc main
+: 1753264951:0;rustc main.rs
+: 1753264953:0;ls
+: 1753264957:0;./main
+: 1753264960:0;cd ..
+: 1753264960:0;ls
+: 1753264981:0;cargo new hello_cargo
+: 1753264982:0;ls
+: 1753264989:0;cd hello_cargo
+: 1753264990:0;ls
+: 1753265009:0;ls -a
+: 1753265068:0;nvim Cargo.toml
+: 1753265162:0;cd src
+: 1753265163:0;ls
+: 1753265166:0;nvim main.rs
+: 1753265257:0;cd ..
+: 1753265257:0;ls
+: 1753265260:0;pwd
+: 1753265268:0;cargo build
+: 1753265270:0;ls
+: 1753265282:0;ls -a
+: 1753265337:0;./target/debug/hello_cargo
+: 1753265383:0;ls
+: 1753265387:0;cargo run
+: 1753265446:0;cargo check
+: 1753265591:0;nvim src/main.rs
+: 1753265599:0;cargo run
+: 1753265604:0;nvim src/main.rs
+: 1753265631:0;flatpak uninstall --delete-data com.spotify.Client\
+
+: 1753265686:0;flatpak list | grep com.spotify.Client\
+
+: 1753265697:0;pacman -Qs spotify\
+
+: 1753265703:0;pacman -Qi spotify-launcher\
+
+: 1753265708:0;which spotify\
+
+: 1753265713:0;which -a spotify\
+
+: 1753265717:0;snap list spotify\
+
+: 1753265924:0;nvim ~/.config/nvim/lua/plugins/diagnostics.lua
+: 1753266006:0;nvim ~/.config/nvim/lua/plugins/astrolsp.lua
+: 1753266133:0;nvim ~/.config/nvim/lua/plugins/diagnostics.lua
+: 1753266191:0;nvim src/main.rs
+: 1753266335:0;nvim ~/.config/nvim/lua/plugins/diagnostics.lua
+: 1753266560:0;nvim ~/.config/nvim/lua/plugins/astrolsp.lua
+: 1753266741:0;nvim ~/.config/nvim/lua/plugins/diagnostics.lua
+: 1753266793:0;nvim ~/.config/nvim/lua/plugins/astrolsp.lua
+: 1753267104:0;nvim ~/.config/nvim/lua/plugins/diagnostics.lua
+: 1753267152:0;sudo pacman -S dunst\
+
+: 1753267171:0;systemctl --user enable --now dunst\
+
+: 1753267180:0;sudo pacman -S mako\
+
+: 1753267188:0;cd ~/.config/spotify\
+
+: 1753267190:0;ls
+: 1753267200:0;ls Users
+: 1753267205:0;ls prefs
+: 1753267220:0;cd
+: 1753267221:0;systemctl --user restart dbus\
+
+: 1753267436:0;cd code
+: 1753267437:0;ls
+: 1753267440:0;cd rust
+: 1753267440:0;ls
+: 1753267443:0;cd hello_C
+: 1753267445:0;cd hello_cargo
+: 1753267445:0;ls
+: 1753267449:0;nvim src/main.rs
+: 1753267491:0;cd
+: 1753267492:0;sudo pacman -Rns spotify\
+
+: 1753267504:0;rm -rf ~/.config/spotify ~/.cache/spotify\
+
+: 1753267509:0;rm -rf ~/.config/spicetify\
+
+: 1753267515:0;sudo pacman -Syu\
+
+: 1753267888:0;sudo pacman -S spotify\
+
+: 1753268275:0;sudo pacman -S dunst\
+\
+
+: 1753268285:0;clear
+: 1753268413:0;nvim .config/hyde/config.toml
+: 1753268525:0;sudo pacman -S mako\
+
+: 1753268572:0;notify-send "Test" "Mako is running\
+\
+
+: 1753268578:0;ls
+: 1753268587:0;nvim .config/hypr/userprefs.conf
+: 1753268668:0;mako &
+: 1753268680:0;notify-send "Test" "Mako is running\
+\
+
+: 1753268762:0;nvim .config/hyde/config.toml
+: 1753268802:0;clear
+: 1753268804:0;busctl --user list | grep org.freedesktop.Notifications\
+
+: 1753268808:0;busctl --user status org.freedesktop.Notifications\
+
+: 1753268837:0;pgrep -a swaync\
+
+: 1753268855:0;swaync &\
+
+: 1753268941:0;sudo pacman -S swaync\
+
+: 1753268959:0;swaync &\
+
+: 1753268969:0;notify-send "Test" "SwayNC is running\
+
+: 1753268980:0;pgrep -a dunst\
+
+: 1753269024:0;pkill dunst
+: 1753269028:0;dunst &
+: 1753269048:0;notifyâ€ƒ±send "Dunst test" "Hello from Dunst\
+
+: 1753269066:0;notifyâ€ƒ±send "Dunst test" "Hello from Dunst\
+
+: 1753269067:0;pkill dunst\
+
+: 1753269077:0;pkill swaync\
+
+: 1753269089:0;swaync &
+: 1753269106:0;notifyâ€ƒ±send "SwayNC test" "Hello from SwayNC\
+
+: 1753269474:171;nvim .config/hypr/hypridle.conf
+: 1753270451:0;cd .config/nvim
+: 1753270451:0;ls
+: 1753270456:0;git add .
+: 1753270468:0;git commit -m "update"
+: 1753270473:0;git push origin main
+: 1753270810:3;gh auth login\
+
+: 1753270822:0;sudo pacman -S gh
+: 1753270850:0;paru -S github-cli
+: 1753270918:0;gh auth login\
+
+: 1753271021:0;git push origin main
+: 1753271031:0;cd .config/nvim
+: 1753271033:0;git push origin main
+: 1753271080:0;git remote -v\
+
+: 1753271106:0;git remote set-url origin git@github.com:mohammed-shakir/astronvim_config.git\
+
+: 1753271110:0;git remote -v\
+
+: 1753271122:0;git push origin main\
+
+: 1753271201:0;cd /tmp\
+
+: 1753271202:0;ls
+: 1753271208:0;git clone git@github.com:mohammed-shakir/dotfiles.git clean-dotfiles\
+
+: 1753271213:0;cd clean-dotfiles\
+
+: 1753271220:0;git rm -r '*' 
+: 1753271224:0;git commit -m "chore: clean out old configs"
+: 1753271229:0;ls
+: 1753271234:0;git push origin main
+: 1753271285:0;chezmoi --version
+: 1753271290:0;chezmoi init --apply https://github.com/mohammed-shakir/dotfiles.git\
+
+: 1753271300:0;ls
+: 1753271306:0;cd ~/.local/share/chezmoi\
+
+: 1753271310:0;git remote set-url origin git@github.com:mohammed-shakir/dotfiles.git\
+
+: 1753271335:0;chezmoi init --apply https://github.com/mohammed-shakir/dotfiles.git\
+
+: 1753271347:0;ls
+: 1753271356:0;git remote --version
+: 1753271361:0;git remote --help
+: 1753271370:0;git remote -v
+: 1753271394:0;cd
+: 1753271395:0;ls
+: 1753271400:0;chezmoi add --recursive ~/.config
+: 1753273077:0;ls .config
+: 1753273096:0;chezmoi unmanaged\
+
+: 1753273104:0;chezmoi managed\
+
+: 1753273108:0;ls
+: 1753273114:0;ls .config
+: 1753273140:0;chezmoi add --recursive ~/.config/rofi
+: 1753273149:0;chezmoi add --recursive ~/.config/zsh
+: 1753273162:0;chezmoi add --recursive ~/.config/hyde
+: 1753273491:0;chezmoi add --recursive ~/.config/nvim
+: 1753273513:0;ls .config/systemd
+: 1753273516:0;ls .config/systemd/user
+: 1753273528:0;chezmoi add --recursive ~/.config/systemd
+: 1753273577:0;chezmoi add --recursive ~/.config/hypr
+: 1753273584:0;chezmoi add --recursive ~/.config/kitty
+: 1753273615:0;chezmoi add --recursive ~/.config/waybar
+: 1753273623:0;ls .config/cava
+: 1753273629:0;ls .config/cava/shaders
+: 1753273636:0;cat .config/cava/config
+: 1753273653:0;chezmoi apply
+: 1753273697:0;chezmoi add --recursive ~/.config/zsh

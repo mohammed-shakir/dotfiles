@@ -1,0 +1,10 @@
+[Unit]
+Description=Run wallpaper rotation every 5 minutes
+
+[Timer]
+OnUnitActiveSec=2min
+OnBootSec=1min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

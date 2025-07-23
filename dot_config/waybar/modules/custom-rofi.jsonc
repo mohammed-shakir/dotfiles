@@ -1,0 +1,8 @@
+{
+  "custom/rofi": {
+    "format": " ",
+    "tooltip": true,
+    "tooltip-format": "App launcher",
+    "on-click": "hyde-shell rofilaunch"
+  }
+}
