@@ -1,3 +1,5 @@
-0000000000000000000000000000000000000000 acbf45900beb5401ccf295c89b302996be75fa24 shakir <shakir@shakir-laptop.(none)> 1752949401 +0300	clone: from https://github.com/mohammed-shakir/astronvim_config.git
-acbf45900beb5401ccf295c89b302996be75fa24 93a9e2200a408db92b1c4e4f124416762f9fa3c0 Mohammed Shakir <mohammedshakir010528@gmail.com> 1752949542 +0300	commit: init
-93a9e2200a408db92b1c4e4f124416762f9fa3c0 e8441f6fd7f2369f7ed28e705151047e9063f4ac Mohammed Shakir <mohammedshakir010528@gmail.com> 1753270468 +0300	commit: update
+0000000000000000000000000000000000000000 77563749088d0b8f3ed5324d2212f5a0ffbfbe38 Mohammed Shakir <mohammedshakir010528@gmail.com> 1753361318 +0300	commit (initial): Initial commit: LazyVim config
+77563749088d0b8f3ed5324d2212f5a0ffbfbe38 0000000000000000000000000000000000000000 Mohammed Shakir <mohammedshakir010528@gmail.com> 1753361362 +0300	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 77563749088d0b8f3ed5324d2212f5a0ffbfbe38 Mohammed Shakir <mohammedshakir010528@gmail.com> 1753361362 +0300	Branch: renamed refs/heads/master to refs/heads/main
+77563749088d0b8f3ed5324d2212f5a0ffbfbe38 7772e88c741bbca7cf852ba637bc036b74b5d399 Mohammed Shakir <mohammedshakir010528@gmail.com> 1753361591 +0300	commit: readme
+7772e88c741bbca7cf852ba637bc036b74b5d399 0ac2e21a2b44acd0c5c3905548aea0a696b9f5b8 Mohammed Shakir <mohammedshakir010528@gmail.com> 1753368128 +0300	commit: update

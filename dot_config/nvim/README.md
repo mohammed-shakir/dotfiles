@@ -1,34 +1,17 @@
-**AstroNvim Config Fork**
+# 💤 LazyVim
 
-This repository contains my customized AstroNvim setup. 
-
----
-
-## 1. Sync with Upstream
-
-Pull in the latest changes from the official AstroNvim template:
+To use this config on a new machine:
 
 ```bash
-# (Only if you haven't already) Add the official AstroNvim template as upstream
-git remote add upstream https://github.com/AstroNvim/template.git
+# Remove any existing config
+rm -rf ~/.config/nvim
 
-# Fetch and rebase your custom commits on top of the latest template
-git pull --rebase upstream main -X theirs
+# Clone this repo into your config directory
+git clone git@github.com:mohammed-shakir/lazyvim-config.git ~/.config/nvim
 
-# Push the rebased history to your fork
-git push origin main --force-with-lease
-```
+# Open Neovim — plugins will install automatically
+nvim
 
----
+# After it loads once, sync LazyVim and quit
+nvim +Lazy sync +qa
 
-## 2. Install on a New Machine
-
-Clone and bootstrap AstroNvim:
-
-```bash
-# Clone into the standard Neovim config directory
-git clone git@github.com:mohammed-shakir/astronvim_config.git ~/.config/nvim
-
-# Install plugins and apply your config headlessly
-nvim --headless -c 'quitall'
-```
