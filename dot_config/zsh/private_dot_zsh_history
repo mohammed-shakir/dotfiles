@@ -3858,3 +3858,1300 @@ snap list | grep -i spotify\
 : 1753273636:0;cat .config/cava/config
 : 1753273653:0;chezmoi apply
 : 1753273697:0;chezmoi add --recursive ~/.config/zsh
+: 1753273954:0;chezmoi unmanaged\
+
+: 1753273980:0;cd ~/.local/share/chezmoi\
+
+: 1753273992:0;git add -A
+: 1753274002:0;git commit -m "chore: sync fresh dotfiles"
+: 1753274014:0;git push -f origin main
+: 1753274161:0;cd
+: 1753274163:0;cd .local
+: 1753274163:0;ls
+: 1753274166:0;cd share
+: 1753274167:0;ls
+: 1753274172:0;ls applications
+: 1753274187:0;ls hyde
+: 1753274244:0;cd
+: 1753274302:0;cd .local/share/hyde-wallpapers
+: 1753274303:0;ls
+: 1753274306:0;pwd
+: 1753274383:0;cd
+: 1753274384:0;sudo pacman -S hyprpaper\
+
+: 1753274824:0;nvim .config/hypr/userprefs.conf
+: 1753274836:0;hyprctl monitors\
+
+: 1753274843:0;nvim .config/hypr/userprefs.conf
+: 1753274883:0;systemctl --user enable --now hyprpaper.service\
+
+: 1753274937:0;nvim .config/hypr/userprefs.conf
+: 1753274996:0;hyprctl monitors\
+
+: 1753275001:0;cat .config/hypr/userprefs.conf
+: 1753275029:0;hyprctl reload\
+
+: 1753275039:0;hyprctl hyprpaper wallpaper "eDP-1","/home/shakir/.local/share/hyde-wallpapers/a_black_and_white_image_of_a_zombie.jpeg"\
+
+: 1753275073:0;cd .config
+: 1753275074:0;ls
+: 1753275076:0;cd hypr
+: 1753275077:0;ls
+: 1753275083:0;nvim hyprpaper.conf
+: 1753275112:0;hyprctl reload\
+
+: 1753275117:0;hyprctl hyprpaper wallpaper "eDP-1","/home/shakir/.local/share/hyde-wallpapers/a_black_and_white_image_of_a_zombie.jpeg"\
+
+: 1753275151:0;hyprctl reload\
+
+: 1753275157:0;nvim hyprpaper.conf
+: 1753275212:0;hyprctl reload\
+
+: 1753275215:0;nvim hyprpaper.conf
+: 1753275246:0;hyprctl reload\
+
+: 1753275261:0;hyprctl hyprpaper wallpaper "eDP-1","contain:/home/shakir/.local/share/hyde-wallpapers/a_black_and_white_image_of_a_zombie.jpeg"\
+
+: 1753275312:0;hyprctl hyprpaper wallpaper "eDP-1","tile:/home/shakir/.local/share/hyde-wallpapers/a_black_and_white_image_of_a_zombie.jpeg"\
+
+: 1753275346:0;cd ~/.local/share/
+: 1753275347:0;ls
+: 1753275364:0;cd hyde-wallpapers
+: 1753275365:0;ls
+: 1753275380:0;imv a_black_and_white_image_of_a_zombie.jpeg
+: 1753275396:0;cd
+: 1753275406:0;hyprctl hyprpaper wallpaper "eDP-1","/home/shakir/.local/share/hyde-wallpapers/a_black_and_white_image_of_a_zombie.jpeg"\
+
+: 1753275413:0;cd .config/hypr
+: 1753275415:0;ls
+: 1753275418:0;nvim hyprpaper.conf
+: 1753275437:0;hyprctl reload\
+
+: 1753275487:0;hyde-shell wallpaper list\
+
+: 1753277091:0;cd
+: 1753277093:0;cd HyDE
+: 1753277093:0;ls
+: 1753277095:0;cd Scripts
+: 1753277095:0;ls
+: 1753277174:0;./install.sh -i -m -n
+: 1753277197:0;hyprctl reload\
+
+: 1753277210:0;hyde-shell reload\
+
+: 1753277223:0;sudo pacman -S hyprpaper\
+
+: 1753277236:0;hyde-shell wallpaper list\
+
+: 1753277250:0;hyde-shell wallpaper --help\
+
+: 1753277274:0;hyde-shell wallpaper get\
+
+: 1753277281:0;hyde-shell wallpaper -g\
+
+: 1753277323:0;./install.sh -i -n
+: 1753277331:0;./install.sh -i
+: 1753277341:0;hyde-shell reload\
+
+: 1753277351:0;hyprctl reload\
+
+: 1753277356:0;hyde-shell wallpaper get\
+
+: 1753277359:0;hyde-shell wallpaper -g\
+
+: 1753277364:0;hyde-shell wallpaper list\
+
+: 1753277454:0;cd
+: 1753277456:0;pacman -Qent > ~/pkglist.txt\
+
+: 1753277458:0;ls
+: 1753277464:0;nvim pkglist.txt
+: 1753277480:0;paru -Qqe > ~/aurlist.txt\
+
+: 1753277481:0;ls
+: 1753277486:0;nvim aurlist.txt
+: 1753277548:0;rm pkglist.txt aurlist.txt
+: 1753277549:0;ls
+: 1753277855:0;sudo pacman -S gcc
+: 1753277873:0;cargo install rustlings\
+
+: 1753277917:0;cd code
+: 1753277917:0;ls
+: 1753277930:0;rustlings init
+: 1753277941:0;ls
+: 1753277945:0;cd rustlings
+: 1753277946:0;ls
+: 1753278040:0;rustlings
+: 1753278098:0;cd code/rustlings
+: 1753278098:0;ls
+: 1753278107:0;nvim .
+: 1753278444:0;cd .config/nvim
+: 1753278444:0;ls
+: 1753278457:0;nvim lua/plugins/astrolsp.lua
+: 1753278521:0;nvim .
+: 1753278607:0;rustlings
+: 1753278624:0;cd code/rust
+: 1753278625:0;ls
+: 1753278689:0;cd .config/nvim
+: 1753278689:0;ls
+: 1753278692:0;cd lua/plugins
+: 1753278693:0;ls
+: 1753278697:0;cd ..
+: 1753278697:0;ls
+: 1753278702:0;cd plugins
+: 1753278702:0;ls
+: 1753278704:0;cd ..
+: 1753278705:0;ls
+: 1753278709:0;cd lua
+: 1753278709:0;ls
+: 1753278716:0;nvim community.lua
+: 1753278722:0;cd plugins
+: 1753278722:0;ls
+: 1753278726:0;nvim mappings.lua
+: 1753279693:0;cargo new guessing_game
+: 1753279695:0;ls
+: 1753279698:0;cd guessing_game
+: 1753279698:0;ls
+: 1753279702:0;cd src
+: 1753279730:0;cd ..
+: 1753279731:0;ls
+: 1753279736:0;cargo run
+: 1753279747:0;cd src
+: 1753279749:0;nvim main.rs
+: 1753288744:0;ls
+: 1753288747:0;cargo run
+: 1753288749:0;cd ..
+: 1753288751:0;cargo run
+: 1753288760:0;ls
+: 1753288762:0;cd src
+: 1753288764:0;nvim main.rs
+: 1753288782:0;cargo run
+: 1753288789:0;nvim main.rs
+: 1753288831:0;cd ..
+: 1753288833:0;ls
+: 1753288834:0;nvim .
+: 1753288975:0;nvim Cargo.toml
+: 1753288980:0;cargo build
+: 1753289125:0;nvim .
+: 1753289145:0;cd code
+: 1753289145:0;ls
+: 1753289149:0;cd rustlings
+: 1753289150:0;ls
+: 1753289153:0;cd ..
+: 1753289154:0;cd rust
+: 1753289155:0;ls
+: 1753289157:0;cd guessing_game
+: 1753289158:0;ls
+: 1753289560:0;nvim .
+: 1753289580:0;nvim
+: 1753289602:0;cargo run
+: 1753347520:0;hyprpaper --help
+: 1753347533:0;hyprpaper --config --help
+: 1753347549:0;cd
+: 1753347553:0;cd .config/nvim
+: 1753347554:0;ls
+: 1753347560:0;nvim .
+: 1753347960:0;cd .config/kitty
+: 1753347961:0;ls
+: 1753347974:0;cd ..
+: 1753347976:0;cd hypr
+: 1753347976:0;ls
+: 1753348000:0;nvim userprefs.conf
+: 1753348036:0;cd ..
+: 1753348038:0;cd kitty
+: 1753348038:0;ls
+: 1753348041:0;nvim theme.conf
+: 1753348064:0;nvim hyde.conf
+: 1753348070:0;nvim kitty.conf
+: 1753348082:0;nvim theme.conf
+: 1753348207:0;hyprctl reoad
+: 1753348212:0;hyprctl reload
+: 1753348221:0;hyde-shell reload
+: 1753348240:0;nvim theme.conf
+: 1753348249:0;cd ..
+: 1753348250:0;ls
+: 1753348255:0;cd kitty
+: 1753348256:0;ls
+: 1753348260:0;cat kitty.conf
+: 1753348268:0;cat hy
+: 1753348272:0;ls
+: 1753348274:0;cat hyde.conf
+: 1753348285:0;cd ..
+: 1753348285:0;ls
+: 1753348329:0;cd kitty
+: 1753348330:0;pwd
+: 1753348334:0;ls
+: 1753348377:0;cd ..
+: 1753348378:0;ls
+: 1753348381:0;cd hypr
+: 1753348381:0;ls
+: 1753348397:0;rm change_wallpapers.sh
+: 1753348398:0;ls
+: 1753348463:0;cd ..
+: 1753348465:0;cd hyde
+: 1753348466:0;ls
+: 1753348472:0;cd wallbash
+: 1753348476:0;ls
+: 1753348479:0;cd theme
+: 1753348480:0;ls
+: 1753348483:0;cd ..
+: 1753348483:0;ls
+: 1753348487:0;cat README.md
+: 1753348497:0;cd ..
+: 1753348497:0;ls
+: 1753348500:0;nvim config.toml
+: 1753348538:0;cd ..
+: 1753348539:0;cd kitty
+: 1753348539:0;ls
+: 1753348542:0;nvim kitty.conf
+: 1753348621:0;hyprctl reload
+: 1753348625:0;nvim kitty.conf
+: 1753348633:0;hyde-shell reload
+: 1753348641:0;nvim kitty.conf
+: 1753348653:0;hyde-shell reload
+: 1753348669:0;nvim theme.conf
+: 1753348739:0;nvim kitty.conf
+: 1753348763:0;cat ../hypr/userprefs.conf
+: 1753348772:0;nvim kitty.conf
+: 1753348792:0;hyde-shell reload
+: 1753348808:0;nvim kitty.conf
+: 1753348849:0;hyde-shell reload
+: 1753348864:0;ls
+: 1753348886:0;cd ..
+: 1753348887:0;ls
+: 1753348896:0;cd kitty
+: 1753348896:0;ls
+: 1753348900:0;nvim theme.conf
+: 1753349029:0;nvim kitty.conf
+: 1753349049:0;hyde-shell reload
+: 1753349062:0;ls
+: 1753349069:0;nvim kitty.conf
+: 1753349086:0;hyde-shell reload
+: 1753349092:0;ls
+: 1753349130:0;nvim kitty.conf
+: 1753349137:0;ls
+: 1753349139:0;hyde-shell reload
+: 1753349145:0;ls
+: 1753349184:0;nvim kitty.conf
+: 1753349196:0;hyde-shell reload
+: 1753349206:0;clear
+: 1753349209:0;ls
+: 1753349344:0;cd
+: 1753349375:0;mv ~/.config/nvim ~/.config/nvim.bak\
+
+: 1753349473:0;cd
+: 1753349475:0;clear
+: 1753349477:0;# Neovim version (check if âƒ©¥ 0.9.0)\
+nvim --version | head -n 1\
+\
+# Git version (check if âƒ©¥ 2.19.0)\
+git --version\
+\
+# Check if LuaJIT is used (should be part of `nvim --version`)\
+nvim --version | grep -i luajit\
+
+: 1753349482:0;# Check if a Nerd Font is installed (v3 or higher recommended)\
+fc-list | grep -i "nerd"\
+
+: 1753349487:0;# Neovim version (check if âƒ©¥ 0.9.0)\
+nvim --version | head -n 1\
+\
+# Git version (check if âƒ©¥ 2.19.0)\
+git --version\
+\
+# Check if LuaJIT is used (should be part of `nvim --version`)\
+nvim --version | grep -i luajit\
+
+: 1753349495:0;# lazygit (optional git UI)\
+lazygit --version\
+\
+# Check if a C compiler (for treesitter) is available\
+cc --version || gcc --version\
+\
+# curl (required for cmp-blink)\
+curl --version\
+\
+# fuzzy searching tools\
+fzf --version\
+rg --version     # for ripgrep\
+fd --version     # for fd\
+
+: 1753349577:0;ls ~/.config/nvim.bak\
+
+: 1753349605:0;mv ~/.config/nvim.bak ~/.config/nvim
+: 1753349611:0;ls .config/nvim
+: 1753349619:0;mv ~/.config/nvim{,.bak}\
+
+: 1753349628:0;ls .config/nvim.bak
+: 1753349634:0;mv ~/.local/share/nvim{,.bak}\
+mv ~/.local/state/nvim{,.bak}\
+mv ~/.cache/nvim{,.bak}
+: 1753349650:0;mkdir .config/nvim
+: 1753349656:0;ls .config/nvim
+: 1753349659:0;git clone https://github.com/LazyVim/starter ~/.config/nvim
+: 1753349680:0;cd .config/nvim
+: 1753349681:0;ls
+: 1753349686:0;rm -rf ~/.config/nvim/.git
+: 1753349704:0;nvim
+: 1753349880:0;ls
+: 1753349885:0;nvim
+: 1753349895:0;ls
+: 1753349901:0;cd lua
+: 1753349902:0;ls
+: 1753349912:0;cd config
+: 1753349912:0;ls
+: 1753349918:0;nvim lazy.lua
+: 1753351318:0;ls
+: 1753351321:0;cd ..
+: 1753351322:0;ls
+: 1753351323:0;cd plugins
+: 1753351324:0;ls
+: 1753351329:0;nvim colorscheme.lua
+: 1753351486:0;nvim .
+: 1753351524:0;nvim colorscheme.lua
+: 1753351679:0;cd .config/nvim/lua/plugins
+: 1753351683:0;nvim colorscheme.lua
+: 1753352920:0;cd ..
+: 1753352921:0;cd config
+: 1753352922:0;ls
+: 1753352927:0;nvim keymaps.lua
+: 1753353163:0;nvim
+: 1753353338:0;ls
+: 1753353342:0;nvim keymaps.lua
+: 1753353910:0;cd ..
+: 1753353911:0;cd plugins
+: 1753353911:0;ls
+: 1753353924:0;nvim lsp.lua
+: 1753354806:0;nvim ../config/options.lua
+: 1753354826:0;nvim lsp.lua
+: 1753358576:0;nvim .
+: 1753358584:0;nvim
+: 1753358913:0;nvim lsp.lua
+: 1753359459:0;cd ~/.config/nvim.bak\
+
+: 1753359470:0;ls
+: 1753359475:0;cd lua
+: 1753359475:0;ls
+: 1753359483:0;cd plugins
+: 1753359484:0;ls
+: 1753359492:0;nvim mason.lua
+: 1753359581:0;ls
+: 1753359590:0;cd ..
+: 1753359592:0;ls
+: 1753359594:0;cd ..
+: 1753359611:0;cat ~/.local/share/nvim.bak/mason.log\
+
+: 1753359615:0;cat ~/.local/share/nvim.bak/m\
+
+: 1753359618:0;cat ~/.local/share/nvim.bak/\
+
+: 1753359621:0;ls ~/.local/share/nvim.bak/\
+
+: 1753359625:0;ls ~/.local/share/nvim.bak/mason\
+
+: 1753359632:0;ls ~/.local/share/nvim.bak/mason/packages\
+
+: 1753360048:0;nvim lsp.lua
+: 1753360192:0;cd
+: 1753360196:0;cd .config/kitty
+: 1753360196:0;ls
+: 1753360199:0;nvim kitty.conf
+: 1753360228:0;hyde-shell reload
+: 1753360258:0;cd ..
+: 1753360261:0;cd hypr
+: 1753360261:0;ls
+: 1753360266:0;nvim hyprpaper.conf
+: 1753360313:0;cd ..
+: 1753360314:0;cd kitty
+: 1753360316:0;nvim kitty.conf
+: 1753360347:0;hyde-shell reload
+: 1753360358:0;nvim kitty.conf
+: 1753360378:0;hyde-shell reload
+: 1753360385:0;nvim kitty.conf
+: 1753360419:0;cd ..
+: 1753360421:0;cd nvim
+: 1753360421:0;ls
+: 1753360428:0;cd lua
+: 1753360429:0;ls
+: 1753360434:0;cd plugins
+: 1753360435:0;ls
+: 1753360509:0;cd ..
+: 1753360510:0;ls
+: 1753360553:0;cd plugins
+: 1753360554:0;nvim snacks.lua
+: 1753360620:0;ls
+: 1753360622:0;cd ..
+: 1753360623:0;ls
+: 1753360625:0;cd ..
+: 1753360627:0;nvim
+: 1753360705:0;systemctl --user enable --now hyprpaper.service\
+
+: 1753360713:0;cd
+: 1753360717:0;cd .config/hypr
+: 1753360720:0;nvim userprefs.conf
+: 1753360748:0;pgrep -a hyprpaper\
+
+: 1753360790:0;cd ..
+: 1753360791:0;cd nvim
+: 1753360792:0;ls
+: 1753360829:0;cd lua
+: 1753360831:0;nvim
+: 1753360879:0;nvim .
+: 1753361281:0;cd ..
+: 1753361282:0;ls
+: 1753361285:0;git init
+: 1753361310:0;git remote add origin git@github.com:mohammed-shakir/lazyvim-config.git
+: 1753361318:0;git add .\
+git commit -m "Initial commit: LazyVim config"\
+
+: 1753361325:0;git branch
+: 1753361337:0;git push origin main
+: 1753361362:0;git branch -M main
+: 1753361368:0;git push -u origin main
+: 1753361439:0;ls
+: 1753361443:0;nvim README.md
+: 1753361586:0;git add .
+: 1753361591:0;git commit -m "readme"
+: 1753361594:0;git push origin main
+: 1753361630:0;nvim
+: 1753361840:0;- âƒ½ƒ¬ ERROR Tool not found: 'mmdc'\
+
+: 1753361843:0;sudo pacman -S nodejs npm\
+
+: 1753361869:0;npm install -g @mermaid-js/mermaid-cli\
+
+: 1753361914:0;mmdc --version\
+
+: 1753361974:0;npm i @mermaid-js/mermaid-zenuml@0.1.1
+: 1753362004:0;[200~npm i @mermaid-js/mermaid-cli~
+: 1753362010:0;npm i @mermaid-js/mermaid-cli~
+: 1753362014:0;npm i @mermaid-js/mermaid-cli
+: 1753362143:0;nvim
+: 1753362195:0;cd lua
+: 1753362198:0;nvim .
+: 1753362357:0;ls
+: 1753362359:0;cd ..
+: 1753362360:0;ls
+: 1753362368:0;git diff
+: 1753362377:0;nvim package
+: 1753362382:0;nvim package.json
+: 1753362397:0;rm package.json package-lock.json
+: 1753362397:0;ls
+: 1753362437:0;rm -rf node_modules
+: 1753362439:0;ls
+: 1753362450:0;ls -a
+: 1753362475:0;cd .git
+: 1753362476:0;ls
+: 1753362478:0;cd ..
+: 1753362491:0;nvim .
+: 1753362974:0;nvim lua/config/autocmds.lua
+: 1753363769:0;nvim .
+: 1753364857:0;ls
+: 1753364953:0;exit
+: 1753365347:0;nvim .
+: 1753365466:0;ls
+: 1753365468:0;cd lua
+: 1753365469:0;ls
+: 1753365470:0;cd plugins
+: 1753365471:0;ls
+: 1753365476:0;rm colorscheme.lua
+: 1753365477:0;ls
+: 1753365480:0;exit
+: 1753366104:0;nvim .
+: 1753366376:0;nvim
+: 1753366965:0;nvim lua/plugins/copilot.lua
+: 1753367797:0;nvim lua/plugins/catppuccin.lua
+: 1753368047:0;nvim
+: 1753368120:0;ls
+: 1753368123:0;git add .
+: 1753368128:0;git commit -m "update"
+: 1753368134:0;git push origin main
+: 1753368197:0;cd
+: 1753368215:0;chezmoi add .config/kitty/kitty.conf
+: 1753368222:0;chezmoi diff\
+
+: 1753368250:0;cd ~/.local/share/chezmoi\
+
+: 1753368251:0;la
+: 1753368252:0;ls
+: 1753368268:0;git add .
+: 1753368276:0;git commit -m "updated kitty"
+: 1753368286:0;git push origin main
+: 1753368296:0;cd
+: 1753368323:0;chezmoi add .config/nvim
+: 1753368328:0;cd ~/.local/share/chezmoi\
+
+: 1753368330:0;git add .
+: 1753368337:0;git commit -m "updated nvim"
+: 1753368341:0;git push origin main
+: 1753368402:0;chezmoi add -r ~/.config/nvim
+: 1753368406:0;git add .
+: 1753368409:0;git commit -m "updated nvim"
+: 1753368496:0;chezmoi rm ~/.config/nvim
+: 1753368507:0;chezmoi forget ~/.config/nvim
+: 1753368515:0;ls
+: 1753368520:0;ls dot_config
+: 1753368532:0;chezmoi add -r ~/.config/nvim
+: 1753368538:0;ls dot_config
+: 1753368549:0;git add .
+: 1753368555:0;git commit -m "updated nvim"
+: 1753368558:0;git push origin main
+: 1753374362:0;cd
+: 1753374364:0;sudo pacman -S tmux\
+
+: 1753374654:0;sudo pacman -Syu tmux\
+
+: 1753374679:0;git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm\
+
+: 1753374708:0;nvim ~/.tmux.conf
+: 1753374751:0;export TERM=xterm-kitty\
+
+: 1753374832:0;kitty +kitten themes\
+
+: 1753374864:0;cd .config/kitty
+: 1753374864:0;ls
+: 1753374869:0;nvim theme.conf
+: 1753374891:0;nvim kitty.conf
+: 1753374929:0;nvim .config/kitty/kitty.conf
+: 1753374957:0;nvim .config/kitty/hyde.conf
+: 1753374980:0;nvim .config/kitty/theme.conf
+: 1753375004:0;kitty +kitten themes\
+
+: 1753375072:0;nvim
+: 1753375173:0;cp ~/.config/kitty .
+: 1753375177:0;cp -r ~/.config/kitty .
+: 1753375178:0;ls
+: 1753375181:0;cd kitty
+: 1753375181:0;ls
+: 1753375191:0;kitty +kitten themes\
+
+: 1753375247:0;cd .config/kitty
+: 1753375248:0;ls
+: 1753375258:0;nvim hyde.conf
+: 1753375299:0;mv Adapta\ Nokto\ Maia.conf theme2.conf
+: 1753375300:0;ls
+: 1753375304:0;nvim hyde.conf
+: 1753375311:0;nvim kitty.conf
+: 1753375323:0;hyde-shell reload
+: 1753375339:0;kitty +kitten themes\
+
+: 1753375404:0;mv Catppuccin-Mocha.conf theme3.conf
+: 1753375407:0;nvim hyde.conf
+: 1753375414:0;hyde-shell reload
+: 1753375422:0;ls
+: 1753375433:0;nvim hyde.conf
+: 1753375441:0;hyde-shell reload
+: 1753375448:0;ls
+: 1753375458:0;rm theme2.conf theme3.conf
+: 1753375459:0;ls
+: 1753375467:0;kitty +kitten themes\
+
+: 1753375522:0;export TERM=xterm-kitty\
+
+: 1753375533:0;cd .config/kitty
+: 1753375533:0;ls
+: 1753375534:0;pwd
+: 1753375537:0;ls
+: 1753375554:0;cat hyde.conf
+: 1753375559:0;cat kitty.conf
+: 1753375561:0;cat theme.conf
+: 1753375603:0;cd ..
+: 1753375611:0;nvim .tmux.conf
+: 1753375693:0;git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm\
+
+: 1753375714:0;nvim .tmux.conf
+: 1753375737:0;cat .tmux.conf
+: 1753375765:0;tmux kill-server
+: 1753375770:0;tmux
+: 1753375792:0;ls
+: 1753375859:0;echo $TERM\
+
+: 1753375964:0;exit
+: 1753375971:0;ls ~/.tmux/plugins/tpm\
+
+: 1753375991:0;cat .tmux.conf
+: 1753376022:0;tmux
+: 1753376143:0;sudo tmux[200~~/.tmux/plugins/tpm/bin/install_plugins
+: 1753376154:0;.tmux/plugins/tpm/bin/install_plugins\
+
+: 1753376186:0;exit
+: 1753376196:0;ls
+: 1753376198:0;pwd
+: 1753376236:0;tmux
+: 1753376287:0;exit
+: 1753376300:0;nvim .tmux.conf
+: 1753376369:0;tmux kill-server
+: 1753376376:0;tmux
+: 1753376427:0;exit
+: 1753376429:0;tmux kill-server
+: 1753376450:0;tmux new -s rust
+: 1753376464:0;tmux ls
+: 1753376501:0;tmux attach -t rust
+: 1753376522:0;tmux attach rust
+: 1753376533:0;tmux attach --help
+: 1753376538:0;tmux attach -t rust
+: 1753376571:0;cd code
+: 1753376572:0;ls
+: 1753376577:0;cd rust
+: 1753376578:0;ls
+: 1753376581:0;cd guessing_game
+: 1753376581:0;ls
+: 1753376585:0;cargo run
+: 1753376724:0;cd code/rust
+: 1753376725:0;ls
+: 1753376727:0;cd guessing_game
+: 1753376728:0;ls
+: 1753376731:0;nvim .
+: 1753376868:0;cd code
+: 1753376870:0;cd rust
+: 1753376871:0;ls
+: 1753376874:0;cd guessing_game
+: 1753376874:0;ls
+: 1753376899:0;nvim .
+: 1753377145:0;ls
+: 1753377146:0;s
+: 1753377149:0;ls
+: 1753377165:0;car Cargo.toml
+: 1753377180:0;cat Cargo.toml
+: 1753377551:0;nvim .tmux.conf
+: 1753377589:0;tmux attach -t rust
+: 1753377605:0;:source-file ~/.tmux.conf
+: 1753377679:0;ls
+: 1753377708:0;nvim .tmux.conf
+: 1753377715:0;tmux attach -t rust
+: 1753378501:0;ls
+: 1753378647:0;cargo run
+: 1753378740:0;tmux attach -t rust
+: 1753378857:0;cargo run
+: 1753379098:0;cd .config/nvim
+: 1753379099:0;ls
+: 1753379100:0;cd lua
+: 1753379101:0;ls
+: 1753379103:0;cd plugins
+: 1753379103:0;ls
+: 1753379113:0;nvim catppuccin.lua
+: 1753379345:0;cd .config/nvim/lua
+: 1753379347:0;nvim .
+: 1753379622:0;ls ~/.local/share/nvim/mason/packages | grep rust-analyzer\
+
+: 1753379764:0;which rust-analyzer\
+
+: 1753379805:0;nvim .
+: 1753379909:0;cargo run
+: 1753380570:0;chezmoi add .tmux.conf
+: 1753380586:0;chezmoi add -r .tmux
+: 1753380592:0;ls .tmux
+: 1753380596:0;ls .tmux/plugins
+: 1753380597:0;ls
+: 1753380616:0;cd ~/.local/share/chezmoi
+: 1753380618:0;ls
+: 1753380632:0;ls ~/
+: 1753380787:0;ls
+: 1753380790:0;git add .
+: 1753380804:0;git commit -m "tmux"
+: 1753380811:0;git push origin main
+: 1753380815:0;cd
+: 1753380944:0;ls
+: 1753380946:0;cd ..
+: 1753380948:0;ls
+: 1753380953:0;cd ..
+: 1753380990:0;nvim guessing_game/src/main.rs
+: 1753381070:0;cargo run
+: 1753381142:0;\
+
+: 1753381177:0;tmux attach -t rust
+: 1753381235:0;ls
+: 1753381238:0;cargo new variables
+: 1753381240:0;ls
+: 1753381242:0;cd variables
+: 1753381243:0;l
+: 1753381244:0;ls
+: 1753381247:0;nvim .
+: 1753381360:0;cargo run
+: 1753382969:0;cd code
+: 1753382972:0;cat rust
+: 1753382975:0;cd rust
+: 1753382976:0;ls
+: 1753382978:0;cd guessing_game
+: 1753382979:0;ls
+: 1753382980:0;cd src
+: 1753382982:0;cat main.rs
+: 1753383374:0;cargo run
+: 1753391530:0;cd ..
+: 1753391531:0;ls
+: 1753391537:0;cd ..
+: 1753391552:0;rm -rf rust/*
+: 1753391559:0;ls
+: 1753391562:0;cd rust
+: 1753391572:0;cargo new rust
+: 1753391574:0;ls
+: 1753391581:0;rm -rf rust
+: 1753391582:0;ls
+: 1753391611:0;cargo new rust_book
+: 1753391613:0;cd rust_book
+: 1753391614:0;ls
+: 1753391618:0;nvim .
+: 1753393561:0;ls
+: 1753393571:0;cd code
+: 1753393571:0;ls
+: 1753393575:0;cd rustlings
+: 1753393576:0;ls
+: 1753393580:0;nvim .
+: 1753393598:0;ls
+: 1753393622:0;rustlings
+: 1753393637:0;:q
+: 1753393644:0;exit
+: 1753393674:0;cd code
+: 1753393677:0;cd rustlings
+: 1753393680:0;rustlings
+: 1753393813:0;tmux --help
+: 1753393823:0;tmux list
+: 1753393830:0;tmux list -h
+: 1753393833:0;tmux -h
+: 1753393869:0;tmux ls
+: 1753393923:0;tmux a
+: 1753394161:0;kitty @ split-window --location=right\
+
+: 1753394615:0;ls
+: 1753394760:0;kitty --session
+: 1753394765:0;kitty --session --help
+: 1753394989:0;allow_remote_control yes
+: 1753394995:0;kitty @ ls\
+
+: 1753395215:0;tmux ls
+: 1753395219:0;tmux a
+: 1753395234:0;ls
+: 1753395485:0;cd code
+: 1753395485:0;ls
+: 1753395592:0;nvim .tmux.conf
+: 1753395713:0;tmux a
+: 1753395808:0;ls
+: 1753395813:0;ls .tmux
+: 1753395826:0;tmux a
+: 1753395861:0;systemctl poweroff
+: 1753426637:0;tmux a
+: 1753426643:0;tmux ls
+: 1753426800:0;nvim .tmux.conf
+: 1753426818:0;tmux
+: 1753426820:0;nvim .
+: 1753426879:0;cd ..
+: 1753426886:0;./.tmux/plugins/tpm/bin/install_plugins
+: 1753426892:0;cd code
+: 1753427065:0;ls
+: 1753429506:0;cat .tmux.conf
+: 1753429530:0;nvim .tmux.conf
+: 1753430223:0;nvim .config/nvim/lua/config/keymaps.lua
+: 1753430280:0;nvim .tmux.conf
+: 1753432284:0;cd .config/waybar
+: 1753432285:0;ls
+: 1753432293:0;cd layouts
+: 1753432294:0;ls
+: 1753432300:0;nvim custom-waybar.jsonc
+: 1753432311:0;ls
+: 1753432313:0;cd ..
+: 1753432314:0;ls
+: 1753432317:0;nvim user-style.css
+: 1753432385:0;hyde-shell reload
+: 1753432407:0;nvim user-style.css
+: 1753432426:0;hyde-shell reload
+: 1753432448:0;nvim user-style.css
+: 1753432532:0;hyde-shell reload
+: 1753432548:0;nvim user-style.css
+: 1753432555:0;ls
+: 1753432564:0;nvim layouts/custom-waybar.jsonc
+: 1753432661:0;nvim user-style.css
+: 1753432767:0;cd .config/kitty
+: 1753432768:0;ls
+: 1753432772:0;nvim theme.conf
+: 1753432782:0;cd ..
+: 1753432784:0;cd hypr
+: 1753432787:0;nvim userprefs.conf
+: 1753432978:0;nvim ../hypr/keybindings.conf
+: 1753433145:0;tmux
+: 1753433148:0;nvim .
+: 1753433410:0;tmux
+: 1753433425:0;tmux ls
+: 1753433434:0;tmux kill --help
+: 1753433469:0;tmux kill-session 2
+: 1753433474:0;tmux kill-session -t 2
+: 1753433477:0;tmux ls
+: 1753433483:0;tmux a
+: 1753433662:0;cd code/rust
+: 1753433662:0;ls
+: 1753433663:0;cd..
+: 1753433666:0;cd ..
+: 1753433667:0;ls
+: 1753433670:0;cd rustlings
+: 1753433671:0;ls
+: 1753433699:0;cd
+: 1753433737:0;tmux new -s rustlings-terminal
+: 1753433739:0;cd code
+: 1753433742:0;cd rustlings
+: 1753433751:0;tmux ls
+: 1753433770:0;tmux kill-session rust
+: 1753433773:0;tmux ls
+: 1753433777:0;tmux kill-session -t rust
+: 1753433799:0;tmux new -s rustlings
+: 1753433810:0;cd code
+: 1753433814:0;cd rustlings
+: 1753433815:0;ls
+: 1753433819:0;nvim .
+: 1753433969:0;tmus ls
+: 1753433974:0;tmux ls
+: 1753433984:0;tmux kill-session -t rustlings-terminal
+: 1753434061:0;cd .config/waybar
+: 1753434062:0;ls
+: 1753434065:0;nvim user-style.css
+: 1753434114:0;hyde-shell reload
+: 1753434149:0;nvim user-style.css
+: 1753434239:0;cd .config/waybar
+: 1753434250:0;nvim layouts/custom-waybar.jsonc
+: 1753434299:0;nvim user-style.css
+: 1753434408:0;hyde-shell reload
+: 1753434415:0;nvim user-style.css
+: 1753434438:0;hyde-shell reload
+: 1753434448:0;nvim user-style.css
+: 1753435022:0;hyde-shell reload
+: 1753435065:0;nvim user-style.css
+: 1753435166:0;hyde-shell reload
+: 1753435179:0;nvim user-style.css
+: 1753435208:0;ls
+: 1753435211:0;nvim style.css
+: 1753435227:0;nvim user-style.css
+: 1753435249:0;hyde-shell reload
+: 1753435287:0;nvim user-style.css
+: 1753435341:0;cd .config/hypr
+: 1753435345:0;nvim keybindings.conf
+: 1753435376:0;cd
+: 1753435381:0;nvim .tmux.conf
+: 1753435406:0;tmux a
+: 1753435443:0;hyprctl reload
+: 1753435462:0;tmux a
+: 1753435498:0;tmux new -t temp
+: 1753435519:0;nvim .tmux.conf
+: 1753435569:0;tmux source-file ~/.tmux.conf
+: 1753435579:0;tmux a
+: 1753435649:0;cd
+: 1753435665:0;ls
+: 1753435668:0;ls -a
+: 1753435864:0;tmux kill-server\
+
+: 1753435869:0;tmux
+: 1753435871:0;nvim .
+: 1753435928:0;GTK_DEBUG=interactive waybar\
+
+: 1753436071:0;tmux kill-server\
+
+: 1753436196:0;ls\
+
+: 1753436200:0;nvim user-style.css
+: 1753436391:0;ls
+: 1753436394:0;nvim theme.css
+: 1753436443:0;hyprctl reload
+: 1753436451:0;hyde-shell reload
+: 1753436460:0;nvim theme.css
+: 1753436468:0;ls
+: 1753436472:0;nvim config.jsonc
+: 1753436482:0;cd includes
+: 1753436483:0;ls
+: 1753436489:0;nvim includes.json
+: 1753436494:0;nvim global.css
+: 1753436502:0;nvim border-radius.css
+: 1753436508:0;cd ..
+: 1753436508:0;ls
+: 1753436510:0;cd layouts
+: 1753436510:0;ls
+: 1753436512:0;cd ..
+: 1753436519:0;cd modules
+: 1753436520:0;ls
+: 1753436521:0;cd ..
+: 1753436522:0;ls
+: 1753436541:0;nvim user-style.css
+: 1753436549:0;cat theme.css
+: 1753436567:0;nvim user-style.css
+: 1753436851:0;hyde-shell reload
+: 1753436892:0;nvim user-style.css
+: 1753436923:0;nvim layouts/custom-waybar.jsonc
+: 1753436940:0;hyde-shell reload
+: 1753436974:0;nvim user-style.css
+: 1753441243:0;ls
+: 1753441287:0;nvim user-style.css
+: 1753441378:0;cat theme.css
+: 1753441383:0;nvim theme.css
+: 1753441411:0;ls
+: 1753441414:0;nvim user-style.css
+: 1753441436:0;tmux
+: 1753441438:0;nvim .
+: 1753441482:0;nvim user-style.css
+: 1753441989:0;cd
+: 1753441997:0;nvim .tmux.conf
+: 1753442129:0;tmux kill-server\
+
+: 1753442131:0;tmux
+: 1753442133:0;nvim .
+: 1753443566:0;tmux ls
+: 1753443571:0;tmux kill-server\
+
+: 1753443573:0;tmux ls
+: 1753443591:0;tmux new -t rust
+: 1753443595:0;nvim .
+: 1753443601:0;tmux ls
+: 1753443623:0;tmux kill-session -t rustlings
+: 1753443628:0;tmux kill-session -t temp-5
+: 1753443633:0;tmux kill-session -t rust-0
+: 1753443637:0;tmux new -t rust
+: 1753443640:0;nvim .
+: 1753443646:0;tmux ls
+: 1753443668:0;tmux a -t rustlings
+: 1753443683:0;tmux a -t temp-5
+: 1753443689:0;tmux ls
+: 1753443695:0;tmux a -t rust-0
+: 1753443700:0;tmux
+: 1753443708:0;tmux a -t rust-0
+: 1753443712:0;tmux ls
+: 1753443719:0;tmux
+: 1753443724:0;cd code/rust
+: 1753443725:0;ls
+: 1753443731:0;cd rust_book
+: 1753443732:0;ls
+: 1753443839:0;tmux ls
+: 1753443851:0;tmux a -t rust-0
+: 1753443869:0;cd code/rust
+: 1753443870:0;ls
+: 1753443871:0;cd rust_book
+: 1753443871:0;ls
+: 1753443873:0;nvim .
+: 1753443933:0;ls
+: 1753444406:0;tmux --version
+: 1753444412:0;tmux -v
+: 1753444425:0;tmux ls
+: 1753444438:0;tmux a -t 3
+: 1753444443:0;tmux ls
+: 1753444471:0;git clone https://github.com/gpakosz/.tmux.git
+: 1753444492:0;cd tmux
+: 1753444497:0;mkdir tmux
+: 1753444500:0;cd tmux
+: 1753444501:0;ls
+: 1753444506:0;git clone https://github.com/gpakosz/.tmux.git
+: 1753444571:0;cd ..
+: 1753444576:0;rm -r tmux
+: 1753444580:0;ls
+: 1753444590:0;rm -rf tmux
+: 1753444591:0;ls
+: 1753444595:0;cat tmux-client-100687.log
+: 1753444600:0;ls
+: 1753444604:0;rm tmux-client-100687.log
+: 1753444605:0;ls
+: 1753444617:0;cd .tmux/
+: 1753444618:0;ls
+: 1753444619:0;cd plugins
+: 1753444619:0;ls
+: 1753444622:0;cd ..
+: 1753444663:0;mkdir tmux_temp
+: 1753444672:0;mv .tmux.conf tmux_temp
+: 1753444682:0;mv .tmux tmux_temp
+: 1753444688:0;git clone https://github.com/gpakosz/.tmux.git
+: 1753444694:0;ln -s -f .tmux/.tmux.conf ~/.tmux.conf\
+
+: 1753444724:0;ls -a
+: 1753444730:0;ls -a | grep tmux
+: 1753444738:0;cat .tmux
+: 1753444741:0;cat .tmux.conf
+: 1753444753:0;nvim .tmux.conf
+: 1753444775:0;ls -a | grep tmux
+: 1753444793:0;ls
+: 1753444803:0;cp .tmux/.tmux.conf.local ~/.tmux.conf.local\
+
+: 1753444828:0;mkdir -p ~/.config/tmux/plugins/catppuccin\
+
+: 1753444833:0;git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux\
+
+: 1753444847:0;nvim ~/.tmux.conf.local
+: 1753444909:0;tmux source-file ~/.tmux.conf\
+
+: 1753444953:0;nvim ~/.tmux.conf.local
+: 1753444969:0;ls -a | grep tmux
+: 1753444990:0;nvim .tmux.conf.local
+: 1753445005:0;tmux kill-server
+: 1753445007:0;tmux
+: 1753445110:0;tmux ls
+: 1753445115:0;tmux a
+: 1753445158:0;tmux kill-server
+: 1753445163:0;tmux ls
+: 1753445186:0;nvim .tmux.conf.local
+: 1753445208:0;ls -l ~/.config/tmux/plugins/catppuccin/tmux/catppuccin.tmux\
+
+: 1753445231:0;tmux source-file ~/.tmux.conf.local
+: 1753445235:0;tmux source-file ~/.tmux.conf
+: 1753445239:0;tmux
+: 1753445244:0;tmux source-file ~/.tmux.conf
+: 1753445247:0;tmux source-file ~/.tmux.conf.local
+: 1753445274:0;clear
+: 1753445276:0;ls -l ~/.config/tmux/plugins/catppuccin/tmux/catppuccin.tmux\
+
+: 1753445291:0;nvim .tmux.conf.local
+: 1753445345:0;nvim .tmux.conf
+: 1753445370:0;nvim .tmux.conf.local
+: 1753445411:0;tmux kill-server && tmux\
+
+: 1753445417:0;nvim .tmux.conf.local
+: 1753445430:0;tmux kill-server && tmux\
+
+: 1753445443:0;nvim .tmux.conf.local
+: 1753445525:0;tmux kill-server\
+
+: 1753445529:0;tmux
+: 1753445594:0;nvim .tmux.conf.local
+: 1753445624:0;nvim .tmux.conf
+: 1753448544:0;nvim .tmux.conf.local
+: 1753448795:0;tmux kill-server\
+
+: 1753448797:0;tmux
+: 1753449030:0;ls
+: 1753449059:0;rm -rf .tmux .tmux.conf .tmux.conf.local
+: 1753449061:0;ls
+: 1753449070:0;cp tmux_temp/* .
+: 1753449080:0;cd tmux_temp
+: 1753449080:0;ls
+: 1753449109:0;cd .
+: 1753449110:0;cd ..
+: 1753449115:0;rm -rf tmux_temp
+: 1753449115:0;ls
+: 1753449126:0;ls -a | grep tmux
+: 1753449143:0;sudo pacman -S tmux
+: 1753449154:0;ls -a
+: 1753449169:0;ls -a | grep tmux
+: 1753449173:0;tmux
+: 1753449187:0;tmux kill-server\
+
+: 1753449188:0;tmux
+: 1753449203:0;ls -a | grep tmux
+: 1753449205:0;tmux kill-server\
+
+: 1753449215:0;git clone --single-branch https://github.com/gpakosz/.tmux.git
+: 1753449236:0;ln -s -f .tmux/.tmux.conf
+: 1753449247:0;cp .tmux/.tmux.conf.local .
+: 1753449248:0;ls
+: 1753449251:0;ls -a | grep tmux
+: 1753449453:0;rm -rf .tmux .tmux.conf .tmux.conf.local
+: 1753449457:0;ls -a | grep tmux
+: 1753449544:0;cd
+: 1753449545:0;git clone --single-branch https://github.com/gpakosz/.tmux.git
+: 1753449550:0;ln -s -f .tmux/.tmux.conf
+: 1753449556:0;cp .tmux/.tmux.conf.local .
+: 1753449584:0;mkdir -p ~/.config/tmux/plugins/catppuccin
+: 1753449590:0;tmux
+: 1753449601:0;tmux kill-server\
+
+: 1753449612:0;git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux\
+
+: 1753449627:0;ls ~/.config/tmux/plugins/catppuccin
+: 1753449631:0;rm -rf ~/.config/tmux/plugins/catppuccin
+: 1753449638:0;mkdir -p ~/.config/tmux/plugins/catppuccin
+: 1753449640:0;git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux\
+
+: 1753449686:0;ls ~/.config/tmux/plugins/catppuccin
+: 1753449689:0;ls ~/.config/tmux/plugins/catppuccin/tmux
+: 1753449696:0;nvim .tmux.conf.local
+: 1753449736:0;tmux kill-server\
+
+: 1753449739:0;tmux
+: 1753449757:0;nvim .tmux.conf.local
+: 1753449796:0;tmux source-file ~/.tmux.conf.local
+: 1753449807:0;tmux kill-server\
+
+: 1753449809:0;tmux
+: 1753449841:0;ls -a | grep tmux
+: 1753449863:0;ls ~/.config/tmux/plugins/catppuccin/tmux
+: 1753449900:0;nvim .tmux.conf.local
+: 1753450063:0;tmux -V  # you need âƒ©¥ 3.2\
+
+: 1753450082:0;sudo pacman -Syu
+: 1753450102:0;nvim .tmux.conf.local
+: 1753450126:0;tmux source-file ~/.tmux.conf.local\
+
+: 1753450149:0;nvim .tmux.conf.local
+: 1753450217:0;tmux source-file ~/.tmux.conf.local\
+
+: 1753450231:0;tmux kill-server\
+
+: 1753450233:0;tmux
+: 1753450247:0;nvim .tmux.conf.local
+: 1753450359:0;tmux
+: 1753450366:0;tmux list-keys | grep catppuccin\
+
+: 1753450416:0;nvim .tmux.conf.local
+: 1753450468:0;tmux source-file ~/.tmux.conf.local\
+
+: 1753450492:0;tmux
+: 1753450644:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753450651:0;tmux show -g | grep @catppuccin\
+
+: 1753450769:0;nvim .tmux.conf.local
+: 1753450822:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753450828:0;tmux kill-server\
+
+: 1753450829:0;tmux
+: 1753450876:0;nvim .tmux.conf.local
+: 1753451062:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753451068:0;nvim .tmux.conf.local
+: 1753451077:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753451081:0;nvim .tmux.conf.local
+: 1753451088:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753451093:0;tmux kill-server\
+
+: 1753451094:0;tmux
+: 1753451152:0;nvim .tmux.conf.local
+: 1753451261:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753451280:0;tmux kill-server\
+
+: 1753451281:0;tmux
+: 1753451341:0;ls ~/.config/tmux/plugins/tmux-cpu
+: 1753451353:0;ls ~/.config/tmux/plugins/catppuccin/tmux/
+: 1753451362:0;ls ~/.config/tmux/plugins/catppuccin/tmux/themes
+: 1753451369:0;ls ~/.config/tmux/plugins/catppuccin/tmux/status
+: 1753451382:0;ls ~/.config/tmux/plugins/catppuccin/tmux/utils
+: 1753451395:0;ls ~/.config/tmux/plugins/catppuccin/tmux/assets
+: 1753451422:0;git clone https://github.com/tmux-plugins/tmux-cpu ~/.config/tmux/plugins/tmux-cpu\
+
+: 1753451431:0;nvim .tmux.conf.local
+: 1753451471:0;ls  ~/.config/tmux/plugins/tmux-plugins/tmux-cpu/
+: 1753451507:0;ls  ~/.config/tmux/plugins/tmux-cpu/
+: 1753451512:0;nvim .tmux.conf.local
+: 1753451529:0;ls  ~/.config/tmux/plugins/tmux-cpu/
+: 1753451534:0;nvim .tmux.conf.local
+: 1753451540:0;ls  ~/.config/tmux/plugins/tmux-cpu/
+: 1753451556:0;git clone https://github.com/tmux-plugins/tmux-battery ~/.config/tmux/plugins/tmux-battery\
+
+: 1753451584:0;chmod +x ~/.config/tmux/plugins/tmux-cpu/cpu.tmux \\
+         ~/.config/tmux/plugins/tmux-battery/battery.tmux\
+
+: 1753451591:0;sudo pacman -S acpi\
+
+: 1753451611:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753451633:0;tmux kill-server
+: 1753451635:0;tmux
+: 1753451725:0;ls
+: 1753451777:0;nvim .tmux.conf.local
+: 1753451791:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753451795:0;tmux kill-server
+: 1753451796:0;tmux
+: 1753451805:0;cd code
+: 1753451805:0;ls
+: 1753451807:0;cd rust
+: 1753451812:0;cd rust_book
+: 1753451815:0;nvim .
+: 1753451886:0;ls
+: 1753452014:0;nvim .tmux.conf.local
+: 1753452038:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753452042:0;tmux kill-server
+: 1753452045:0;tmux
+: 1753452091:0;nvim .tmux.conf.local
+: 1753452129:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753452140:0;tmux kill-server
+: 1753452141:0;tmux
+: 1753452145:0;ls
+: 1753452169:0;nvim
+: 1753452247:0;nvim .tmux.conf.local
+: 1753452413:0;tmux
+: 1753452488:0;nvim .tmux.conf.local
+: 1753452610:0;tmux kill-server
+: 1753452612:0;tmux
+: 1753452620:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753452623:0;tmux
+: 1753452633:0;tmux kill-server
+: 1753452635:0;tmux
+: 1753452640:0;nvim .tmux.conf.local
+: 1753452685:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753452688:0;tmux kill-server
+: 1753452690:0;tmux
+: 1753452706:0;nvim .tmux.conf.local
+: 1753452779:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753452783:0;tmux kill-server
+: 1753452784:0;tmux
+: 1753452831:0;nvim .tmux.conf.local
+: 1753452844:0;tmux source-file ~/.tmux.conf\
+tmux source-file ~/.tmux.conf.local\
+
+: 1753452847:0;tmux kill-server
+: 1753452851:0;tmux ls
+: 1753452855:0;clear
+: 1753459354:0;lsblk
+: 1753459432:0;lsblk --help
+: 1753459449:0;lsblk -O
+: 1753459463:0;lsblk\
+
+: 1753459482:0;lsblk -o NAME,SIZE,FSTYPE,MOUNTPOINT,LABEL\
+
+: 1753459540:0;dmesg | tail -n 20\
+
+: 1753459568:0;lsblk
+: 1753459590:0;sudo fdisk -l /dev/sdb\
+
+: 1753461599:0;ls
+: 1753461617:0;lsblk
+: 1753461628:0;df -h
+: 1753461713:0;lsblk
+: 1753461852:0;sudo parted /dev/sdb unit MiB print free\
+
+: 1753462009:0;udisksctl mount -b /dev/sdb --options ro\
+
+: 1753462035:0;df -h /run/media/shkir/UUID
+: 1753462091:0;df -h "/run/media/shakir/Ream Photography"\
+
+: 1753462145:0;udisksctl unmount -b /dev/sdb\
+
+: 1753462216:0;tmux l
+: 1753462217:0;tmux ls
+: 1753515019:0;ls
+: 1753515167:0;chezmoi --help
+: 1753515207:0;chezmoi unmanaged
+: 1753515339:0;ls
+: 1753515344:0;ls kitty
+: 1753515356:0;cat kitty/kitty.conf
+: 1753515567:0;chezmoi add ~/.config/tmux\
+chezmoi add ~/.oh-my-zsh\
+chezmoi add ~/.tmux.conf.local\
+chezmoi add ~/.tmux\
+
+: 1753515593:0;chezmoi add ~/.config/tmux\
+chezmoi add ~/.tmux.conf.local\
+chezmoi add ~/.tmux\
+
+: 1753515609:0;ls .config
+: 1753515663:0;ls -a .config
+: 1753515720:0;chezmoi add -r ~/.config/hyde
+: 1753515788:0;ls .config/hyde
+: 1753515794:0;ls .config/hyde/themes
+: 1753515803:0;chezmoi add -r ~/.config/hyde/config.toml
+: 1753515820:0;chezmoi add -r ~/.config/hypr
+: 1753515831:0;chezmoi add -r ~/.config/kitty
+: 1753515845:0;chezmoi add -r ~/.config/nvim
+: 1753515870:0;chezmoi add -r ~/.config/waybar
+: 1753515880:0;chezmoi add -r ~/.config/zsh

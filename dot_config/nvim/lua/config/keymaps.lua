@@ -17,6 +17,8 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz", { desc = "Scroll up and center" })
 -- Visual Mode
 vim.keymap.set("v", "d", '"_d', { desc = "Delete selection without yanking" })
 vim.keymap.set("v", "x", '"_x', { desc = "Delete selection without yanking" })
+vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv", { silent = true })
+vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv", { silent = true })
 
 -- Disable arrow keys in all modes
 for _, mode in ipairs({ "n", "v", "i", "o", "x" }) do
