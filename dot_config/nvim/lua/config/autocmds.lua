@@ -6,3 +6,10 @@
 --
 -- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
+vim.api.nvim_create_autocmd("ColorScheme", {
+  pattern = "*",
+  callback = function()
+    -- adjust fg (and bg/bold if you like) for all non‑current lines
+    vim.api.nvim_set_hl(0, "LineNr", { fg = "#737aa2", bg = "NONE", bold = false })
+  end,
+})
