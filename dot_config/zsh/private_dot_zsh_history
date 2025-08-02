@@ -5155,3 +5155,1306 @@ chezmoi add ~/.tmux\
 : 1753515845:0;chezmoi add -r ~/.config/nvim
 : 1753515870:0;chezmoi add -r ~/.config/waybar
 : 1753515880:0;chezmoi add -r ~/.config/zsh
+: 1753515890:0;cd .local/share/chezmoi
+: 1753515891:0;ls
+: 1753515903:0;git add .
+: 1753515908:0;git commit -m "update"
+: 1753515912:0;git push origin main
+: 1753515918:0;git add .
+: 1753515919:0;git commit -m "update"
+: 1753515921:0;git push origin main
+: 1753515930:0;cd
+: 1753515937:0;cd .config/chezmoi
+: 1753515941:0;ls
+: 1753515953:0;nvim chezmoi.toml
+: 1753516090:0;cd
+: 1753516103:0;cd .config
+: 1753516122:0;rm -rf nvim.bak
+: 1753516128:0;cd nvim
+: 1753516128:0;ls
+: 1753516131:0;git add .
+: 1753516138:0;git commit -m "update"
+: 1753516143:0;git push origin main
+: 1753516369:0;cd
+: 1753516417:0;ls
+: 1753516418:0;cd code
+: 1753516419:0;ls
+: 1753516422:0;cd arch-maintenance
+: 1753516429:0;nvim arch_maintenance.sh
+: 1753516463:0;pokego
+: 1753516544:0;sudo ~/arch_maintenance.sh --aggressive --clean-trash --yes
+: 1753516557:0;sudo arch_maintenance.sh --aggressive --clean-trash --yes
+: 1753516691:0;wl-copy
+: 1753516697:0;wl-copy --help
+: 1753516709:0;cat arch_maintenance.sh | wl-copy
+: 1753516742:0;nvim arch_maintenance.sh
+: 1753516785:0;cd ..
+: 1753516786:0;ls
+: 1753516791:0;cd ..
+: 1753516800:0;mv code/arch-maintenance .
+: 1753516800:0;ls
+: 1753516803:0;cd arch-maintenance
+: 1753516808:0;sudo arch_maintenance.sh --aggressive --clean-trash --yes
+: 1753516841:0;nvim arch_maintenance.sh
+: 1753516884:0;sudo cp code/arch_maintenance.sh /usr/local/bin/arch_maintenance.sh
+: 1753516914:0;sudo cp arch-maintenance/arch_maintenance.sh /usr/local/bin/arch_maintenance.sh
+: 1753516921:0;sudo chmod +x /usr/local/bin/arch_maintenance.sh
+: 1753516941:0;cd
+: 1753516949:0;sudo arch_maintenance.sh --aggressive --clean-trash --yes
+: 1753516971:0;nvim arch-maintenance/arch_maintenance.sh
+: 1753517071:0;ls
+: 1753517081:0;cd arch-maintenance
+: 1753517097:0;cd
+: 1753517103:0;sudo cp arch-maintenance/arch_maintenance.sh /usr/local/bin/arch_maintenance.sh
+: 1753517108:0;sudo chmod +x /usr/local/bin/arch_maintenance.sh
+: 1753517119:0;nvim arch-maintenance/arch_maintenance.sh
+: 1753517128:0;sudo arch_maintenance.sh --aggressive --clean-trash --yes
+: 1753517524:0;nvim arch-maintenance/arch_maintenance.sh
+: 1753517613:0;sudo cp arch-maintenance/arch_maintenance.sh /usr/local/bin/arch_maintenance.sh
+: 1753517623:0;sudo chmod +x /usr/local/bin/arch_maintenance.sh
+: 1753517628:0;sudo arch_maintenance.sh --aggressive --clean-trash --yes
+: 1753517839:0;nvim arch-maintenance/arch_maintenance.sh
+: 1753518310:0;sudo cp arch-maintenance/arch_maintenance.sh /usr/local/bin/arch_maintenance.sh
+: 1753518322:0;sudo chmod +x /usr/local/bin/arch_maintenance.sh
+: 1753518325:0;sudo arch_maintenance.sh --aggressive --clean-trash --yes
+: 1753518631:0;nvim arch-maintenance/arch_maintenance.sh
+: 1753518778:0;ls
+: 1753518781:0;cd arch-maintenance
+: 1753518784:0;git status
+: 1753518794:0;git add .
+: 1753518804:0;git commit -m "update"
+: 1753518809:0;git push origin main
+: 1753518897:0;cd ..
+: 1753518900:0;cd code
+: 1753518901:0;ls
+: 1753518908:0;cd ..
+: 1753518911:0;cd arch-maintenance
+: 1753518911:0;ls
+: 1753518916:0;nvim arch_maintenance.sh
+: 1753518923:0;cd ..
+: 1753518924:0;ls
+: 1753518931:0;mv arch-maintenance code
+: 1753518932:0;ls
+: 1753518935:0;cd code
+: 1753518936:0;ls
+: 1753518938:0;cd arch-maintenance
+: 1753518939:0;ls
+: 1753518941:0;nvim arch_maintenance.sh
+: 1753518954:0;cd ..
+: 1753518956:0;ls
+: 1753518986:0;git clone git@github.com:mohammed-shakir/arch-maintenance.git
+: 1753518998:0;cd arch-maintenance
+: 1753518998:0;ls
+: 1753519002:0;nvim arch_maintenance.sh
+: 1753519026:0;cd code/arch-maintenance
+: 1753519028:0;nvim arch_maintenance.sh
+: 1753519083:0;cd arch-maintenance
+: 1753519087:0;sudo cp arch_maintenance.sh /usr/local/bin/arch_maintenance.sh\
+
+: 1753519093:0;cd ..
+: 1753519099:0;sudo chmod +x /usr/local/bin/arch_maintenance.sh\
+
+: 1753519115:0;ls
+: 1753519116:0;pwd
+: 1753519118:0;cd ..
+: 1753519118:0;ls
+: 1753519124:0;cd arch-maintenance
+: 1753519126:0;cd ..
+: 1753519139:0;sudo arch_maintenance.sh --aggressive --clean-trash --yes
+: 1753519239:0;ls
+: 1753519241:0;cd arch-maintenance
+: 1753519244:0;git add .
+: 1753519250:0;git commit -m "update"
+: 1753519254:0;git push origin main
+: 1753519259:0;cd ..
+: 1753519261:0;cd code
+: 1753519264:0;rm -rf arch-maintenance
+: 1753519264:0;ls
+: 1753519266:0;cd ..
+: 1753519423:0;cd code
+: 1753519426:0;cd rust
+: 1753519431:0;ls
+: 1753519432:0;cd rust_book
+: 1753519434:0;nvim .
+: 1753521047:0;rustup component add rust-analyzer\
+
+: 1753521069:0;nvim .
+: 1753521120:0;rustup component add rust-src\
+
+: 1753521124:0;rustup component add rust-analyzer\
+
+: 1753521128:0;cd
+: 1753532444:0;sudo pacman -S proton-vpn-gtk-app
+: 1753532566:0;sudo pacman -Syu\
+sudo pacman -S proton-vpn-gtk-app networkmanager network-manager-applet gnome-keyring\
+
+: 1753532846:0;paru -S protonvpn-cli
+: 1753532872:0;sudo pacman -Rns proton-vpn-gtk-app
+: 1753532877:0;paru -S protonvpn-gui\
+
+: 1753532884:0;paru -S protonvpn-cli
+: 1753532900:0;sudo pacman -S python-pip python-setuptools\
+
+: 1753532925:0;pip install --user protonvpn-cli\
+
+: 1753532934:0;sudo pacman -S wireguard-tools\
+
+: 1753532951:0;paru -S protonvpn-gui\
+
+: 1753532968:0;sudo pacman -S proton-vpn-gtk-app
+: 1753532985:0;sudo wg-quick up protonvpn\
+
+: 1753533373:0;tmux ls
+: 1753533407:0;tmux new -t rustlings
+: 1753533412:0;ls
+: 1753533416:0;cd code
+: 1753533417:0;ls
+: 1753533420:0;cd rustlings
+: 1753533420:0;ls
+: 1753533422:0;nvim
+: 1753533427:0;nvim .
+: 1753533488:0;ls
+: 1753533494:0;rustlings
+: 1753534624:0;nvim
+: 1753535049:0;nvim .
+: 1753537242:0;tmux ls
+: 1753537254:0;tmux a -t rustlings-0
+: 1753537278:0;cd .config/nvim
+: 1753537279:0;ls
+: 1753537308:0;cd lua/plugins
+: 1753537308:0;ls
+: 1753537317:0;nvim lsp.lua
+: 1753537486:0;ls
+: 1753537489:0;cd ..
+: 1753537491:0;cd config
+: 1753537491:0;ls
+: 1753537495:0;nvim keymaps.lua
+: 1753537643:0;nvim .
+: 1753538064:0;cd .config/nvim
+: 1753538065:0;ls
+: 1753538067:0;cd lua
+: 1753538072:0;cat plugins/lsp.lua
+: 1753538229:0;ls
+: 1753538233:0;rustlings
+: 1753538663:0;cd .config
+: 1753538667:0;cd nvim
+: 1753538667:0;ls
+: 1753538670:0;git add .
+: 1753538676:0;git commit -m "update"
+: 1753538681:0;git push origin main
+: 1753538686:0;cd
+: 1753538809:0;nvim .tmux.conf.local
+: 1753538914:0;tmux source-file ~/.tmux.conf\
+
+: 1753538917:0;tmux source-file ~/.tmux.conf.local\
+
+: 1753538919:0;tmux source-file ~/.tmux.conf\
+
+: 1753538929:0;nvim .tmux.conf
+: 1753538965:0;tmux ls
+: 1753538973:0;tmux a -t rustlings-0
+: 1753540820:0;cd .config/hypr
+: 1753540823:0;nvim keybindings.conf
+: 1753542990:0;tmux ls
+: 1753544041:0;tmux a
+: 1753544043:0;tmux
+: 1753544086:0;hyde-shell reload
+: 1753544120:0;ls
+: 1753544199:0;ls kitty
+: 1753544208:0;nvim kitty/kitty.conf
+: 1753544222:0;cd .config/kitty
+: 1753544223:0;ls
+: 1753544224:0;cd
+: 1753544228:0;rm -rf kitty
+: 1753544229:0;ls
+: 1753544370:0;nvim .tmux.conf.local
+: 1753544498:0;tmux a
+: 1753544501:0;tmux
+: 1753544774:0;ls .tmux/plugins
+: 1753544783:0;git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm\
+
+: 1753544792:0;nvim .tmux.conf.local
+: 1753544858:0;tmux source ~/.tmux/.tmux.conf
+: 1753544862:0;tmux source ~/.tmux/.tmux.conf.local
+: 1753544866:0;tmux
+: 1753544871:0;tmux ls
+: 1753544883:0;tmux kill-session -t 0
+: 1753544885:0;tmux kill-session -t 1
+: 1753544887:0;tmux ls
+: 1753544895:0;tmux new -t rust
+: 1753544914:0;cd code/rustlings
+: 1753544915:0;ls
+: 1753544917:0;nvim .
+: 1753544972:0;ls
+: 1753544999:0;reboot
+: 1753545051:0;tmux ls
+: 1753545054:0;tmux a
+: 1753545057:0;tmux
+: 1753545060:0;nvim .
+: 1753545090:0;cd code/rustlings
+: 1753545093:0;nvim .
+: 1753545130:0;tmux a
+: 1753545152:0;tmux new -t test
+: 1753545154:0;ls
+: 1753545156:0;cd code
+: 1753545157:0;ls
+: 1753545158:0;cd rust
+: 1753545159:0;ls
+: 1753545161:0;cd rust_book
+: 1753545162:0;ls
+: 1753545164:0;nvim .
+: 1753545177:0;ls
+: 1753545403:0;reboot
+: 1753545458:0;tmux ls
+: 1753545460:0;tmux
+: 1753545463:0;nvim .
+: 1753545770:0;tmux start-server
+: 1753545774:0;tmux ls
+: 1753545823:0;nvim .tmux.conf.local
+: 1753545981:0;tmux source ~/.tmux/.tmux.conf
+: 1753545985:0;tmux source ~/.tmux/.tmux.conf.local
+: 1753546133:0;ls
+: 1753546459:0;lsblk -f\
+
+: 1753546481:0;sudo mkdir -p /mnt/usb\
+
+: 1753546535:0;sudo umount /mnt/usb
+: 1753546949:0;sudo pacman -S udisksctl
+: 1753547057:0;sudo pacman -S udisks2\
+
+: 1753547069:0;udisksctl --version\
+
+: 1753547255:0;dmesg | tail\
+
+: 1753547262:0;sudo dmesg | tail\
+
+: 1753547269:0;lsblk
+: 1753547280:0;sudo dmesg | tail\
+
+: 1753547283:0;lsblk -f
+: 1753547452:0;udisksctl mount -b /dev/sdb
+: 1753547494:0;sudo mkdir -p /mnt/usb\
+
+: 1753547506:0;sudo mount -o ro /dev/sdb /mnt/usb\
+
+: 1753547544:0;ls /mnt
+: 1753547546:0;ls /mnt/usb
+: 1753547657:0;cd /mnt/usb
+: 1753547659:0;pwd
+: 1753547710:0;cd 
+: 1753547711:0;mkdir -p ~/temp_upload\
+
+: 1753547794:0;cp -a /mnt/usb/. ~/temp_upload/
+: 1753566004:0;sudo umount /mnt/usb
+: 1753566017:0;ls
+: 1753566027:0;cd temp_upload
+: 1753566028:0;ls
+: 1753598133:0;tmux start-server
+: 1753598135:0;tmux ls
+: 1753598138:0;tmux
+: 1753598143:0;nvim .
+: 1753599429:0;tmux
+: 1753599472:0;tmux ls
+: 1753599654:0;ls
+: 1753599666:0;ls -a | grep tmux
+: 1753599721:0;cp .tmux.conf.local .tmux_temp.conf
+: 1753599723:0;ls -a | grep tmux
+: 1753599731:0;nvim .tmux_temp.conf
+: 1753599750:0;rm .tmux.conf.local .tmux.conf
+: 1753599753:0;ls -a | grep tmux
+: 1753599760:0;rm -rf .tmux
+: 1753599761:0;ls
+: 1753599762:0;ls -a | grep tmux
+: 1753599768:0;tmux
+: 1753599794:0;tmux source-file ~/.tmux.conf\
+
+: 1753599809:0;tmux kill-server
+: 1753599811:0;tmux
+: 1753599855:0;ls .config/tmux
+: 1753599858:0;ls .config/tmux/plugins
+: 1753599888:0;rm -rf .config/tmux
+: 1753599897:0;sudo pacman -Rns tmux
+: 1753599933:0;rm -rf ~/.local/share/tmux
+: 1753599942:0;sudo pacman -Syu
+: 1753600059:0;sudo pacman -S tmux
+: 1753600069:0;ls -a | grep tmux
+: 1753600253:0;tmux -V
+: 1753600263:0;nvim ~/.tmux.conf
+: 1753600383:0;mkdir -p ~/.config/tmux
+: 1753600435:0;rm .tmux.conf
+: 1753600466:0;nvim .config/tmux/tmux.conf
+: 1753600513:0;git clone https://github.com/omerxx/dotfiles.git ~/dotfiles
+: 1753600535:0;cp dotfiles/tmux .config/tmux
+: 1753600539:0;cp -r dotfiles/tmux .config/tmux
+: 1753600544:0;ls .config/tmux
+: 1753600553:0;cd .config/tmux
+: 1753600554:0;ls
+: 1753600565:0;mv tmux/* .
+: 1753600566:0;ls
+: 1753600569:0;rm tmux
+: 1753600572:0;rm -r tmux
+: 1753600573:0;ls
+: 1753600621:0;rm -rf scripts
+: 1753600621:0;ls
+: 1753600629:0;nvim tmux.conf
+: 1753600704:0;ls
+: 1753600708:0;rm README.md
+: 1753600709:0;ls
+: 1753600718:0;nvim tmux.conf
+: 1753600789:0;git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+: 1753601005:0;cd
+: 1753601007:0;tmux
+: 1753601050:0;tmux source-file ~/.config/tmux/tmux.conf
+: 1753601082:0;tmux
+: 1753601094:0;tmux ls
+: 1753601101:0;tmux kill-server
+: 1753601107:0;tmux
+: 1753601156:0;tmux kill-server
+: 1753601157:0;tmux
+: 1753601199:0;nvim .config/tmux/tmux.reset.conf
+: 1753601527:0;nvim .config/tmux/
+: 1753601610:0;tmux
+: 1753603687:0;tmus ls
+: 1753603690:0;tmux ls
+: 1753603693:0;tmux a
+: 1753603922:0;clear
+: 1753604085:0;tmux a
+: 1753604296:0;tmux ls
+: 1753604300:0;tmux a
+: 1753604345:0;tmux ls
+: 1753604359:0;chezmoi forget ~/.tmux.conf ~/.tmux.conf.local ~/.config/tmux\
+
+: 1753604396:0;ls .config/tmux
+: 1753604404:0;chezmoi managed
+: 1753604423:0;chezmoi managed | grep tmux
+: 1753604474:0;chezmoi forget ~/.tmux/
+: 1753604498:0;chezmoi managed | grep tmux
+: 1753604511:0;ls -a | grep tmux
+: 1753604526:0;rm .tmux_temp.conf
+: 1753604532:0;nvim .tmux
+: 1753604557:0;chezmoi add ~/.config/tmux
+: 1753604586:0;chezmoi add ~/.tmux
+: 1753604594:0;chezmoi add ~/.config/tmux/
+: 1753604612:0;chezmoi managed | grep tmux
+: 1753604640:0;chezmoi add ~/.config/tmux/tmux.conf
+: 1753604645:0;chezmoi add ~/.config/tmux/tmux.reset.conf
+: 1753604653:0;chezmoi managed | grep tmux
+: 1753604789:0;nvim .config/tmux/tmux.conf
+: 1753604953:0;cd .config/nvim
+: 1753604954:0;ls
+: 1753605031:0;cd lua/plugins
+: 1753605032:0;ls
+: 1753605036:0;nvim util.lua
+: 1753605178:0;cd ..
+: 1753605179:0;cd config
+: 1753605179:0;ls
+: 1753605184:0;nvim autocmds.lua
+: 1753605282:0;cd ..
+: 1753605283:0;ls
+: 1753605285:0;cd ..
+: 1753605285:0;ls
+: 1753605287:0;nvim .
+: 1753605346:0;cd
+: 1753605348:0;tmux kill-server\
+
+: 1753605356:0;tmux new -t rust
+: 1753605366:0;tmux kill-server\
+
+: 1753605371:0;tmux new -t rustlings
+: 1753605380:0;cd code/rustlings
+: 1753605386:0;nvim .
+: 1753605408:0;cd
+: 1753605417:0;cd code/rustlings
+: 1753605422:0;rustlings
+: 1753605464:0;tmux a rustlings
+: 1753605471:0;tmux a -t rustlings
+: 1753605501:0;nvim .config/tmux/tmux.reset.conf
+: 1753605521:0;tmux new -t rust
+: 1753605554:0;tmux new-session -t rust
+: 1753605567:0;cd code/rust
+: 1753605568:0;ls
+: 1753605569:0;cd rust_book
+: 1753605570:0;ls
+: 1753605573:0;nvim .
+: 1753605614:0;cd code/rust
+: 1753605615:0;ls
+: 1753605616:0;cd rust_book
+: 1753605636:0;tmux ls
+: 1753605680:0;nvim .config/nvim
+: 1753605817:0;tmux a -t rustlings
+: 1753605821:0;tmux a -t rustlings-0
+: 1753605827:0;tmux a -t rustlings-1
+: 1753605864:0;tmux a -t rustlings-0
+: 1753605887:0;nvim .config/tmux/tmux.conf
+: 1753606092:0;tmux
+: 1753606095:0;nvim .
+: 1753606172:0;tmux kill-server
+: 1753606199:0;nvim .config/nvim/lua/config/autocmds.lua
+: 1753606240:0;tmux new-session -t rustlings
+: 1753606243:0;nvim .
+: 1753606268:0;tmux new-session -t rustlings
+: 1753606271:0;nvim .
+: 1753606323:0;tmux ls
+: 1753606336:0;tmux kill-session -a
+: 1753606338:0;tmux ls
+: 1753606341:0;tmux kill-session -t rust-2
+: 1753606343:0;tmux ls
+: 1753606362:0;tmux
+: 1753606364:0;nvim .
+: 1753606388:0;cd
+: 1753606406:0;tmux ls
+: 1753606413:0;tmux kill-server
+: 1753606435:0;tmux new-session -t rustlings
+: 1753606493:0;cd code/rustlings
+: 1753606493:0;ls
+: 1753606495:0;nvim .
+: 1753606537:0;tmux ls
+: 1753606547:0;tmux new-session -t rust
+: 1753606592:0;tmux new-session -t rust-0
+: 1753606601:0;tmux ls
+: 1753606606:0;tmux new-session -t rust
+: 1753606622:0;cd code/rust
+: 1753606624:0;cd rust_book
+: 1753606624:0;ls
+: 1753606628:0;nvim .
+: 1753606646:0;cd code/rust/rust_book
+: 1753606660:0;tmux ls
+: 1753606683:0;tmux a -t rustlings-2
+: 1753606698:0;tmux ls
+: 1753606705:0;tmux new-session -t rustlings
+: 1753606715:0;cd code/rustlings
+: 1753606718:0;nvim .
+: 1753606758:0;tmux ls
+: 1753620236:0;tmux attach-session -t rustlings-5
+: 1753638038:0;rustlings
+: 1753687588:0;tmux ls
+: 1753687590:0;tmux
+: 1753687592:0;nvim .
+: 1753687611:0;rustlings
+: 1753703232:0;cd
+: 1753703241:0;cd .config/hypr
+: 1753703242:0;ls
+: 1753703245:0;nvim keybindings.conf
+: 1753775322:0;tmux
+: 1753775324:0;nvim .
+: 1753775491:0;clear
+: 1753775559:0;ls
+: 1753775562:0;nvim .
+: 1753775681:0;tm
+: 1753775685:0;clear
+: 1753775691:0;cd code/rustlings
+: 1753775692:0;ls
+: 1753775796:0;nvim .config/hypr/keybindings.conf
+: 1753784716:0;Â§ls
+: 1753784727:0;ls
+: 1753784751:0;nvim code/rustlings
+: 1753794294:0;nvim .config/hypr/keybindings.conf
+: 1753796941:0;tmux
+: 1753796943:0;nvim .
+: 1753797208:0;cd .config/nvim
+: 1753797208:0;ls
+: 1753797212:0;cd lua/plugins
+: 1753797212:0;ls
+: 1753797219:0;nvim util.lua
+: 1753797265:0;rm util.lua
+: 1753797266:0;cd
+: 1753797269:0;tmux
+: 1753797356:0;tmux new-session -t rustlings
+: 1753797358:0;nvim .
+: 1753797415:0;tmux kill-server\
+
+: 1753797499:0;rm ls .local/share/tmux/resurrect/*
+: 1753797514:0;ls .local/share/tmux/resurrect/
+: 1753797527:0;rm .local/share/tmux/resurrect/*
+: 1753797540:0;tmux new-session -t rustlings
+: 1753797564:0;cd code/rustlings
+: 1753797567:0;nvim .
+: 1753797611:0;tmux kill-server\
+
+: 1753797627:0;nvim .config/nvim/lua/config/keymaps.lua
+: 1753797657:0;tmux
+: 1753797673:0;cd code
+: 1753797674:0;ls
+: 1753797677:0;cd rustlings
+: 1753797679:0;nvim .
+: 1753797861:0;tmux
+: 1753797882:0;tmux ls
+: 1753797895:0;tmux kill-session -t 1
+: 1753797898:0;tmux
+: 1753797921:0;tmux kill-server
+: 1753797922:0;tmux
+: 1753797991:0;ls .tmux
+: 1753798016:0;cd .config
+: 1753798017:0;cd tmux
+: 1753798018:0;ls
+: 1753798027:0;tmux source tmux.conf
+: 1753798030:0;tmux
+: 1753798035:0;cd
+: 1753798035:0;ls
+: 1753798043:0;nvim .
+: 1753798049:0;tmux
+: 1753798104:0;cd
+: 1753798105:0;ls
+: 1753798109:0;cd .config/nvim
+: 1753798110:0;ls
+: 1753798117:0;nvim init.lua
+: 1753798223:0;cd lua/plugins
+: 1753798226:0;nvim persistence.lua
+: 1753798253:0;cd
+: 1753798254:0;ls
+: 1753798261:0;cd code/rustlings
+: 1753798262:0;nvim .
+: 1753798472:0;cd .config/nvim
+: 1753798499:0;cd lua/plugins
+: 1753798499:0;ls
+: 1753798503:0;nvim persistence.lua
+: 1753798525:0;nvim .
+: 1753798601:0;rm persistence.lua
+: 1753798610:0;nvim .
+: 1753798754:0;cd
+: 1753798769:0;mkdir temp
+: 1753798788:0;mv .config/tmux/tmux.conf temp/
+: 1753798792:0;mv .config/tmux/tmux.reset.conf temp
+: 1753798795:0;cd temp
+: 1753798796:0;ls
+: 1753798797:0;cd ..
+: 1753798798:0;ls
+: 1753798849:0;tmux kill-server\
+
+: 1753798852:0;sudo pacman -Rns tmux\
+
+: 1753798866:0;sudo rm -f /etc/tmux.conf\
+
+: 1753798871:0;rm -f ~/.tmux.conf\
+rm -rf ~/.config/tmux\
+
+: 1753798875:0;sudo rm -rf /usr/share/doc/tmux/examples\
+
+: 1753798884:0;rm -rf ~/.tmux/
+: 1753798894:0;rm -rf ~/.tmux/resurrect\
+rm -rf ~/.local/share/tmux/resurrect\
+
+: 1753798909:0;ls -a | grep tmux
+: 1753798912:0;sudo pacman -Syu tmux\
+
+: 1753799597:0;ls -a | grep tmux
+: 1753799670:0;mkdir .config/tmux
+: 1753799687:0;mv temp/tmux.conf .config/tmux
+: 1753799695:0;mv temp/tmux.reset.conf .config/tmux
+: 1753799767:0;ls .config/tmux
+: 1753799800:0;tmux source-file ~/.config/tmux/tmux.conf
+: 1753799807:0;tmux
+: 1753799816:0;tmux source-file ~/.config/tmux/tmux.reset.conf\
+
+: 1753799825:0;git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+: 1753799830:0;tmux
+: 1753799893:0;tmux source ~/.config/tmux/tmux.conf
+: 1753799896:0;tmux
+: 1753800045:0;tmux ls
+: 1753800052:0;tmux kill-server
+: 1753800054:0;tmux ls
+: 1753800056:0;tmux
+: 1753800070:0;tmux ls
+: 1753800079:0;tmux new-session -t rustlings
+: 1753800088:0;cd code/rustlings
+: 1753800090:0;nvim .
+: 1753800107:0;tmux a
+: 1753800112:0;tmux kill-server
+: 1753800114:0;tmux
+: 1753800116:0;nvim .
+: 1753800145:0;tmux new-session -t temp
+: 1753800148:0;cd code
+: 1753800153:0;cd rust/rust_book
+: 1753800154:0;nvim
+: 1753800158:0;nvim .
+: 1753800179:0;tmux ls
+: 1753800190:0;tmux kill-session -t temp-2
+: 1753800204:0;tmux a -t rustlings-0
+: 1753810178:0;tmux ls
+: 1753810184:0;tmux a -t rustlings-0
+: 1753810191:0;rustlings
+: 1753813794:0;cd code/rust
+: 1753813794:0;ls
+: 1753813796:0;cd rust_book
+: 1753813798:0;ls
+: 1753855076:0;cd .config/hypr
+: 1753855076:0;ls
+: 1753855096:0;cat hyde.conf
+: 1753855136:0;cat userprefs.conf
+: 1753855193:0;nvim userprefs.conf
+: 1753855403:0;nvim .config/nvim/lua/config/keymaps.lua
+: 1753855636:0;hyprctl reload
+: 1753855645:0;nvim userprefs.conf
+: 1753856009:0;nvim .config/hypr
+: 1753856788:0;hyprctl reload
+: 1753856812:0;hyprctl clients | grep -A 5 kitty\
+
+: 1753856918:0;hyprctl reload\
+
+: 1753857093:0;cd .config/hypr
+: 1753857094:0;ls
+: 1753857099:0;nvim windowrules.conf
+: 1753858192:0;cd
+: 1753858193:0;mkdir -p ~/.config/WebCord/Themes
+: 1753858227:0;cd .config
+: 1753858228:0;ls
+: 1753858233:0;ls | grep discord
+: 1753858237:0;ls | grep web
+: 1753858241:0;cd discord
+: 1753858241:0;ls
+: 1753858250:0;ls | grep web
+: 1753858253:0;ls | grep the
+: 1753858324:0;sudo pacman -Rns webcord\
+
+: 1753858366:0;paru -Qs webcord
+: 1753858372:0;pacman -Qs webcord\
+
+: 1753858375:0;flatpak list | grep -i webcord\
+
+: 1753858383:0;snap list | grep -i webcord\
+
+: 1753858532:0;flatpak uninstall --delete-data io.github.spacingbat3.webcord\
+
+: 1753858560:0;rm -rf ~/.config/WebCord \\
+       ~/.local/share/WebCord \\
+       ~/.cache/WebCord \\
+       ~/.var/app/io.github.spacingbat3.webcord\
+
+: 1753858612:0;paru -Qs discord
+: 1753858620:0;pacman -Qs discord\
+
+: 1753858630:0;snap list | grep -i discord\
+
+: 1753858641:0;flatpak list | grep -i discord\
+
+: 1753858811:0;sudo pacman -Rns discord\
+
+: 1753858826:0;rm -rf ~/.config/discord \\
+       ~/.cache/discord \\
+       ~/.local/share/discord\
+
+: 1753858868:0;cd
+: 1753858871:0;rm -rf ~/.config/discord \\
+       ~/.cache/discord \\
+       ~/.local/share/discord\
+
+: 1753858874:0;sudo pacman -Syu discord
+: 1753859134:0;sudo pacman -S discord
+: 1753859149:0;sudo pacman -Syu
+: 1753859279:0;nvim .config/nvim/lua/config/lazy.lua
+: 1753859350:0;sudo pacman -S xdg-desktop-portal-hyprland\
+
+: 1753859365:0;sudo pacman -S pipewire pipewire-pulse wireplumber\
+
+: 1753859414:0;systemctl --user status xdg-desktop-portal-hyprland.service\
+
+: 1753859427:0;systemctl --user enable --now xdg-desktop-portal-hyprland.service
+: 1753859434:0;systemctl --user status pipewire.service pipewire-pulse.service wireplumber.service\
+
+: 1753859477:0;systemctl --user enable --now xdg-desktop-portal-hyprland.service\
+
+: 1753859496:0;nvim .config/nvim/lua/config/autocmds.lua
+: 1753859529:0;nvim .config/nvim/lua/config/lazy.lua
+: 1753859539:0;cd
+: 1753859560:0;systemctl --user start xdg-desktop-portal-hyprland.service\
+
+: 1753859579:0;systemctl --user status xdg-desktop-portal-hyprland.service\
+
+: 1753859645:0;sudo pacman -S xdg-desktop-portal\
+
+: 1753859670:0;sudo pacman -S \\
+  gbm \\
+  hyprland-protocols \\
+  hyprlang \\
+  hyprutils \\
+  hyprwayland-scanner \\
+  libdrm \\
+  pipewire \\
+  libspa-0.2 \\
+  sdbus-cpp \\
+  wayland-client \\
+  wayland-protocols \\
+  qt6-wayland\
+
+: 1753859818:0;sudo pacman -Syu \\
+  mesa egl-gbm \\
+  xdg-desktop-portal xdg-desktop-portal-hyprland \\
+  pipewire pipewire-pulse wireplumber \\
+  wayland wayland-protocols \\
+  qt6-wayland \\
+  sdbus-cpp \\
+  hyprland-protocols hyprlang hyprutils hyprwayland-scanner \\
+  libdrm\
+
+: 1753859855:0;nvim .config/hypr/keybindings.conf
+: 1753859878:0;pacman -Qi mesa pipewire xdg-desktop-portal wayland qt6-wayland sdbus-cpp hyprland-protocols\
+
+: 1753859917:0;systemctl --user start xdg-desktop-portal-hyprland.service\
+
+: 1753859951:0;systemctl --user enable --now xdg-desktop-portal-hyprland.service\
+
+: 1753860032:0;pacman -Qs xdg-desktop-portal
+: 1753860045:0;systemctl --user start xdg-desktop-portal.service\
+
+: 1753860051:0;systemctl --user status xdg-desktop-portal.service\
+
+: 1753860099:0;sudo pacman -S xdg-desktop-portal-hyprland\
+
+: 1753860105:0;sudo pacman -S xdg-desktop-portal-wlr\
+
+: 1753860147:0;dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=Hyprland\
+
+: 1753860151:0;systemctl --user import-environment QT_QPA_PLATFORMTHEME\
+
+: 1753860204:0;mkdir .config/xdg-desktop-portal
+: 1753860232:0;nvim .config/xdg-desktop-portal/portals.conf
+: 1753860253:0;sudo pacman -S pipewire-pulse pipewire-alsa\
+
+: 1753860277:0;systemctl --user status pipewire.service pipewire-pulse.service
+: 1753860316:0;sudo pacman -S wireplumber\
+
+: 1753860549:0;nvim .config/hypr/windowrules.conf
+: 1753861138:0;notify-send "Test"\
+
+: 1753861230:0;nvim .config/hypr/windowrules.conf
+: 1753861286:0;clear
+: 1753861302:0;pgrep -fl mako dunst swaync\
+
+: 1753861309:0;systemctl --user status mako.service dunst.service swaync.service\
+
+: 1753861318:0;journalctl --user -u mako.service --no-pager -n 50\
+journalctl --user -u dunst.service --no-pager -n 50\
+journalctl --user -u swaync.service --no-pager -n 50
+: 1753861322:0;busctl --user listâ€ƒ±names\
+
+: 1753861326:0;grep -R "org.freedesktop.Notifications" /usr/share/dbus-1/services\
+
+: 1753861329:0;grep -R notifications ~/.config/hyde/config.toml\
+
+: 1753861333:0;echo $XDG_RUNTIME_DIR\
+
+: 1753861336:0;time discord >/dev/null 2>&1\
+
+: 1753861468:0;strace -f -tt -o ~/discord.strace discord\
+
+: 1753861491:0;journalctl --user -f &\
+discord
+: 1753861667:0;clear
+: 1753861669:0;time discord >/dev/null 2>&1
+: 1753861677:0;clear
+: 1753861685:0;time spotify >/dev/null 2>&1
+: 1753861898:0;pgrep -fl 'mako|dunst|swaync'\
+
+: 1753861900:0;clear
+: 1753861903:0;pgrep -fl 'mako|dunst|swaync'\
+
+: 1753861914:0;systemctl --user start mako.service\
+systemctl --user enable mako.service\
+
+: 1753861938:0;systemctl --user status mako.service
+: 1753861945:0;systemctl --user start mako.service
+: 1753861959:0;clear
+: 1753861963:0;systemctl --user start mako.service\
+systemctl --user enable mako.service\
+
+: 1753861989:0;busctl --user list --unique | grep Notifications\
+
+: 1753861995:0;pgrep -fl 'mako|dunst|swaync'\
+
+: 1753862000:0;busctl --user list | grep org.freedesktop.Notifications\
+
+: 1753862009:0;sudo pacman -S --needed strace\
+
+: 1753862185:0;systemctl --user disable hyde-wallpaper.service\
+
+: 1753862199:0;systemctl --user status hyde-wallpaper.service\
+
+: 1753862216:0;sudo pacman -S --needed strace\
+
+: 1753862317:0;systemctl --user disable mako.service
+: 1753862351:0;systemctl --user disable wallpaper-rotate.service\
+
+: 1753862374:0;systemctl --user disable mako.service\
+
+: 1753862382:0;killall mako
+: 1753862428:0;systemctl --user list-unit-files | grep hyde-wallpaper\
+
+: 1753862453:0;systemctl --user disable hyde-wallpaper.timer\
+systemctl --user mask hyde-wallpaper.timer\
+
+: 1753862468:0;systemctl --user daemon-reload\
+systemctl --user daemon-reexec\
+
+: 1753862478:0;rm -f ~/.config/systemd/user/hyde-wallpaper.{service,timer}\
+
+: 1753862482:0;systemctl --user list-unit-files | grep hyde\
+
+: 1753862512:0;systemctl --user disable wallpaper-rotate.service\
+
+: 1753862521:0;systemctl --user mask wallpaper-rotate.service\
+
+: 1753862525:0;rm -f ~/.config/systemd/user/wallpaper-rotate.service\
+
+: 1753862528:0;systemctl --user daemon-reload\
+systemctl --user daemon-reexec\
+
+: 1753862532:0;systemctl --user status wallpaper-rotate.service\
+
+: 1753862551:0;nvim .config/hyde/config.toml
+: 1753862590:0;nvim .config/hypr/userprefs.conf
+: 1753862621:0;hyde-shell reload\
+
+: 1753862632:0;nvim .config/hypr/userprefs.conf
+: 1753862646:0;nvim .config/hyde/config.toml
+: 1753862686:0;hyde-shell reload
+: 1753862726:0;cat /etc/systemd/journald.conf | grep ForwardTo\
+
+: 1753862744:0;sudo systemctl restart systemd-journald\
+
+: 1753862775:0;ls
+: 1753862791:0;pgrep -fl mako
+: 1753863333:0;busctl --user list | grep org.freedesktop.Notifications\
+
+: 1753863343:0;notify-send "All set "Mako is active and ready."\
+
+: 1753863540:0;sudo pacman -S pipewire wireplumber \\
+    xdg-desktop-portal xdg-desktop-portal-hyprland \\
+    xdg-desktop-portal-wlr\
+systemctl --user enable --now \\
+    pipewire pipewire-pulse wireplumber \\
+    xdg-desktop-portal xdg-desktop-portal-hyprland\
+
+: 1753864322:0;sudo pacman -S fzf\
+
+: 1753864351:0;sudo pacman -S fzf
+: 1753864441:0;sudo pacman -S fzf\
+
+: 1753864470:0;source <(fzf --zsh)
+: 1753865987:0;code/rustlings/ 
+: 1753865989:0;ls
+: 1753865991:0;cd
+: 1753866014:0;nvim .config/hyde/config.toml
+: 1753866206:0;hyde-shell reload\
+
+: 1753866238:0;notify-send "Battery alerts" "Only lowâ€ƒ±battery at 20% should fire"\
+
+: 1753871861:0;nvim temp
+: 1753871870:0;ls
+: 1753871875:0;nvim temp.txt
+: 1753883934:0;paru -S webcord
+: 1753884477:0;nvim .config/hypr/keybindings.conf
+: 1753884575:0;nvim .config/hypr/windowrules.conf
+: 1753892678:0;cd code
+: 1753892679:0;ls
+: 1753892684:0;git clone git@github.com:saadpasta/developerFolio.git
+: 1753892695:0;ls
+: 1753892706:0;rm -rf developerFolio
+: 1753892707:0;ls
+: 1753892728:0;node -v
+: 1753892736:0;npm -v
+: 1753892752:0;git clone git@github.com:saadpasta/developerFolio.git
+: 1753892763:0;cd cd developerFolio\
+
+: 1753892768:0;cd developerFolio\
+
+: 1753892769:0;ls
+: 1753892779:0;cp env.example .env
+: 1753892786:0;nvim .
+: 1753892815:0;ls -a
+: 1753892823:0;nvim .
+: 1753892837:0;nvim .env
+: 1753892978:0;nvim .
+: 1753893173:0;nvim .env
+: 1753893380:0;nvim .
+: 1753893508:0;cd code
+: 1753893508:0;ls
+: 1753893511:0;cd developerFolio
+: 1753893514:0;npm install
+: 1753893547:0;ls
+: 1753893549:0;npm start\
+
+: 1753896726:0;nvim .
+: 1753899717:0;rm -rf .git
+: 1753899724:0;ls
+: 1753899726:0;git init
+: 1753899733:0;ls
+: 1753899736:0;ls -a
+: 1753899834:0;git remote add origin git@github.com:mohammed-shakir/portfolio.git
+: 1753899849:0;git add .
+: 1753899853:0;git commit -m "Initial commit of my portfolio"
+: 1753899880:0;git push -u origin main
+: 1753899926:0;git branch -m master main\
+
+: 1753899934:0;git push -u origin main\
+
+: 1753899975:0;nvim README.md
+: 1753900027:0;git add .
+: 1753900038:0;git commit -m "updated readme"
+: 1753900051:0;git push origin main\
+
+: 1753900092:0;ls
+: 1753900096:0;nvim .
+: 1753900213:0;npm install gh-pages --save-dev\
+
+: 1753900389:0;git add .\
+git commit -m "Setup GitHub Pages"\
+git push origin main\
+
+: 1753900411:0;npm run deploy\
+
+: 1753900558:0;nvim .
+: 1753900585:0;git add .\
+git commit -m "Setup GitHub Pages"\
+git push origin main\
+
+: 1753900592:0;npm run deploy\
+
+: 1753900594:0;nvim .
+: 1753900704:0;git add .\
+git commit -m "Setup GitHub Pages"\
+git push origin main\
+
+: 1753900736:0;git pull
+: 1753900743:0;nvim .
+: 1753900754:0;git add .\
+git commit -m "Setup GitHub Pages"\
+git push origin main\
+
+: 1753900788:0;git pull --rebase origin main\
+
+: 1753900800:0;nvim package.json
+: 1753900807:0;git push origin main\
+
+: 1753900833:0;git add package.json\
+
+: 1753900837:0;git rebase --continue\
+
+: 1753900843:0;git push origin main --force\
+
+: 1753900856:0;nvim package.json
+: 1753900871:0;npm run deploy\
+
+: 1753901087:0;npm run check-format\
+
+: 1753901145:0;prettier -c "./**/*.{js,css,json,scss}"\
+
+: 1753901162:0;npm run format\
+
+: 1753901205:0;git add .\
+git commit -m "Fix formatting issues for Prettier"\
+git push origin main\
+
+: 1753901221:0;npm run deploy\
+
+: 1753901338:0;nvim package.json
+: 1753901518:0;git branch -r\
+
+: 1753901550:0;npm install gh-pages --save-dev\
+
+: 1753901576:0;cat package.json
+: 1753901598:0;git branch -r\
+
+: 1753901706:0;npm install --save-dev gh-pages\
+
+: 1753901721:0;nvim package.json
+: 1753901758:0;git fetch
+: 1753901762:0;git branch -r
+: 1753901827:0;npm run deploy\
+
+: 1753901866:0;nvim package.json
+: 1753901989:0;npm run dev
+: 1753902019:0;nvim package.json
+: 1753902042:0;npm run deploy\
+
+: 1753902082:0;ls public
+: 1753902133:0;npm start
+: 1753902161:0;nvim .env
+: 1753902171:0;nvim package.json
+: 1753902210:0;ls public
+: 1753902218:0;ls
+: 1753902241:0;nvim .
+: 1753902337:0;mv .env ..
+: 1753902344:0;ls -a ..
+: 1753902404:0;git reset --hard 139a691b7019bdfcb7d3a083df0791f52d880d21
+: 1753902407:0;ls
+: 1753902433:0;mv ../.env ..
+: 1753902444:0;mv ../.env .
+: 1753902449:0;nvim .env
+: 1753902454:0;npm install
+: 1753902477:0;npm start
+: 1753902529:0;cd code/developerFolio
+: 1753902530:0;ls
+: 1753902535:0;nvim README.md
+: 1753902543:0;nvim .
+: 1753902670:0;1git push origin HEAD --force\
+
+: 1753902674:0;git push origin HEAD --force\
+
+: 1753902717:0;cat package.json
+: 1753902740:0;nvim package.json
+: 1753902781:0;npm install
+: 1753902801:0;npm run deploy
+: 1753902906:0;nvim package.json
+: 1753903016:0;npm run deploy\
+
+: 1753903064:0;git push origin --delete master\
+
+: 1753903083:0;nvim .
+: 1753903098:0;git add .
+: 1753903104:0;git commit -m "update"
+: 1753903108:0;git push origin main
+: 1753903180:0;npm run format\
+
+: 1753903194:0;ls
+: 1753903202:0;git add .
+: 1753903203:0;git commit -m "Fix formatting issues for CI"\
+
+: 1753903206:0;git push
+: 1753903263:0;npm run deploy\
+
+: 1753903365:0;cd
+: 1753907208:0;cd code
+: 1753907209:0;ls
+: 1753907315:0;cd rustlings
+: 1753907341:0;nvim .
+: 1753907369:0;cd
+: 1753907370:0;ls
+: 1753907375:0;cd .config/kitty
+: 1753907376:0;ls
+: 1753907379:0;nvim kitty.conf
+: 1753907402:0;nvim theme.conf
+: 1753907419:0;cd ..
+: 1753907421:0;cd hypr
+: 1753907422:0;ls
+: 1753907428:0;cd
+: 1753907431:0;tmux
+: 1753907434:0;nvim .
+: 1753907498:0;ls
+: 1753907816:0;nvim code/rustlings
+: 1754046726:0;nvim temp.txt
+: 1754047314:0;mkdir ltu
+: 1754047315:0;ls
+: 1754047318:0;cd ltu
+: 1754047335:0;mkdir m0048m
+: 1754047337:0;cd m0048m
+: 1754047337:0;ls
+: 1754047385:0;cd ..
+: 1754047391:0;mkdir exjobb
+: 1754047393:0;cd exjobb
+: 1754048164:0;sudo pacman -Syu\
+
+: 1754049219:0;sudo pacman -S libreoffice-fresh
+: 1754049719:0;nvim temp
+: 1754049729:0;nvim temp.txt
+: 1754049892:0;cd .local/share/applications
+: 1754049892:0;ls
+: 1754049901:0;nvim nvim-terminal.desktop
+: 1754049981:0;ls
+: 1754049982:0;cd
+: 1754049986:0;cat > ~/.local/share/applications/nvim-terminal.desktop << 'EOF'\
+[Desktop Entry]\
+Name=Neovim (Kitty)\
+GenericName=Text Editor\
+Comment=Edit text files in the terminal with Neovim\
+Exec=kitty -e nvim %F\
+Terminal=false\
+Type=Application\
+MimeType=text/plain;\
+Categories=Utility;TextEditor;\
+Icon=nvim\
+EOF
+: 1754049990:0;chmod +x ~/.local/share/applications/nvim-terminal.desktop\
+
+: 1754056861:0;cd
+: 1754056865:0;nvim temp.txt
+: 1754067514:0;rm -rf temp_upload
+: 1754067520:0;rm temp.txt
+: 1754067521:0;ls
+: 1754067530:0;ls -a | grep temp
+: 1754067537:0;cd temp
+: 1754067538:0;ls
+: 1754067540:0;cd ..
+: 1754067546:0;rm -r temp
+: 1754067547:0;ls
+: 1754067554:0;ls -a
+: 1754079262:0;sudo pacman -Syu
+: 1754079501:0;paru -S python-proton-core
+: 1754079512:0;paru -S proton-vpn-gtk-app
+: 1754079519:0;sudo pacman -S libnotify\
+
+: 1754079538:0;protonvpn
+: 1754079555:0;protonvpn c
+: 1754079569:0;sudo protonvpn c
+: 1754079580:0;sudo protonvpn init
+: 1754079841:0;sudo protonvpn c
+: 1754079846:0;sudo protonvpn init
+: 1754079912:0;which protonvpn
+: 1754080014:0;sudo pacman -S openvpn\
+
+: 1754080051:0;paru -S python-proton-core
+: 1754080059:0;paru -S proton-vpn-gtk-app
+: 1754080829:0;paru -S windscribe-cli\
+
+: 1754080941:0;paru -S windscribe-cli
+: 1754080997:0;yay -S windscribe-cli
+: 1754081050:0;git clone https://aur.archlinux.org/yay.git\
+
+: 1754081057:0;cd yay\
+
+: 1754081062:0;makepkg -si
+: 1754081108:0;git clone git@github.com:hkuchampudi/Windscribe.git
+: 1754081123:0;cd Windscribe
+: 1754081125:0;makepkg -cs
+: 1754081166:0;sudo pacman -U windscribe-cli-*.pkg.tar
+: 1754081178:0;yay -S windscribe-cli
+: 1754081184:0;cd ..
+: 1754081188:0;rm -rf yay
+: 1754081212:0;systemctl status windscribe.service
+: 1754081222:0;windscribe
+: 1754081247:0;ls
+: 1754081253:0;rm -rf Windscribe
+: 1754081253:0;ls
+: 1754081259:0;cd dotfiles
+: 1754081259:0;ls
+: 1754081265:0;cd ..
+: 1754081271:0;rm -rf dotfiles
+: 1754081272:0;ls
+: 1754081559:0;sudo pacman -Syu openvpn\
+
+: 1754081613:0;sudo pacman -S networkmanager networkmanager-openvpn networkmanager-openvpn-gnome\
+
+: 1754081623:0;sudo pacman -S networkmanager networkmanager-openvpn\
+
+: 1754081794:0;sudo pacman -Syu openvpn git\
+
+: 1754081812:0;sudo systemctl enable --now systemd-resolved.service\
+
+: 1754081819:0;sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf\
+
+: 1754081827:0;git clone https://github.com/jonathanio/update-systemd-resolved.git\
+
+: 1754081831:0;cd update-systemd-resolved\
+
+: 1754081835:0;sudo cp update-systemd-resolved /usr/local/bin/\
+
+: 1754081840:0;sudo chmod +x /usr/local/bin/update-systemd-resolved\
+
+: 1754081955:0;ls
+: 1754082006:0;mv vpngate_public-vpn-221.opengw.net_udp_1195\ \(1\).ovpn vpn.ovpn
+: 1754082007:0;ls
+: 1754082171:0;sudo mkdir -p /etc/openvpn/client\
+
+: 1754082201:0;printf 'vpn\nvpn\n' | sudo tee /etc/openvpn/client/vpngate.auth\
+
+: 1754082205:0;sudo chmod 600 /etc/openvpn/client/vpngate.auth\
+
+: 1754082260:0;cd
+: 1754082262:0;sudo cp ~/vpn.ovpn /etc/openvpn/client/wams.conf\
+
+: 1754082267:0;sudo nano /etc/openvpn/client/wams.conf\
+
+: 1754082283:0;sudo -E nvim /etc/openvpn/client/wams.conf\
+
+: 1754082353:0;sudo systemctl enable --now openvpn-client@wams.service\
+
+: 1754082398:0;systemctl status openvpn-client@wams.service
+: 1754082411:0;sudo systemctl enable --now openvpn-client@wams.service\
+
+: 1754082421:0;sudo systemctl enable --now openvpn-client@vpngate.service\
+
+: 1754082426:0;sudo cp /etc/openvpn/client/vpngate.conf /etc/openvpn/client/wams.conf\
+
+: 1754082430:0;sudo systemctl enable --now openvpn-client@wams.service\
+
+: 1754082435:0;systemctl status openvpn-client@wams.service\
+
+: 1754082439:0;journalctl -xeu openvpn-client@wams.service --no-pager | head -n 60\
+
+: 1754082469:0;sudo cp ~/vpn.ovpn /etc/openvpn/client/wams.conf\
+
+: 1754082490:0;sudo cp ~/vpn.ovpn /etc/openvpn/client/vpngate.conf\
+
+: 1754082502:0;ls /etc/openvpn/client/\
+
+: 1754082505:0;sudo ls /etc/openvpn/client/\
+
+: 1754082516:0;sudo chown root:root /etc/openvpn/client/vpngate.auth\
+sudo chmod 600 /etc/openvpn/client/vpngate.auth\
+
+: 1754082529:0;sudo -E nvim /etc/openvpn/client/wams.conf
+: 1754082572:0;sudo openvpn --config /etc/openvpn/client/wams.conf\
+
+: 1754082582:0;sudo systemctl enable --now openvpn-client@wams.service\
+
+: 1754082590:0;systemctl status openvpn-client@wams.service\
+
+: 1754082655:0;sudo chown openvpn:openvpn /etc/openvpn/client/vpngate.auth\
+sudo chmod 600 /etc/openvpn/client/vpngate.auth\
+
+: 1754082661:0;sudo systemctl restart openvpn-client@wams.service\
+sudo systemctl status openvpn-client@wams.service\
+
+: 1754082669:0;ls -l /etc/openvpn/client/vpngate.auth /etc/openvpn/client/wams.conf\
+
+: 1754082677:0;sudo ls -l /etc/openvpn/client/vpngate.auth /etc/openvpn/client/wams.conf\
+
+: 1754082719:0;sudo systemctl status openvpn-client@wams.service\
+
+: 1754082725:0;ip addr show tun0\
+
+: 1754082737:0;curl ifconfig.me\
+
+: 1754082772:0;resolvectl status\
+
+: 1754082775:0;auth-nocache\
+
+: 1754082800:0;sudo modprobe tun\
+
+: 1754082807:0;lsmod | grep tun\
+
+: 1754082811:0;ls -l /dev/net/tun\
+
+: 1754082818:0;sudo mkdir -p /dev/net\
+sudo mknod /dev/net/tun c 10 200\
+sudo chmod 600 /dev/net/tun\
+
+: 1754082823:0;sudo systemctl restart openvpn-client@wams.service\
+sudo systemctl status openvpn-client@wams.service\
+
+: 1754082830:0;ip addr show tun0\
+curl ifconfig.me\
+
+: 1754082834:0;dmesg | tail -n 40\
+
+: 1754083337:0;uname -r\
+ls -d /lib/modules/$(uname -r)\
+
+: 1754083347:0;sudo modprobe tun\
+lsmod | grep tun\
+
+: 1754083356:0;ls -l /dev/net/tun\
+
+: 1754083364:0;ip addr show tun0\
+
+: 1754083367:0;sudo systemctl restart openvpn-client@wams.service\
+sudo systemctl status openvpn-client@wams.service\
+
+: 1754083370:0;ip addr show tun0\
+
+: 1754129954:0;ls -a
+: 1754137167:0;nvim temp.txt
+: 1754144291:0;chezmoi diff
+: 1754144378:0;ls -a .config
+: 1754144443:0;chezmoi add -r ~/.config/hyde
+: 1754144467:0;ls ~/.config/hyde
+: 1754144473:0;ls ~/.config/hyde/themes
+: 1754144484:0;chezmoi add -r ~/.config/hyde/config.toml
+: 1754144496:0;chezmoi add -r ~/.config/hypr
+: 1754144548:0;chezmoi add -r ~/.config/kitty
+: 1754144562:0;chezmoi add -r ~/.config/nvim
+: 1754144572:0;ls -a .config
+: 1754144615:0;ls -a .config/systemd
+: 1754144620:0;ls -a .config/systemd/user
+: 1754144630:0;chezmoi add -r ~/.config/tmux
+: 1754144658:0;chezmoi add -r ~/.config/waybar
+: 1754144669:0;chezmoi add -r ~/.config/zsh
