@@ -3,38 +3,41 @@
 # Updated config.toml file can be found at $HOME/.local/share/hyde/config.toml
 
 [wallpaper]
-backend      = "hyprpaper"
-custom_paths = [
-  "/home/shakir/.local/share/hyde-wallpapers"
-]
+backend = "hyprpaper"
+custom_paths = ["/home/shakir/.local/share/hyde-wallpapers"]
 
 
 [battery.notify.threshold]
-full     = 0
-unplug   = 0
+full = 0
+unplug = 0
 critical = 0
-low      = 20
-
+interval = 0
+timer = 0
+dock = true
+low = 20
 
 "$schema" = "https://raw.githubusercontent.com/HyDE-Project/HyDE/refs/heads/master/Configs/.local/share/hyde/schema/config.toml.json"
 
 [cava.hyprlock]
-bar           = "▁▂▃▄▅▆▇█"
+bar = "▁▂▃▄▅▆▇█"
 max_instances = 1
-range         = 7
-standby       = "🎶"
-width         = 20
+range = 7
+standby = "🎶"
+width = 20
 
 [cava.stdout]
-bar           = "▁▂▃▄▅▆▇█"
+bar = "▁▂▃▄▅▆▇█"
 max_instances = 1
-range         = 7
-standby       = "🎶"
-width         = 20
+range = 7
+standby = "🎶"
+width = 20
 
 [cava.waybar]
-bar           = "▁▂▃▄▅▆▇█"
+bar = "▁▂▃▄▅▆▇█"
 max_instances = 1
-range         = 7
-standby       = "🎶"
-width         = 20
+range = 7
+standby = "🎶"
+width = 20
+
+[hyprland_start]
+notifications = "mako"
