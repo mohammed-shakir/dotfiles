@@ -1,6 +1,0 @@
-[Unit]
-Description=HyDE Wallpaper Cycler
-
-[Service]
-Type=oneshot
-ExecStart=hyde-shell wallpaper --random
