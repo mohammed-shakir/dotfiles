@@ -34,4 +34,4 @@ decoration {
     }
 }
 
-blurls = waybar
+layerrule = blur, waybar
