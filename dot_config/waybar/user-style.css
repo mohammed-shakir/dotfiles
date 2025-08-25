@@ -1,4 +1,1 @@
 /* No global opacity here; use RGBA so Hyprland can blur behind it */
-window#waybar {
-  background: rgba(7,15,42,0.50); /* adjust alpha to taste */
-}
