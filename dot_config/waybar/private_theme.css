@@ -8,3 +8,7 @@
 
 @define-color wb-hvr-bg #b14242;
 @define-color wb-hvr-fg #ffffff;
+
+window#waybar {
+  background: rgba(7,15,42,0.50);
+}
