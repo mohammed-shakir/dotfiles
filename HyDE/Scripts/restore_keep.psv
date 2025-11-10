@@ -53,7 +53,7 @@ S|${HOME}/.config|Kvantum|kvantum
 S|${HOME}/.config|qt5ct|qt5ct
 S|${HOME}/.config|qt6ct|qt6ct
 S|${HOME}/.config/hyde|wallbash|hyprland bash imagemagick
-P|${HOME}/.config/hypr|animations|hyprland  
+S|${HOME}/.config/hypr|animations|hyprland  
 S|${HOME}/.config/hypr|workflows|hyprland
 S|${HOME}/.config/hypr|shaders|hyprland
 
@@ -69,7 +69,7 @@ P|${HOME}/.config/VSCodium/User|settings.json|vscodium
 
  Bar 
 P|${HOME}/.config/waybar|user-style.css config.jsonc theme.css style.css|waybar
-P|${HOME}/.config/waybar|modules styles layouts menus|waybar
+I|${HOME}/.config/waybar|modules styles layouts menus|waybar
 S|${HOME}/.local/share|waybar|waybar
 
  Terminal 
@@ -81,7 +81,8 @@ P|${HOME}/.config/kitty|hyde.conf theme.conf|kitty
 P|${HOME}/.config/kitty|kitty.conf|kitty
 
  Shell 
-P|${HOME}/.config|fish|fish
+S|${HOME}/.config/fish|conf.d functions completions|fish
+P|${HOME}/.config/fish|config.fish|fish
 P|${HOME}/.config/starship|starship.toml|starship
 
 
